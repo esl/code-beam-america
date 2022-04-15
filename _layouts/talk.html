@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+{% include imports/head.html %}
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KRSPKJ3" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    </div>
+    {% include navigation_2.html %}
+    <div class="training-content">
+        <div class="training-card">
+            <div class="training-head">
+                <div class="training-col">
+                    <h1 class="training-name">
+                        {{ page.title }}
+                    </h1>
+
+                    {% assign speakers = site.participants | where_exp: "participant", "page.speakers contains participant.path " %}
+
+                    <div class="training-info">
+                        {% for speaker in speakers %}
+                        <p><strong>Speaker:</strong><br> <a
+                                href="{{ site.baseurl }}{{ speaker.url | absolute_path }}">{{ speaker.name}}</a></p>
+                        <br>
+                        {% endfor %}
+                    </div>
+                    <div class="training-info">
+                        <p><strong>Abstract:</strong></p>
+                        <div class="content">
+                            {{ page.content | markdownify }}
+                        </div>
+                    </div>
+                    <div class="training-info">
+                        <p><strong>Audience:</strong><br> {{ page.audience | join: ","}}</p>
+                    </div>
+                    {% assign size = page.tags | size %}
+                    {% if size > 0 %}
+                    <div class="training-info">
+                        <p><strong>Tags:</strong><br> {{ page.tags | join: ","}}</p>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+    {% include footer.html %}
+    {% include imports/js.html %}
+</body>
+
+</html>

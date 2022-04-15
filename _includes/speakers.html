@@ -1,0 +1,32 @@
+<div class="section speakers" id="speakers">
+    <h2 class="title">SPEAKERS</h2>
+    <hr/>
+    <div class="items-container">
+
+        {% assign all_speakers = "" | split: ',' %}
+        {% for t in site.talks %}
+            {% for s in t.speakers %}
+                {% assign all_speakers = all_speakers | push: s %}
+            {% endfor %}
+        {% endfor %}
+
+        {% for item in site.data.speaker-list.speakers %}
+            {% assign participant = site.participants | where_exp: "participant", "item == participant.path" | first  %}
+            {% assign is_speaker = all_speakers | where_exp: "speaker", "speaker == item" | first  %}
+            {% if participant != null %}
+                <div class="item">
+                    <a href="{{ participant.url | relative_url }}" class="item-head-link">
+                        <div class="img" style="background-image: url('{{ participant.pic_url | relative_url }}');">
+                            <i class="fa fa-plus-circle"></i>
+                        </div>
+                        <h4 class="item-name">
+                            {{ participant.name}}
+                        </h4>
+                    </a>
+                    <p class="item-position">{{ participant.tagline }}</p>
+                    {% include participations.html participant=participant section="speakers" %}
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>

@@ -1,0 +1,41 @@
+<!-- jQuery Version 1.11.0 -->
+<script src="{{ "/assets/js/jquery-1.11.0.js" | prepend: site.baseurl }}"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="{{ "/assets/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
+
+<!-- Plugin JavaScript -->
+<script src="{{ "/assets/js/jquery.easing.min.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js/classie.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/assets/js/cbpAnimatedHeader.js" | prepend: site.baseurl }}"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="{{ "/assets/js/agency.js" | prepend: site.baseurl }}"></script>
+
+<!-- Owl Carousel -->
+<script src="{{ site.baseurl }}/assets/js/carousel.min.js" charset="utf-8"></script>
+
+<!-- Parallaxing & SmoothScroll -->
+<script src="{{ site.baseurl }}/assets/js/scrollax.min.js" charset="utf-8"></script>
+
+{% if site.smooth-scroll %}
+    <script src="{{ site.baseurl }}/assets/js/smoothscroll.js" charset="utf-8"></script>
+{% endif %}
+
+<!-- Main JS -->
+<script src="{{ site.baseurl }}/assets/js/main.js" charset="utf-8"></script>
+<script type="text/javascript">
+piAId = '24452';
+piCId = '63005';
+piHostname = 'pi.pardot.com';
+
+(function() {
+function async_load(){
+var s = document.createElement('script'); s.type = 'text/javascript';
+s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+}
+if(window.attachEvent) { window.attachEvent('onload', async_load); }
+else { window.addEventListener('load', async_load, false); }
+})();
+</script>

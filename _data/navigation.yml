@@ -1,0 +1,44 @@
+#- name: Home
+#  link: "cover"
+#- name: Welcome
+#  link: "welcome"
+- name: Register
+  link: "register"
+# name: Newsletter
+#  link: "newsletter"
+#- name: Call for Talks
+#  link: "cft"
+#- name: Call for Tutorials
+#  link: "call-for-tutorials"
+#- name: All Recordings
+#  link: "recordings"
+#- name: Student
+#  link: "student"
+#- name: Public videos
+#  link: "video"
+- name: Speakers
+  link: "keynotes"
+- name: Trainers
+  link: "trainers"
+- name: Schedule
+  link: schedule
+- name: Training
+  link: "training"
+- name: Diversity
+  link: "diversity"
+- name: Volunteer
+  link: "volunteer"
+- name: Venue & Hotel
+  link: "venue"
+- name: COVID-19 safety
+  link: "covid-19"
+#- name: Hybrid
+#  link: "hybrid"
+#- name: E-SHOP
+#  link: "shop"
+#- name: Blog
+#  link: "blog"
+- name: Sponsors
+  link: "sponsors"
+- name: Contact
+  link: "contact"

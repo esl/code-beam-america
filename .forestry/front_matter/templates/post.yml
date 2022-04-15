@@ -1,0 +1,21 @@
+---
+label: Post
+hide_body: false
+fields:
+- name: pic_url
+  type: file
+  config:
+    maxSize: 64
+  label: post picture
+- type: text
+  name: layout
+  label: layout
+  hidden: true
+  default: post
+- type: text
+  name: author
+  label: author
+- name: tags
+  type: tag_list
+  default: []
+  label: tags

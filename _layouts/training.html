@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+{% include imports/head.html %}
+
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KRSPKJ3" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    </div>
+    {% include navigation_2.html %}
+    <div class="training-content">
+        <div class="training-card">
+            <div class="training-head">
+                <div class="training-col">
+                    <h1 class="training-name">
+                        {{ page.title }}
+                    </h1>
+                    {% assign schedule = site.data.training-list.trainings |  where_exp: "item", "item.training == page.path" | first  %}
+                    <div class="training-info">
+                        <p><strong>Trainers:</strong><br>
+                            {% assign participants = site.participants | where_exp: "participant", "page.trainers contains participant.path " %}
+                            {% for participant in participants  %}
+                            <a href="{{ site.baseurl }}{{ participant.url | absolute_path }}">{{ participant.name}}</a>
+                            <br>
+                            {% endfor %}
+                        </p>
+                    </div>
+                    <div class="training-info">
+                        <p><strong>Date:</strong><br> {{schedule.start | date: '%Y-%m-%d'}}</p>
+                    </div>
+                    <div class="training-info">
+                        <p><strong>Venue:</strong><br> {{ page.venue }}</p>
+                    </div>
+                    <div class="training-info">
+                        <div class="content"><strong>Description:</strong><br> {{ page.content }}</div>
+                    </div>
+                    <div class="training-info">
+                        <p><strong>Experience level:</strong><br> {{ page.experience | join: ","}}</p>
+                    </div>
+                    <div class="training-info">
+                       <a href="/#register" class="fake-button">Book now</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    {% include footer.html %}
+    {% include imports/js.html %}
+</body>
+
+</html>

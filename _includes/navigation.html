@@ -1,0 +1,29 @@
+<nav class="navbar-fixed-top nav-menu" id="navMenu">
+    <a class="logo" href="#cover"></a>
+    <div class="toggle-menu">
+        <!-- Burger -->
+        <div class="navTrigger">
+            <i class="fa fa-bars"></i>
+        </div>
+    </div>
+    <ul class="nav navigation-bar">
+        {% for item in site.data.navigation %}
+            <li>
+                <a class="page-scroll" href="#{{ item.link }}">{{ item.name }}</a>
+            </li>
+        {% endfor %}
+        <li>
+            <div class="dropdown">
+                <a class="dropbtn">Archive
+                    <i class="fa fa-caret-down"></i>
+                </a>
+                <div class="dropdown-content">
+                    {% for conf in site.data.archive-links %}
+                        <a href="{{conf.link}}" target="_blank">{{conf.name}}</a>
+                    {% endfor %}
+
+                </div>
+            </div>
+        </li>
+    </ul>
+</nav>

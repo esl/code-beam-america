@@ -1,0 +1,93 @@
+title: ElixirConf EU
+description: > # this means to ignore newlines until "baseurl:"
+  Welcome to ElixirConf EU, co-organised by ElixirConf and Code Sync. ElixirConf EU is the premiere Elixir conference in Europe, bringing the best speakers in the community together, for two days of first-rate Elixir talks and a day of tutorials.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.elixirconf.eu" # the base hostname & protocol for your site
+
+logo: "./assets/images/logo2022.png"
+
+# google_site_verification: googleXXXXXXXXXXXXXXXX.html
+
+include: [archives]
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/elixirconfeu
+    username: elixirconfeu
+    card: image
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+collections:
+  participants:
+    output: true
+  keynotes:
+    output: true
+  trainers:
+    output: true
+  trainings:
+    output: true
+  talks:
+    output: true
+  posts:
+    output: true
+  videos:
+    output: true
+  archive:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "participants"
+    values:
+      layout: "participant"
+  - scope:
+      path: ""
+      type: "trainings"
+    values:
+      layout: "training"
+  - scope:
+      path: ""
+      type: "talks"
+    values:
+      layout: "talk"
+  - scope:
+      path: ""
+      type: "keynotes"
+    values:
+      layout: "talk"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "videos"
+    values:
+      layout: "video"
+  - scope:
+      path: ""
+      type: "archives"
+    values:
+      layout: "archive"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Google Map JS api
+# This is my api for this template
+key-api: AIzaSyBf-F7nBzxi_73uI9QUxRQ-cNihYtlZ_AA
+map-text: ILEC Conference Center
+map-text-location: 47 Lillie Rd, London SW6 1UD, United Kingdom
+map-lat: 51.485796
+map-lng: -0.199129

@@ -1,0 +1,54 @@
+---
+label: Trainers
+hide_body: true
+fields:
+- name: relevance
+  type: number
+  label: relevance
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: short_name
+  type: text
+  config:
+    required: false
+  label: short_name
+- name: pic_url
+  type: file
+  config:
+    maxSize: 64
+  label: pic_url
+- name: firstname
+  type: text
+  config:
+    required: false
+  label: firstname
+- name: lastname
+  type: text
+  config:
+    required: false
+  label: lastname
+- name: position
+  type: text
+  config:
+    required: false
+  label: position
+- name: training
+  type: text
+  config:
+    required: false
+  label: training
+- name: github
+  type: text
+  config:
+    required: false
+  label: github
+- name: twitter
+  type: text
+  config:
+    required: false
+  label: twitter

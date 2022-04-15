@@ -1,0 +1,30 @@
+- name: Johnatan Doe
+  url: http://themeforest.net
+  url-text: ThemeForest.net
+  avatar: avatar-01.jpg
+  cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
+  logo-img: themeforest.png
+
+# Sponsor
+- name: Adam Smith
+  url: http://codecanyon.net
+  url-text: CodeCanyon.net
+  avatar: avatar-02.jpg
+  cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
+  logo-img: codecanyon.png
+
+# Sponsor
+- name: Irene Warner
+  url: http://videohive.net
+  url-text: VideoHive.net
+  avatar: avatar-03.jpg
+  cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
+  logo-img: videohive.png
+
+# Sponsor
+- name: Richard Ryan
+  url: http://audiojungle.net
+  url-text: AudioJungle.net
+  avatar: avatar-04.jpg
+  cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
+  logo-img: audiojungle.png

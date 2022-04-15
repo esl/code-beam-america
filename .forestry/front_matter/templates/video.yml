@@ -1,0 +1,52 @@
+---
+label: Video
+hide_body: true
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+- name: video_url
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: video url
+- name: video_url_short
+  type: text
+  config:
+    required: false
+  label: video url short
+- name: event_date
+  type: text
+  config:
+    required: false
+  label: event date
+- name: venue
+  type: text
+  config:
+    required: false
+  label: venue
+- name: content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: description
+- name: speakers
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: pages
+      section: speakers
+  label: speakers

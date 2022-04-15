@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+{% include imports/head.html %}
+<body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KRSPKJ3"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    
+    {% include navigation_2.html %}
+    <div class="cover-post">
+        <h1 class="title">{{ page.title }}</h1>
+        <h4 class="category">{{ page.category }}</h4>
+    </div>
+    <!-- Blog Article -->
+    <div class="post-full">
+        {% include sidebar.html %}
+        <article class="blog-article">    
+            <!-- Article Content -->
+            <div class="article-content">
+                <div class="posts-container posts-layout">
+                    {% assign filtered_posts = site.posts | where: 'category', page.category %}
+                    {% for post in filtered_posts %}
+                    <div class="post-item">
+                        <div class="img" style="background-image: url('{{site.baseurl}}/assets/images/posts/{{ post.pic_url }}');">
+                        </div>
+                        <h2 class="post-title">
+                            {{ post.title }}
+                        </h2>
+                        <p class="post-item-tags">tags</p>
+                        <div class="item-container">
+                            <div class="item-left">
+                                <div class="item-date">
+                                    <p class="date-day">26</p>
+                                    <p class="date-month">May</p>
+                                </div>
+                                <div class="item-hour">15:32</div>
+                            </div>
+                            <div class="item-right">
+                                {{ post.excerpt }}
+                                <a class="btn-more" href="{{site.baseurl}}{{post.url}}">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+    
+            <!-- Share Article Links Box -->
+            <div class="share-article box clearfix">
+                <span class="title">Share:</span>
+                <div class="social-icons box-content">
+                    <ul class="icons global-text-color-icons">
+                        <li>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}"
+                                onclick="window.open(this.href, 'facebook-share', 'width=550,height=255');return false;">
+                                <i class="fi flaticon-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/home?status={{ site.url }}{{ site.baseurl }}{{ page.url }}"
+                                onclick="window.open(this.href, 'facebook-share', 'width=550,height=255');return false;">
+                                <i class="fi flaticon-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/share?url={{ site.url }}{{ site.baseurl }}{{ page.url }}"
+                                onclick="window.open(this.href, 'facebook-share', 'width=280,height=480');return false;">
+                                <i class="fi flaticon-google-plus"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://pinterest.com/pin/create/button/?url={{ site.url }}{{ site.baseurl }}{{ page.url }}"
+                                onclick="window.open(this.href, 'facebook-share', 'width=550,height=255');return false;">
+                                <i class="fi flaticon-pinterest"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+    </article>
+    </div>
+</body>
+</html>

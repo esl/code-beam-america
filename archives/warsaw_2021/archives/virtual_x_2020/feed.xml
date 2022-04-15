@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2021-01-11T15:45:38+00:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">Elixir Conf EU</title><subtitle>Elixir conf 2020
+</subtitle><entry><title type="html">Exciting elixir frameworks from the june 2020 conference</title><link href="http://0.0.0.0:4000/2020/08/17/Exciting-Elixir-Frameworks-from-the-June-2020-Conference/" rel="alternate" type="text/html" title="Exciting elixir frameworks from the june 2020 conference" /><published>2020-08-17T00:00:00+00:00</published><updated>2020-08-17T00:00:00+00:00</updated><id>http://0.0.0.0:4000/2020/08/17/Exciting%20Elixir%20Frameworks%20from%20the%20June%202020%20Conference</id><content type="html" xml:base="http://0.0.0.0:4000/2020/08/17/Exciting-Elixir-Frameworks-from-the-June-2020-Conference/">&lt;p&gt;One of the most exciting parts of any ElixirConf EU event is hearing from the creators or core teams of new Elixir frameworks. These frameworks open doors to the community and expand the capabilities of the ecosystem, making it easier for even more developers to do a wider array of tasks in Elixir. At our June edition, we heard first hand about the updates, capabilities and future plans for five exciting new frameworks. If you’re always looking for new projects or ways to expand your Elixir skill set, make sure you &lt;a href=&quot;https://www.elixirconf.eu/#register&quot; title=&quot;tickets&quot;&gt;get tickets to our next edition of ElixirConf EU Virtual on October 7-8.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you missed the June event, you can catch up on the latest frameworks below.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Crawly - Oleg Tarasenko&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Big data is a growing area of interest and investment for businesses around the world. From machine learning to research, the ability to gather broad, reliable datasets is in high demand. Crawly, is a new Elixir framework that allows you to perform data scraping activities using Elixir. Hear from its creator, Oleg Tarasenko below. And, if that interests you, you can view a walkthrough of how to complete a task using crawly on the&lt;a href=&quot;https://www.erlang-solutions.com/resources/webinars.html#how-to-use-web-scraping-in-elixir-to-gather-useful-data-erlang-solutions-webinar-58&quot;&gt; Erlang Solutions webinar.&lt;/a&gt;&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/vOC85IEKMsM&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;Scenic - Boyd Multerer&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Created by Boyd Multerer (the inventor of Xbox Live), the Scenic framework is a native graphic interface for Elixir. Scenic gives Elixir developers the ability to easily build applications that operate identically across all supported operating systems, including MacOS, Ubuntu, Nerves/Linux, and more. Scenic’s main focus is IoT devices but it can also be used to build portable applications. In his talk, Boyd looks to the future of Scenic and fills you in on changes you can look forward to in the upcoming updates. Learn more in the video below.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/GwMwMft2FP8&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;strong&gt;Lumen - Hans Elias Josephsen&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Lumen is the latest Elixir framework to improve the ease of use for front-end use cases. It is a new compiler and runtime suitable for any BEAM language that is compatible with WebAssembly. In this talk, Hans introduces the Lumen project with a specific focus on the compiler.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/kkA9rtMPyBs&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;strong&gt;Membrane Framework - Marcin Lewandowski&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Media processing requires a large amount of data, a huge variety of formats, protocols and standards. This has always made it challenging to work with. In this talk, Marcin Lewandowski, creator of the Membrane Elixir Framework, demonstrates how it can be used to process multimedia without headaches, using an example from media streaming.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/zJjrEaZZ72Y&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;br /&gt;
+&lt;strong&gt;Pelemay - Susumu Yamazaki&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Pelamay has been available since mid-May 2020. It can compile Enum.map in parallel with an integer and (or) a float calculation or String.replace into native code with SIMD instructions. The result is an increase in speed from Enum of between2.25x to 4.48x. In this talk, Susumu Yamazaki, Pelemay’s co-creator shows of what Pelemay can do with demonstrations as well as discussing something that we will see in the near future.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/00AECbsSK28&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;br /&gt;
+If these talks have inspired you to discover more of the newest developments in the Elixir community, make sure you buy your ticket to ElixirConf EU Virtual in October. See the programme and &lt;a href=&quot;https://www.elixirconf.eu/&quot;&gt;buy your tickets here.&lt;/a&gt;&lt;/p&gt;</content><author><name>ElixirConf EU</name></author><category term="elixir" /><summary type="html">One of the most exciting parts of any ElixirConf EU event is hearing from the creators or core teams of new Elixir frameworks. These frameworks open doors to the community and expand the capabilities of the ecosystem, making it easier for even more developers to do a wider array of tasks in Elixir. At our June edition, we heard first hand about the updates, capabilities and future plans for five exciting new frameworks. If you’re always looking for new projects or ways to expand your Elixir skill set, make sure you get tickets to our next edition of ElixirConf EU Virtual on October 7-8.</summary></entry><entry><title type="html">2020 keynote highlights</title><link href="http://0.0.0.0:4000/2020/07/28/2020-keynote-highlights/" rel="alternate" type="text/html" title="2020 keynote highlights" /><published>2020-07-28T00:00:00+00:00</published><updated>2020-07-28T00:00:00+00:00</updated><id>http://0.0.0.0:4000/2020/07/28/2020%20keynote%20highlights</id><content type="html" xml:base="http://0.0.0.0:4000/2020/07/28/2020-keynote-highlights/">&lt;p&gt;&lt;img src=&quot;/assets/images/elixirconf-eu-keynote-blog-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;ElixirConf EU Virtual June 2020 Keynotes&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;In June 2020, we hosted our very first virtual ElixirConf EU event. ElixirConf EU has long been the premiere Elixir users event in Europe. It provides a hub for like-minded community members to come together, share ideas, inspire each other, learn and ultimately, grow both the language and its community.&lt;/p&gt;
+
+&lt;p&gt;The event was a great success with 400 members of the Elixir community attending. One of the surprising benefits of the virtual conference was that many Elixir users from other parts of the world had the opportunity to attend. This included Elixir programmers from Japan, U.S.A and even a keen attendee from Australia (where the event started at midnight local time).&lt;/p&gt;
+
+&lt;p&gt;Another unique feature of the event was the amount of live interaction with the speakers. As you’ll see in the keynote videos, our speakers provided valuable insights and interactions, answering the questions of our live attendees.&lt;/p&gt;
+
+&lt;p&gt;For those of you who weren’t able to attend, the keynote videos are available on our YouTube channel, and this blog. We will also be releasing a selection of other talks exclusively via the blog in the coming months.&lt;/p&gt;
+
+&lt;p&gt;Lastly, don’t miss out on our next virtual event in October. Purchasing a ticket guarantees you access to all talks, plus, live discussion and networking, job opportunities, exclusive sponsor giveaways and heaps more. Early bird tickets are on sale now!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Keynotes from ElixirConf EU Virtual June 2020&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Chris McCord: What’s new in LiveView&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Phoenix LiveView is a game-changing framework for Elixir. Over the last 12 months, we’ve seen huge developments in its popularity and its adoption. For those of you new to Elixir, LiveView allows developers to create rich, real-time user experiences and web apps without requiring any JavaScript.&lt;/p&gt;
+
+&lt;p&gt;In his keynote talk at ElixirConf EU Virtual 2020 in June, Chris McCord, the creator of Phoenix LiveView, outlined the upcoming plans for both growth and improvement of the framework. This included plans to introduce deep change tracking and a view for LiveView to be giving users feedback by default to ensure that Phoenix LiveView is a good citizen on the web. Discover the full talk in the video below.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/VU1JMg9AbLQ&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;strong&gt;Jane Walerud: Got a technical idea? How to build a company from there.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Jane Walerud is a serial tech entrepreneur with a connection to the BEAM community. She was pivotal in persuading Ericsson to release Erlang open source. Since then, she has invested in fifteen other companies, including Klarna (before incorporation), Tobii, Lensway and more. In her keynote at ElixirConf EU Virtual she shared her knowledge and insight into how to build a successful, financially viable company out of a technical idea.&lt;/p&gt;
+
+&lt;p&gt;This was an extremely interactive talk, with Jane leaving plenty of time for questions from our attendees, who asked a range of insightful questions. The result is a fabulous talk that is sure to help anyone thinking of turning their technical knowledge into a successful company.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Lqv9D54-0Bw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;strong&gt;Anna Neyzberg, Amos King and Chris Keathley: Elixir Outlaws live&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Elixir Outlaws is an extremely popular Elixir podcast featuring three of the most respected members of the community. It is hosted by Amos King (CEO of Binary Noggin and Erlang Ecosystem Foundation member), Anna Neyzberg (co-founder of ElixirBridge) and Chris Keathley (Senior Engineer at Bleacher Report). The team made the most of the virtual conference format, using the opportunity to host a live podcast full of interaction from our global attendee list.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/9pRBhUB_9F0&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;If these talks have inspired you to enjoy an upcoming ElixirConf event, then you should book your ticket to join us on October 7-8. We have a fantastic line up of speakers including Chris McCord, Linda Achieng’ Otieno, Sigu Magwa, Marlus Saraiva and heaps more. Get the full details on the home page.&lt;/p&gt;</content><author><name>ElixirConf EU Virtual </name></author><summary type="html"></summary></entry><entry><title type="html">Why You Should Learn Elixir In 2020</title><link href="http://0.0.0.0:4000/2020/07/21/why-learn-elixir-in-2020/" rel="alternate" type="text/html" title="Why You Should Learn Elixir In 2020" /><published>2020-07-21T00:00:00+00:00</published><updated>2020-07-21T00:00:00+00:00</updated><id>http://0.0.0.0:4000/2020/07/21/why%20learn%20elixir%20in%202020</id><content type="html" xml:base="http://0.0.0.0:4000/2020/07/21/why-learn-elixir-in-2020/">&lt;p&gt;&lt;img src=&quot;/assets/images/why-elixir.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Over the course of the article, &lt;a href=&quot;https://www.erlang-solutions.com/blog/why-elixir-is-the-programming-language-you-should-learn-in-2020.html&quot; title=&quot;why learn elixir&quot;&gt;Why Learn Elixir in 2020&lt;/a&gt;, we’ll show you how Elixir rates in relation to all of the above dot points.&lt;/p&gt;
+
+&lt;p&gt;Our consultant, Manuel Rubio, is a polyglot developer. Over the years working with Elm, Lua, Rust, Dart, Go, Kotlin, Scala, C, C++, Perl, Ruby, PHP, Python, Java, JavaScript, Erlang and Elixir.&lt;/p&gt;
+
+&lt;p&gt;If he were to only pick one language to learn as a brand new developer in 2020, it would be Elixir and in this article he tells you why.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.erlang-solutions.com/blog/why-elixir-is-the-programming-language-you-should-learn-in-2020.html&quot; title=&quot;full article elixir&quot;&gt;READ THE FULL ARTICLE&lt;/a&gt;&lt;/p&gt;</content><author><name>Erlang Solutions</name></author><category term="elixir" /><summary type="html"></summary></entry></feed>

@@ -1,0 +1,188 @@
+.training
+  background-color: #f3f7f8
+  overflow-x: hidden
+  .table-container
+    display: flex
+    flex-flow: column
+    width: 100%
+    @media only screen and (max-width: 1112px)
+      // scrollbar-width: thin
+      // overflow-x: scroll
+    .table-item
+      display: flex
+      height: 6em
+      width: 100%
+      @media only screen and (max-width: 800px)
+        height: auto
+        flex-wrap: wrap
+        // min-width: 759px
+      &:nth-child(odd)
+        background-color: #E94D8B
+      &:nth-child(even)
+        background-color: #e86b9d
+      .item-col
+        align-items: center
+        display: flex
+        flex-flow: column
+        flex-grow: 1
+        justify-content: center
+        height: 100%
+        width: 33%
+        @media only screen and (max-width: 800px)
+          width: 100%
+      .item-hours
+        color: #ffffff
+        font-weight: 500
+        font-family: 'Montserrat', sans-serif
+        font-size: 1.2em
+        padding: 1em 0
+      .item-training
+        align-items: flex-start
+        background-color: #fff
+        border-right: solid #f3f7f8 .1em
+        border-bottom: dashed #f3f7f8 .1em
+        color: #161616
+        padding: 1em 3em
+        @media only screen and (max-width: 800px)
+          align-items: center
+        .item-title
+          color: #576CF6
+          cursor: pointer
+          font-family: 'Montserrat', sans-serif !important
+          font-size: 1.2em
+          font-weight: 500
+          line-height: 1.45em !important
+          &:hover
+            color: #576CF6
+          @media only screen and (max-width: 1112px)
+            font-size: 1.2em
+        .item-trainer
+          color: #E94D8B
+          font-style: italic
+          font-weight: 500
+          font-size: 1.1em
+          text-align: center
+
+.training-content
+  align-items: center
+  background-color: #f3f7f8
+  display: flex
+  flex-flow: column
+  justify-content: cener
+  padding: 5em 3em
+  width: 100%
+  @media only screen and (max-width: 1112px)
+    padding: 5em 1em
+  .training-card
+    background-color: #fff
+    width: 80%
+    padding: 2em
+    @media only screen and (max-width: 1112px)
+      padding: 1em
+      width: 100%
+    .training-head
+      background-color: #fff
+      display: flex
+      flex-flow: column
+      .training-col
+        align-items: flex-start
+        display: flex
+        flex-flow: column
+        padding: 1em
+        .training-name
+          color: #576CF6
+          display: flex
+          font-size: 1.6em
+          flex-wrap: wrap
+          line-height: 1.45em !important
+          margin: 1em 1em .8em 0
+
+        .training-info
+          display: flex
+          flex-flow: column
+          margin-bottom: .5em
+          a
+            color: #576CF6
+            text-decoration: underline
+          strong
+            color: #576CF6
+            font-family: 'Montserrat', sans-serif !important
+            font-size: 1.2em
+            font-weight: 600
+            line-height: 1.45em !important
+          p
+            color: #000000
+            font-size: .955em
+            font-family: 'Montserrat', sans-serif
+          .content
+            h1
+              font-size: 2em
+              font-weight: 600
+              letter-spacing: .1em
+              text-transform: uppercase
+              width: 100%
+            h2
+              font-size: 1.8em
+              font-weight: 600
+              letter-spacing: .1em
+              text-transform: uppercase
+              width: 100%
+            h3
+              font-size: 1.6em
+              font-weight: 600
+              letter-spacing: .1em
+              text-transform: uppercase
+              width: 100%
+            h4
+              font-size: 1.4em
+              font-weight: 600
+              letter-spacing: .1em
+              text-transform: uppercase
+              width: 100%
+            h5
+              font-size: 1.2em
+              font-weight: 600
+              letter-spacing: .1em
+              text-transform: uppercase
+              width: 100%
+            h6
+              font-size: 1em
+              font-weight: 600
+              letter-spacing: .1em
+              text-transform: uppercase
+              width: 100%
+            p
+              margin-bottom: .5em
+              width: 100%
+              strong
+                font-family: "Karla", Arial, sans-serif
+                font-weight: bold !important
+              a
+                color: #576CF6
+              img
+                height: auto
+                width: auto
+                max-width: 100%
+
+            blockquote
+              border-left: solid .28em #999999
+              padding-left: .5em
+              p
+                font-style: italic
+            ol, ul
+              padding: 1em
+              li
+                font-family: "Karla", Arial, sans-serif
+                font-size: 16px
+                font-weight: normal
+                line-height: 1.5em
+                letter-spacing: 0.03rem
+                color: #5e5e5e
+            code
+              background-color: #f6f8fa
+              border-radius: 3px
+              font-size: 85%
+              line-height: 1.45
+              margin-bottom: .3em
+              overflow: auto
+              padding: 16px

@@ -1,0 +1,75 @@
+---
+label: Talk
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+  config:
+    required: true
+- name: audience
+  type: tag_list
+  default: []
+  label: audience
+- name: speakers
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: pages
+      section: participants
+  label: speakers
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
+pages:
+- _keynotes/code-homicide-what-software-developers-can-learn-from-offender-profiling.md
+- _keynotes/it-s-alive-instrumenting-phoenix-1.5-with-telemetry-and-livedashboard.md
+- _keynotes/q-a-with-chris-mccord.md
+- _keynotes/surviving-your-first-big-customer-as-a-startup.md
+- _keynotes/using-elixir-and-whatsapp-to-launch-who-s-global-covid-19-response.md
+- _talks/a-blueprint-for-intuitive-internal-elixir-ecosystems.md
+- _talks/a-journey-of-eventsourcing-and-cqrs-through-commanded.md
+- _talks/a-safer-elixir.md
+- _talks/architectural-and-codewise-learnings-building-a-successful-elixir-application-1.md
+- _talks/automating-the-automator.md
+- _talks/bringing-opencv-to-the-elixir-world.md
+- _talks/building-a-block-based-editor-in-phoenix-live-view.md
+- _talks/building-a-real-time-collaborative-editor-with-phoenix.md
+- _talks/building-elixir-applications-for-global-audiences-or-an-audience-of-one.md
+- _talks/clarity.md
+- _talks/config.exs-is-simple-and-other-lies.md
+- _talks/control-node-continuous-delivery-and-orchestration-as-code-for-elixir.md
+- _talks/creating-a-scalable-intent-classifier-with-elixir-python-and-tensorflow.md
+- _talks/debugging-elixir-code-the-tools-the-mindset.md
+- _talks/digitalizing-the-steel-industry-with-elixir.md
+- _talks/distributed-computational-workloads-with-nx-and-nerves.md
+- _talks/distributing-work-with-queues-and-gcp-pubsub.md
+- _talks/diving-into-ecto.query.md
+- _talks/doing-weird-things-with-ecto.md
+- _talks/elixir-webassembly-and-rust-the-ultimate-hybrid.md
+- _talks/exercism-v3.md
+- _talks/exploring-elixir-project-re-compilation.md
+- _talks/get-your-crud-together.md
+- _talks/getting-to-phoenix-liveview-a-journey-through-nextjs-hasura-faunadb-supabase-rails-and-vanilla-phoenix.md
+- _talks/going-multi-node-with-exunit.md
+- _talks/intellij-elixir-works-even-if-your-code-doesn-t.md
+- _talks/introducing-livedata-liveview-for-json-endpoints.md
+- _talks/it-s-a-live-book.md
+- _talks/lessons-learned-from-elixir-learning-paths.md
+- _talks/love-your-crash-dumps.md
+- _talks/membrane-sfu-bringing-webrtc-to-elixir.md
+- _talks/micro-services-and-events-friends-or-foes.md
+- _talks/monitoring-elixir-with-opentelemetry.md
+- _talks/nerves-an-industrialization-journey.md
+- _talks/nerves-and-snmp-just-relax-and-use-it.md
+- _talks/porting-a-big-rails-app-to-elixir-in-two-months.md
+- _talks/q-a-on-liveview.md
+- _talks/testing-asynchronous-otp.md
+- _talks/the-elixir-journey-convincing-enterprise-to-use-elixir.md
+- _talks/the-pillars-of-metaprogramming-in-elixir.md
+- _talks/tls-the-otp-way.md
+- _talks/typecheck-effortless-runtime-type-checking.md

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+{% include imports/head.html %}
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KRSPKJ3"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    </div>
+    {% include navigation_2.html %}
+    <div class="training-content">
+        <div class="training-card">
+            <div class="training-head">
+                <div class="training-col">
+                    <h1 class="training-name">
+                        {{ page.title }}
+                    </h1>
+                    <iframe width="100%" height="580em" src="{{ page.video_url_short }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="training-info"><p><strong>Date:</strong><br> {{ page.event_date }}</p></div>
+                    <div class="training-info"><p><strong>Venue:</strong><br> {{ page.venue }}</p></div>
+                    <div class="training-info"><div class="content"><strong>Description:</strong><br> {{ page.content }}</div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% include footer.html %}
+    {% include imports/js.html %}
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+---
+label: Training
+hide_body: false
+display_field: name
+fields:
+- name: name
+  type: text
+  config:
+    required: true
+  label: name
+- type: text
+  name: type
+  label: type
+- name: trainers
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: pages
+      section: participants
+  label: trainers
+- name: experience
+  type: tag_list
+  default: []
+  label: experience
+pages:
+- _trainings/Architecting-reactive-systems.md
+- _trainings/Why-on-Earth-would-I-test-if-I-have-to-just-Let-it-crash-(virtual).md
+- _trainings/debugging-a-running-system.md
+- _trainings/distributed-systems-with-riak-core-lite.md
+- _trainings/ecto-everything-you-need-to-know.md
+- _trainings/ecto-from-the-ground-up.md
+- _trainings/elixir-testing-from-beginner-to-expert.md
+- _trainings/from-zero-to-hero-with-elixir.md
+- _trainings/getting-up-to-speed-with-phoenix-and-liveview.md
+- _trainings/going-back-to-devops-roots,-a-real-journey-from-dev-to-production-with-BEAM-apps-(in-person).md
+- _trainings/hands-on-tour-of-nerves-using-livebook-(in-person).md
+- _trainings/introduction-to-liveview-(virtual).md
+- _trainings/oban-101-201-(virtual).md
+- _trainings/phoenix-liveview-from-prototype-to-production.md
+- _trainings/rebuild-phoenix-from-scratch.md
+- _trainings/secure-coding-in-elixir-(in-person).md
+- _trainings/tracing-elixir-in-distributed-network.md

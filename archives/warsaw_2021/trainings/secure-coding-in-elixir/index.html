@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <title>
+        Elixir Conf EU
+    </title>
+    <meta content="width=device-width" name="viewport">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Welcome to ElixirConf EU, co-organised by ElixirConf and Code Sync. ElixirConf EU is the premiere Elixir conference in Europe, bringing the best speakers in the community together, for two days of first-rate Elixir talks and a day of tutorials.
+">
+    <link rel="canonical" href="http://0.0.0.0:4000/trainings/secure-coding-in-elixir/">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-44973668-1"></script>
+    <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-44973668-1');
+</script>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KRSPKJ3');</script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Secure Coding In Elixir | Elixir Conf EU</title>
+<meta name="generator" content="Jekyll v4.2.1" />
+<meta property="og:title" content="Secure Coding In Elixir" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="So you have mastered Elixir. Now the time has come to ask yourself a question: how secure is the code you are running? Do you know about BEAM potential vulnerabilities, the ways to attack it and how to defend against it? Join the Secure Coding in Elixir course to learn about Elixir good practices, which corners avoid and crush the BEAM in all sorts of funny ways." />
+<meta property="og:description" content="So you have mastered Elixir. Now the time has come to ask yourself a question: how secure is the code you are running? Do you know about BEAM potential vulnerabilities, the ways to attack it and how to defend against it? Join the Secure Coding in Elixir course to learn about Elixir good practices, which corners avoid and crush the BEAM in all sorts of funny ways." />
+<link rel="canonical" href="http://0.0.0.0:4000/trainings/secure-coding-in-elixir/" />
+<meta property="og:url" content="http://0.0.0.0:4000/trainings/secure-coding-in-elixir/" />
+<meta property="og:site_name" content="Elixir Conf EU" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-10-06T07:26:28+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Secure Coding In Elixir" />
+<script type="application/ld+json">
+{"description":"So you have mastered Elixir. Now the time has come to ask yourself a question: how secure is the code you are running? Do you know about BEAM potential vulnerabilities, the ways to attack it and how to defend against it? Join the Secure Coding in Elixir course to learn about Elixir good practices, which corners avoid and crush the BEAM in all sorts of funny ways.","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://0.0.0.0:4000/assets/images/Warsaw-EC2021.png"}},"@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://0.0.0.0:4000/trainings/secure-coding-in-elixir/"},"url":"http://0.0.0.0:4000/trainings/secure-coding-in-elixir/","headline":"Secure Coding In Elixir","dateModified":"2021-10-06T07:26:28+00:00","datePublished":"2021-10-06T07:26:28+00:00","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+    <!--Remove image dragging -->
+    <BODY ondragstart="return false;" ondrop="return false;">
+
+        <!-- Custom Fonts -->
+        <link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400i,700i" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
+
+        <!-- WEBSITE ICON IN BROWSER -->
+                                                                                                                                                                <!-- <link href="/css/2016_style/img/icon.png" rel="icon" type="image/png"> -->
+    </body>
+    <script> (function(){ window.ldfdr = window.ldfdr || {}; (function(d, s, ss, fs){ fs = d.getElementsByTagName(s)[0]; function ce(src){ var cs = d.createElement(s); cs.src = src; setTimeout(function(){fs.parentNode.insertBefore(cs,fs)}, 1); } ce(ss); })(document, 'script', 'https://sc.lfeeder.com/lftracker_v1_bElvO73DxJE4ZMqj.js'); })(); </script>
+  <!-- Hotjar Tracking Code for www.elixirconf.eu -->
+<!-- <script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1678389,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script> -->
+  
+</head>
+
+
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KRSPKJ3" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    </div>
+    <nav class="navbar-fixed-top navbar-speaker">
+    <a class="logo" href="/"></a>
+    <ul class="nav">
+        <li>
+            <a href="/">Home</a>
+        </li>
+    </ul>
+</nav>
+    <div class="training-content">
+        <div class="training-card">
+            <div class="training-head">
+                <div class="training-col">
+                    <h1 class="training-name">
+                        Secure Coding In Elixir
+                    </h1>
+                    
+                    <div class="training-info">
+                        <p><strong>Trainers:</strong><br>
+                            
+                            
+                            <a href="/participants/aleksander-lisiecki/">Aleksander Lisiecki</a>
+                            <br>
+                            
+                        </p>
+                    </div>
+                    <div class="training-info">
+                        <p><strong>Date:</strong><br> 2021-09-13</p>
+                    </div>
+                    <div class="training-info">
+                        <p><strong>Venue:</strong><br> </p>
+                    </div>
+                    <div class="training-info">
+                        <div class="content"><strong>Description:</strong><br> <p>So you have mastered Elixir. Now the time has come to ask yourself a question: how secure is the code you are running? Do you know about BEAM potential vulnerabilities, the ways to attack it and how to defend against it? Join the Secure Coding in Elixir course to learn about Elixir good practices, which corners avoid and crush the BEAM in all sorts of funny ways.</p>
+
+<p><strong>EXPERTISE</strong></p>
+
+<ul>
+  <li>Intermediate</li>
+</ul>
+
+<p><strong>COURSE DURATION</strong></p>
+
+<ul>
+  <li>4 hours, June 13, 14:00-18:00 Central European time</li>
+</ul>
+
+<p><strong>TARGET AUDIENCE</strong></p>
+
+<ul>
+  <li>Intermediate Elixir developers, testers and devops working with BEAM projects</li>
+</ul>
+
+<p><strong>PREREQUISITES</strong></p>
+
+<ul>
+  <li>Basic Elixir syntax and concepts</li>
+  <li>Basic familiarity with the BEAM</li>
+</ul>
+
+<p><strong>OBJECTIVES</strong></p>
+
+<ul>
+  <li>To learn about secure coding recommendations for programmers on the BEAM.</li>
+  <li>To be able to reduce vulnerabilities in projects and choose robust alternatives to dangerous functions.</li>
+  <li>To learn how to reduce the attack surface of a production environment.</li>
+</ul>
+
+<p><strong>COVERS THE FOLLOWING TOPICS</strong></p>
+
+<ul>
+  <li>Protecting sensitive data</li>
+  <li>Sandboxing untrusted code</li>
+  <li>Preventing timing attacks</li>
+  <li>Applying OTP libraries (ssl, inets, crypto and others) to secure your code</li>
+</ul>
+
+<p><strong>NOTE:</strong> This is an <strong>online</strong> tutorial.</p>
+</div>
+                    </div>
+                    <div class="training-info">
+                        <p><strong>Experience level:</strong><br> intermediate</p>
+                    </div>
+                    <div class="training-info">
+                       <a href="/#register" class="fake-button">Book now</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer" id="footer">
+    <div class="social-icons">
+        <a href="https://www.youtube.com/watch?v=8xJzHq8ru0M&list=PLvL2NEhYV4ZtoiQC735NjHyPJUS_nmrxy" target="_blank">
+            <i class="fi flaticon-youtube"></i>
+        </a>
+        <a href="https://twitter.com/elixirconfeu?lang=en" target="_blank">
+            <i class="fi flaticon-twitter"></i>
+        </a>
+    </div>
+    <hr/>
+    <p>All Rights Reserved</p>
+    <p>
+        <strong>ElixirConf EU</strong>
+        © 2020 Copyright</p>
+        <p>
+            <strong>Co-organised by <a href="https://2020.elixirconf.com/">ElixirConf &reg;</a></strong> and <a href="https://www2.erlang-solutions.com/elixir-conf">Erlang Solutions</a></strong>
+</p>
+      <p>
+    <br>
+            <strong>View <a href="assets/images/CoCEU.pdf"> Code of Conduct</a> </strong>
+          <br>
+          <strong>View <a href="/assets/images/privacy-policy-elixir-conf-11-2020.pdf"> Privacy Policy</a> </strong>
+          <br>
+            
+</div>
+
+    <!-- jQuery Version 1.11.0 -->
+<script src="/assets/js/jquery-1.11.0.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/assets/js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="/assets/js/jquery.easing.min.js"></script>
+<script src="/assets/js/classie.js"></script>
+<script src="/assets/js/cbpAnimatedHeader.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/assets/js/agency.js"></script>
+
+<!-- Owl Carousel -->
+<script src="/assets/js/carousel.min.js" charset="utf-8"></script>
+
+<!-- Parallaxing & SmoothScroll -->
+<script src="/assets/js/scrollax.min.js" charset="utf-8"></script>
+
+
+
+<!-- Main JS -->
+<script src="/assets/js/main.js" charset="utf-8"></script>
+<script type="text/javascript">
+piAId = '24452';
+piCId = '63005';
+piHostname = 'pi.pardot.com';
+
+(function() {
+function async_load(){
+var s = document.createElement('script'); s.type = 'text/javascript';
+s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+}
+if(window.attachEvent) { window.attachEvent('onload', async_load); }
+else { window.addEventListener('load', async_load, false); }
+})();
+</script>
+
+</body>
+
+</html>

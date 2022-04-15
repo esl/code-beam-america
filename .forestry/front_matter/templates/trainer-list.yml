@@ -1,0 +1,16 @@
+---
+label: trainer-list
+hide_body: true
+fields:
+- name: trainers
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: pages
+      section: participants
+  label: trainers
+pages:
+- _data/trainers-list.yml

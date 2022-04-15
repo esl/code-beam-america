@@ -1,0 +1,20 @@
+<div class="section blog" id="blog">
+    <h2 class="title">OUR BLOG</h2>
+    <hr/>
+    <div class="posts-container">
+        {% for post in site.posts %}
+            <div class="post-item">
+                <div class="item-container">
+                   <div class="item-right">
+                 <div class="img" style="background-image: url('{{site.baseurl}}{{ post.pic_url }}');"></div>
+                 <h2 class="post-title">
+                     {{ post.title }}
+                 </h2>
+                 <p class="post-item-tags">{{ post.tags }}</p>
+                        <a class="btn-more" href="{{site.baseurl}}{{post.url}}">Read More</a>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>

@@ -1,0 +1,271 @@
+.cover-post
+    align-items: center
+    background-image: linear-gradient(to right, #51183d , #261145)
+    color: #fff
+    display: flex
+    flex-flow: column
+    height: 20em
+    justify-content: center
+    padding: 3em 3em 3em 3em
+    width: 100%
+    h1.title
+        color: #ffffff
+        font-size: 2rem
+        margin-bottom: .5em
+        text-align: center
+    h4.category
+        color: #ffffff
+        text-transform: capitalize
+        text-align: center
+.post-full
+    display: flex
+    justify-content: center
+    width: 100%
+    .blog-article
+        max-width: 850px
+        width: 850px
+        @media only screen and (max-width: 1112px)
+            width: 100%
+        .article-header
+            align-items: center
+            display: flex
+            height: 18em
+            padding: 3em 3em 0 3em
+            .article-title h3.title
+                color: #2c3e50
+                font-size: 2rem
+            .article-title h4.category
+                color: #294d6f
+                text-transform: capitalize
+
+        .article-content
+            padding: 3em 3em 3em 3em
+            @media only screen and (max-width: 1112px)
+                padding: 3em
+            @media only screen and (max-width: 580px)
+                padding: 2em
+
+            p
+                font-size: 1.1em
+                line-height: 1.5
+                margin-bottom: 1em
+
+section.blog-section .blog-articles-container article.blog-article .article-content .article-date
+    width: 100px
+    float: left
+    padding-right: 30px
+    color: #fff
+    text-transform: uppercase
+
+section.blog-section .blog-articles-container article.blog-article .article-content .article-date .date
+    width: 100%
+    padding-bottom: 100%
+    margin-bottom: 5px
+    background: #21c2f8
+
+section.blog-section .blog-articles-container article.blog-article .article-content .article-date .date .day
+    font-size: 1.875rem
+
+section.blog-section .blog-articles-container article.blog-article .article-content .article-date .date .month
+    font-size: 1rem
+
+section.blog-section .blog-articles-container article.blog-article .article-content .article-date .time
+    width: 100%
+    padding: 10px 0
+    background: #21c2f8
+
+section.blog-section .blog-articles-container article.blog-article .article-content .article-text
+    width: -webkit-calc(100% - 100px)
+    width: calc(100% - 100px)
+    font-size: 0.9rem
+    float: left
+
+section.blog-section .blog-articles-container article.blog-article .article-content .article-text p
+    line-height: 1.4
+
+section.blog-section .blog-articles-container article.blog-article .article-content .show-more
+    display: block
+    width: 100%
+    margin-top: 20px
+    text-align: center
+    float: left
+
+section.blog-section .blog-articles-container article.blog-article .article-content .show-more .button
+    float: left
+    margin: 0 0 0 100px
+
+section.blog-section .view-posts hr.normal
+    margin: 20px auto
+
+section.blog-section .view-posts .button-cta
+    margin-bottom: 0
+    float: inherit !important
+
+ul.tag-cloud-box li a
+    display: block
+    padding: 8px 12px
+    color: #bdc3c7
+    border: 1px solid #bdc3c7
+
+.share-article
+    float: left
+    width: 100%
+    padding: 0 2em 3em 3em
+    .social-icons
+        ul
+            display: flex
+            list-style: none
+            li
+                padding-top: .5em
+                a
+                    color: #888888
+                    font-size: 1.5em
+                    margin: .3em .3em .3em 0
+
+.article-content
+    h1
+        font-size: 2em
+        font-weight: 600
+        letter-spacing: .1em
+        text-transform: uppercase
+        width: 100%
+    h2
+        font-size: 1.8em
+        font-weight: 600
+        letter-spacing: .1em
+        text-transform: uppercase
+        width: 100%
+    h3
+        font-size: 1.6em
+        font-weight: 600
+        letter-spacing: .1em
+        text-transform: uppercase
+        width: 100%
+    h4
+        font-size: 1.4em
+        font-weight: 600
+        letter-spacing: .1em
+        text-transform: uppercase
+        width: 100%
+    h5
+        font-size: 1.2em
+        font-weight: 600
+        letter-spacing: .1em
+        text-transform: uppercase
+        width: 100%
+    h6
+        font-size: 1em
+        font-weight: 600
+        letter-spacing: .1em
+        text-transform: uppercase
+        width: 100%
+    p
+        margin-bottom: .5em
+        width: 100%
+        strong
+            font-family: "Karla", Arial, sans-serif
+            font-weight: bold !important
+        a
+            color: #553363
+        img
+            height: auto
+            width: auto
+            max-width: 100%
+
+    blockquote
+        border-left: solid .28em #999999
+        padding-left: .5em
+        p
+            font-style: italic
+    ol, ul
+        padding: 1em
+        li
+            font-family: "Karla", Arial, sans-serif
+            font-size: 16px
+            font-weight: normal
+            line-height: 1.5em
+            letter-spacing: 0.03rem
+            color: #5e5e5e
+    code
+        background-color: #f6f8fa
+        border-radius: 3px
+        font-size: 85%
+        line-height: 1.45
+        margin-bottom: .3em
+        overflow: auto
+        padding: 16px
+
+.site-sidebar
+    align-items: center
+    background-color: #fff
+    display: flex
+    height: 100%
+    flex-flow: column
+    width: 22em
+    .widget-title
+        padding: 24px 30px
+        font-size: 1.2em
+        color: #2c3e50
+        background-color: #f4f8f9
+        text-align: center
+        text-transform: uppercase
+        width: 100%
+    .newsletter-widget
+        align-items: center
+        background-color: #8749c9
+        display: flex
+        flex-flow: column
+        height: auto
+        justify-content: center
+        margin: 0 0 1em 0
+        padding: 1em 1em 0em 0.1em
+        width: 100%
+    .mt-1
+        margin-top: 1em
+    .mt-2
+        margin-top: 2em
+    .mt-3
+        margin-top: 3em
+    .mt-4
+        margin-top: 4em
+    .mt-5
+        margin-top: 5em
+    .ad-widget
+        align-items: center
+        background-image: linear-gradient(to right, #51183d, #261145)
+        color: #ffffff
+        display: flex
+        flex-flow: column
+        height: 16em
+        justify-content: center
+        padding: 1em
+        width: 100%
+        .white
+            color: white
+    @media only screen and (max-width: 1112px)
+        display: none
+
+.categories-widget
+    margin: 1em 0
+    width: 100%
+    .widget-content
+        .categories-box
+            li
+                list-style: none
+                a
+                    display: block
+                    padding: 20px 30px
+                    color: black
+                    text-transform: capitalize
+                    border-bottom: 1px solid #f4f8f9
+                    .cat-count
+                        color: #ffffff
+                        float: right
+                        margin-top: -3px
+                        padding: 5px 6px
+                        border-radius: 3px
+                        background: #294d6f
+                        font-size: 0.6875rem
+
+.posts-layout
+    margin-top: 0 !important

@@ -1,0 +1,117 @@
+---
+label: Participant
+hide_body: false
+display_field: name
+fields:
+- name: name
+  type: text
+  config:
+    required: true
+  label: name
+- type: file
+  name: pic_url
+  label: pic_url
+  config:
+    maxSize: 0.1
+- type: text
+  name: tagline
+  label: tagline
+  config:
+    required: true
+- type: text
+  name: github
+  label: github
+- type: text
+  name: twitter
+  label: twitter
+pages:
+- _participants/Francesco-cesarini.md
+- _participants/Jeffrey-matthias.md
+- _participants/Ju-liu.md
+- _participants/adam-lancaster.md
+- _participants/adam-tornhill.md
+- _participants/adi-iyengar.md
+- _participants/aleksander-lisiecki.md
+- _participants/anamaria-benitesrodriguez.md
+- _participants/andre-albuquerque.md
+- _participants/andrea-leopardi.md
+- _participants/andrew-ek.md
+- _participants/andrew-selder.md
+- _participants/angelika-tyborska.md
+- _participants/anna-lito-michala.md
+- _participants/annette-bieniusa.md
+- _participants/anton-satin.md
+- _participants/arjan-scherpenisse.md
+- _participants/aswin-mohan.md
+- _participants/ben-marx.md
+- _participants/bernardo-amorim.md
+- _participants/bruno-ripa.md
+- _participants/charlotte-deoliveira.md
+- _participants/chris-mccord.md
+- _participants/claudio-ortolina.md
+- _participants/cocoa-xu.md
+- _participants/crux-conception.md
+- _participants/daniel-tipping.md
+- _participants/daniel-vamosi.md
+- _participants/denys-gonchar.md
+- _participants/devon-estes.md
+- _participants/elaine-watanabe.md
+- _participants/elijah-scheele.md
+- _participants/elle-imhoff.md
+- _participants/eric-meadows.md
+- _participants/esteban-ibarra.md
+- _participants/evadne-wu.md
+- _participants/fernando-hamasaki-de-amorim.md
+- _participants/frank-hunleth.md
+- _participants/gabriel-kolawole.md
+- _participants/hans-josephsen.md
+- _participants/ingela-andin.md
+- _participants/jean-parpaillon.md
+- _participants/johanna-larsson.md
+- _participants/jon-carstens.md
+- _participants/josep-lluis-giralt-dlacoste.md
+- _participants/kamil-kowalski.md
+- _participants/kevin-hoffman.md
+- _participants/kip-cole.md
+- _participants/kristian-hildebrandt.md
+- _participants/laura-m-castro.md
+- _participants/linda-otieno.md
+- _participants/lorenzo-sinisi.md
+- _participants/lucjan-suski.md
+- _participants/lukasz-niemier.md
+- _participants/madhushree-singh.md
+- _participants/manuel-rubio.md
+- _participants/marcin-lewandowski.md
+- _participants/mariano-guerra.md
+- _participants/marlus-saraiva.md
+- _participants/mateusz-front.md
+- _participants/michal-buszkiewicz.md
+- _participants/michal-olczak.md
+- _participants/michal-slaski.md
+- _participants/miguel-michelson.md
+- _participants/mike-martinson.md
+- _participants/nikola-begedin.md
+- _participants/parker-selbert.md
+- _participants/peter-ullrich.md
+- _participants/rafal-studnicki.md
+- _participants/roland-tritsch.md
+- _participants/ryan-young.md
+- _participants/sasa-juric.md
+- _participants/shankar-dhanasekaran.md
+- _participants/shannon-selbert.md
+- _participants/sheharyar-naseer.md
+- _participants/sigu-magwa.md
+- _participants/simon-de-haan.md
+- _participants/simon-kistler.md
+- _participants/sophie-debenedetto.md
+- _participants/tam-kbeili.md
+- _participants/thomas-orourke.md
+- _participants/tonci-galic.md
+- _participants/vanshdeep-singh.md
+- _participants/vasilis-spilka.md
+- _participants/veronica-lopez.md
+- _participants/victor-nascimento.md
+- _participants/wannes-fransen.md
+- _participants/wiebe-marten-wijnja.md
+- _participants/willian-frantz.md
+- _participants/zac-barnes.md
