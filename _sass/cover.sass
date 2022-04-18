@@ -1,10 +1,11 @@
 .cover
-    align-items: flex-start
-    background-image: url("/assets/images/london.png")
+    align-items: center
+    background-image: url("/assets/images/banner-bg.jpg")
     color: #fff
     display: flex
     height: auto
-    padding: 13em 3em 3em 3em
+    padding: 8em 3em 3em 3em
+    justify-content: center
     width: 100%
     @media only screen and (max-width: 1112px)
         height: auto
@@ -17,12 +18,19 @@
         img 
             height: auto
             width: 100%
-    .date
-        color: #E94D8B
-        font-size: 1.8em
-        font-weight: 300
-        letter-spacing: .1em
-        margin: 1.5em 0
+
+    .col-right 
+        align-items: flex-start
+        display: flex
+        flex-flow: column
+        max-width: 782px
+        .date
+            color: #E94D8B
+            font-size: 1.8em
+            font-weight: 300
+            letter-spacing: .1em
+            margin: 0 0 1.5em 0
+            text-align: left
     .open
         font-size: 1.8em
         font-style: italic

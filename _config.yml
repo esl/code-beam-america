@@ -1,8 +1,8 @@
-title: ElixirConf EU
+title:CodeBeam America
 description: > # this means to ignore newlines until "baseurl:"
-  Welcome to ElixirConf EU, co-organised by ElixirConf and Code Sync. ElixirConf EU is the premiere Elixir conference in Europe, bringing the best speakers in the community together, for two days of first-rate Elixir talks and a day of tutorials.
+  Welcome to CodeBeam America, co-organised by ElixirConf and Code Sync.CodeBeam America is the premiere Elixir conference in Europe, bringing the best speakers in the community together, for two days of first-rate Elixir talks and a day of tutorials.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.elixirconf.eu" # the base hostname & protocol for your site
+url: "https://www.codebeam.eu" # the base hostname & protocol for your site
 
 logo: "./assets/images/logo2022.png"
 
