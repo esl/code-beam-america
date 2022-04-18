@@ -1,19 +1,22 @@
 .cover
-    align-items: center
+    align-items: flex-start
     background-image: url("/assets/images/london.png")
     color: #fff
     display: flex
-    flex-flow: column
-    height: 42em
+    height: auto
     padding: 13em 3em 3em 3em
     width: 100%
     @media only screen and (max-width: 1112px)
         height: auto
         text-align: center
     .logo
+        max-width: 400px
         width: 45%
         @media only screen and (max-width: 1112px)
             width: 90%
+        img 
+            height: auto
+            width: 100%
     .date
         color: #E94D8B
         font-size: 1.8em
