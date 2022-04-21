@@ -1,5 +1,5 @@
 .cover
-    align-items: flex-start
+    align-items: space-between
     background-image: url("/assets/images/banner-bg.jpg")
     background-size: cover
     background-repeat: no-repeat
@@ -7,7 +7,8 @@
     color: #fff
     display: flex
     height: auto
-    padding: 8em 3em 10em 3em
+    flex-wrap: wrap
+    padding: 8em 0 0 0
     justify-content: center
     width: 100%
     @media only screen and (max-width: 1112px)
@@ -21,7 +22,6 @@
         img 
             height: auto
             width: 100%
-
     .col-right 
         align-items: flex-start
         display: flex
@@ -30,7 +30,7 @@
         max-width: 782px
         padding: 3em 0 0 3em
         .date
-            color: #E94D8B
+            color: #e32dfd
             font-size: 1.8em
             font-weight: 300
             letter-spacing: .1em
@@ -63,3 +63,16 @@
         border-radius: 60%
         font-size: 1.6em
         padding: .8em
+    .cover-bottom
+        align-items: center
+        background: #040f0c
+        background: -webkit-gradient(linear,left top,left bottom,from(rgba(4,15,12,0)),to(#040f0c))
+        background: linear-gradient(180deg,rgba(4,15,12,0),#040f0c)
+        display: flex
+        justify-content: center
+        height: 200px
+        padding: 3em
+        width: 100%
+        .call-for-talks
+            line-height: 36px
+            text-align: center
