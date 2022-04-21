@@ -1,10 +1,13 @@
 .cover
-    align-items: center
+    align-items: flex-start
     background-image: url("/assets/images/banner-bg.jpg")
+    background-size: cover
+    background-repeat: no-repeat
+    background-color: #000101
     color: #fff
     display: flex
     height: auto
-    padding: 12em 3em 10em 3em
+    padding: 8em 3em 10em 3em
     justify-content: center
     width: 100%
     @media only screen and (max-width: 1112px)
@@ -23,13 +26,21 @@
         align-items: flex-start
         display: flex
         flex-flow: column
+        justify-content: flex-start
         max-width: 782px
-        padding-left: 3em
+        padding: 3em 0 0 3em
         .date
             color: #E94D8B
             font-size: 1.8em
             font-weight: 300
             letter-spacing: .1em
+            margin: 0 0 1.5em 0
+            text-align: left
+        p 
+            color: #fff
+            font-size: 1.2em
+            font-weight: 300
+            line-height: 1.5em
             margin: 0 0 1.5em 0
             text-align: left
     .open
