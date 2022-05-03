@@ -1,7 +1,7 @@
 title: CodeBeam America
 description: > # this means to ignore newlines until "baseurl:"
   Welcome to CodeBeam America, co-organised by ElixirConf and Code Sync. CodeBeam America is the premiere Elixir conference in Europe, bringing the best speakers in the community together, for two days of first-rate Elixir talks and a day of tutorials.
-baseurl: "codebeam-us-jekyll" # the subpath of your site, e.g. /blog
+baseurl: "/codebeam-us-jekyll" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
 logo: "./assets/images/logo2022.png"
