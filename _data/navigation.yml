@@ -2,8 +2,8 @@
 #  link: "cover"
 #- name: Welcome
 #  link: "welcome"
-- name: Register
-  link: "register"
+#- name: Register
+#  link: "register"
 # name: Newsletter
 #  link: "newsletter"
 #- name: Call for Talks
@@ -16,22 +16,22 @@
 #  link: "student"
 #- name: Public videos
 #  link: "video"
-- name: Speakers
-  link: "keynotes"
-- name: Trainers
-  link: "trainers"
-- name: Schedule
-  link: schedule
-- name: Training
-  link: "training"
-- name: Diversity
-  link: "diversity"
-- name: Volunteer
-  link: "volunteer"
-- name: Venue & Hotel
+#- name: Speakers
+#  link: "keynotes"
+#- name: Trainers
+#  link: "trainers"
+#- name: Schedule
+#  link: schedule
+#- name: Training
+#  link: "training"
+#- name: Diversity
+#  link: "diversity"
+#- name: Volunteer
+#  link: "volunteer"
+- name: Venue
   link: "venue"
-- name: COVID-19 safety
-  link: "covid-19"
+#- name: COVID-19 safety
+#  link: "covid-19"
 #- name: Hybrid
 #  link: "hybrid"
 #- name: E-SHOP
