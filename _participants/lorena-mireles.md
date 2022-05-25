@@ -1,6 +1,6 @@
 ---
 name: Lorena Mireles
-pic_url: "/assets/images/francesco-cesarini.jpg"
+pic_url: "/assets/images/lorena-mireles.jpg"
 tagline: Co-founder of Temachtiani, member and supporter of Technolatinas
 github: ''
 twitter: loreniuxmr
