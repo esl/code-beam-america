@@ -1,21 +1,21 @@
-<div class="section trainers" id="trainers">
+<div class="section trainers" id="pc">
     <h2 class="title">PROGRAMME COMMITTEE</h2>
     <hr/>
     <div class="items-container">
 
 
-        {% assign all_trainers = "" | split: ',' %}
+        {% assign all_members = "" | split: ',' %}
         {% for ts in site.trainings %}
-            {% for t in ts.trainers %}
-                {% assign all_trainers = all_trainers | push: t %}
+            {% for t in ts.members %}
+                {% assign all_members = all_members | push: t %}
             {% endfor %}
         {% endfor %}
 
 
-        {% for item in site.data.trainers-list.trainers %}
+        {% for item in site.data.pc-list.members %}
             {% assign participant = site.participants | where_exp: "participant", "item == participant.path" | first  %}
-            {% assign is_trainer = all_trainers | where_exp: "trainer", "trainer == item" | first  %}
-            {% if participant != null and is_trainer != null%}
+            {% assign is_member = all_members | where_exp: "member", "member == item" | first  %}
+            {% if participant != null and is_member != null%}
                 <div class="item">
                     <a href="{{ participant.url | relative_url }}" class="item-head-link">
                         <div class="img" style="background-image: url('{{ participant.pic_url | relative_url }}');">
@@ -26,7 +26,7 @@
                         </h4>
                     </a>
                     <p class="item-position">{{ participant.tagline }}</p>
-                    {% include participations.html participant=participant section="trainers" %}
+                    {% include participations.html participant=participant section="members" %}
                 </div>
             {% endif %}
         {% endfor %}
