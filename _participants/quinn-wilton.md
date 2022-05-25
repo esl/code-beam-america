@@ -1,6 +1,6 @@
 ---
 name: Quinn Wilton
-pic_url: "/assets/images/quinn wilton.jpg"
+pic_url: "/assets/images/quinn-wilton.png"
 tagline: Collector of dead languages
 github: 'QuinnWilton'
 twitter: wilton_quinn
