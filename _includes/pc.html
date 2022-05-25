@@ -12,7 +12,7 @@
         {% endfor %}
 
 
-        {% for item in site.data.pc-list.members %}
+        {% for item in site.data.members-list.members %}
             {% assign participant = site.participants | where_exp: "participant", "item == participant.path" | first  %}
             {% assign is_member = all_members | where_exp: "member", "member == item" | first  %}
             {% if participant != null and is_member != null%}
