@@ -1,8 +1,8 @@
 title: CodeBeam America
 description: > # this means to ignore newlines until "baseurl:"
-  Welcome to CodeBeam America, co-organised by ElixirConf and Code Sync. CodeBeam America is the premiere Elixir conference in Europe, bringing the best speakers in the community together, for two days of first-rate Elixir talks and a day of tutorials.
-baseurl: "/code-beam-america" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+  Welcome to Code BEAM America, a confernece organised by Code Sync. Code BEAM America is the premiere Erlang and Elixir conference in America, bringing the best speakers in the community together, for two days of first-rate BEAM-related talks and two days of tutorials.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://codebeamamerica.com" # the base hostname & protocol for your site
 
 logo: "./assets/images/logo2022.png"
 
@@ -17,8 +17,8 @@ plugins:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: https://twitter.com/elixirconfeu
-    username: elixirconfeu
+    url: https://twitter.com/codebeamio
+    username: codebeamio
     card: image
 
 # Build settings
@@ -40,8 +40,8 @@ collections:
     output: true
   videos:
     output: true
-  archive:
-    output: true
+#  archive:
+#    output: true
 
 defaults:
   - scope:
@@ -74,11 +74,11 @@ defaults:
       type: "videos"
     values:
       layout: "video"
-  - scope:
-      path: ""
-      type: "archives"
-    values:
-      layout: "archive"
+#  - scope:
+#      path: ""
+#      type: "archives"
+#    values:
+#      layout: "archive"
   - scope:
       path: ""
     values:
@@ -87,7 +87,7 @@ defaults:
 # Google Map JS api
 # This is my api for this template
 key-api: AIzaSyBf-F7nBzxi_73uI9QUxRQ-cNihYtlZ_AA
-map-text: ILEC Conference Center
-map-text-location: 47 Lillie Rd, London SW6 1UD, United Kingdom
-map-lat: 51.485796
-map-lng: -0.199129
+map-text: Computer History Museum
+map-text-location: 41401 N Shoreline Blvd, Mountain View, CA 94043
+map-lat: 37.4145135
+map-lng: -122.0787026
