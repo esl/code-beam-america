@@ -150,13 +150,18 @@ a
   width: 100%
 
 .btn-outline
+  align-items: center
   background: none
   border: solid .1em #fff
   border-radius: .3em
+  display: flex
+  justify-content: center
   font-size: 1.3em
   font-weight: 500
   letter-spacing: .16em
   padding: .5em 2.7em
+  @media screen and (max-width: 900px)
+    text-align: center
 
 .btn-purple
   &:hover
@@ -387,3 +392,8 @@ a
   border-right: 1px solid
   border-bottom: 1px solid
   border-left: 1px solid
+
+.call-for-talks
+  align-items: center
+  display: flex
+  flex-flow: column
