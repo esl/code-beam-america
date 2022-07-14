@@ -18,8 +18,8 @@
 #  link: "student"
 #- name: Public videos
 #  link: "video"
-#- name: Speakers
-#  link: "keynotes"
+- name: Speakers
+  link: "keynotes"
 #- name: Trainers
 #  link: "trainers"
 #- name: Schedule
