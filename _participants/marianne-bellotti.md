@@ -2,7 +2,7 @@
 name: Marianne Bellotti
 pic_url: "/assets/images/speakers/marianne.jpg"
 tagline: Author, Systems Geek, Relapsed Anthropologist
-github: "@mbellotti"
+github: mbellotti
 twitter: "@bellmar"
 
 ---
