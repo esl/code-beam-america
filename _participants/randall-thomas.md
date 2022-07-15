@@ -1,8 +1,8 @@
 ---
 name: Randall Thomas
 pic_url: "/assets/images/speaker-randall.jpg"
-tagline: HACKER. MUSICIAN. BON VIVANT
-github: daksis
+tagline: Hacker. Musician. Bon Vivant
+github: "@daksis"
 twitter: "@daksis"
 
 ---
