@@ -25,6 +25,7 @@ fields:
   name: twitter
   label: twitter
 pages:
+- _participants/Boyd-multerer.md
 - _participants/Francesco-cesarini.md
 - _participants/Jeffrey-matthias.md
 - _participants/Ju-liu.md
