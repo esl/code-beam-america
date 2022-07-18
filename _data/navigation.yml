@@ -6,10 +6,6 @@
   link: "register"
 # name: Newsletter
 #  link: "newsletter"
-- name: Call for Talks
-  link: "cft"
-- name: Programme Committee
-  link: "members"
 #- name: Call for Tutorials
 #  link: "call-for-tutorials"
 #- name: All Recordings
@@ -40,6 +36,10 @@
 #  link: "shop"
 #- name: Blog
 #  link: "blog"
+- name: Call for Talks
+  link: "cft"
+- name: Programme Committee
+  link: "members"
 - name: Sponsors
   link: "sponsors"
 - name: Contact
