@@ -2,8 +2,8 @@
 #  link: "cover"
 #- name: Welcome
 #  link: "welcome"
-#- name: Register
-#  link: "register"
+- name: Register
+  link: "register"
 # name: Newsletter
 #  link: "newsletter"
 - name: Call for Talks
