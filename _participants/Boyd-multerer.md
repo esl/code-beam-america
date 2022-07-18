@@ -1,7 +1,7 @@
 ---
 name: Boyd Multerer
 pic_url: "/assets/images/speaker-boyd.jpg"
-tagline: Creator of Scenic and Lead engineering for Xbox Live, XNA
+tagline: Creator of Scenic and Lead Engineering for Xbox Live, XNA
 github: ''
 twitter: "@BoydMulterer"
 
