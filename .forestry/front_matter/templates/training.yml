@@ -40,6 +40,7 @@ pages:
 - _trainings/hands-on-tour-of-nerves-using-livebook-(in-person).md
 - _trainings/instrumenting-elixir-application.md
 - _trainings/introduction-to-liveview-(virtual).md
+- _trainings/mastering-liveview.md
 - _trainings/oban-101-201-(virtual).md
 - _trainings/phoenix-liveview-from-prototype-to-production.md
 - _trainings/rebuild-phoenix-from-scratch.md
