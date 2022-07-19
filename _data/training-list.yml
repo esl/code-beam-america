@@ -1,5 +1,8 @@
 ---
 trainings:
+- training: _trainings/instrumenting-elixir-application.md
+  start: 2022-11-02 16:00:00 +0000
+  end: 2022-11-03 00:00:00 +0000
 - training: _trainings/build-a-binary-clock.md
   start: 2022-11-02 16:00:00 +0000
   end: 2022-11-03 00:00:00 +0000
