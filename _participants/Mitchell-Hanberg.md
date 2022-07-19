@@ -1,10 +1,9 @@
 ---
 name: Mitchell Hanberg
-pic_url: ''
+pic_url: "/assets/images/mitchell_hanberg.jpg"
 tagline: Senior Software Engineer at Simplebet
 github: ''
 twitter: mitchhanberg
-published: false
 
 ---
 Mitchell is very passionate about using and teaching Elixir and has been doing so for the last 5 years.
