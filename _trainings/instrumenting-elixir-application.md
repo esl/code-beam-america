@@ -14,11 +14,13 @@ This course will be a hands-on dive into the world of instrumenting Elixir appli
 
 By the end of the day, you’ll have a solid understanding of the available tools to add an extensible instrumentation framework to any Elixir application.
 
-CHANNEL
+\**
+
+**CHANNEL**
 
 in person
 
-COURSE OBJECTIVES
+**COURSE OBJECTIVES**
 
 * Why instrumentation is important.
 * How traces, metrics, and logging fit into the observability stack.
@@ -30,14 +32,14 @@ COURSE OBJECTIVES
 * Different options for visualizing metrics and spans.
 * Where OpenTelemetry fits into the instrumentation stack.
 
-AUDIENCE
+**AUDIENCE**
 
 Beginners
 
-DURATION
+**DURATION**
 
 8h
 
-PREREQUISITES
+**PREREQUISITES**
 
 Attendees should have a working understanding of Elixir and have the latest versions of Elixir and Erlang installed.
