@@ -20,21 +20,21 @@ Along the way, you’ll explore:
 
 When you’re done, you’ll get to take your hardware home for more experimentation on your own time.
 
-CHANNEL
+**CHANNEL**
 
 in person
 
-DURATION
+**DURATION**
 
 8 hours
 
-COURSE OBJECTIVES
+**COURSE OBJECTIVES**
 
 Explore Elixir, Livebook and Nerves with a fun hardware project that you can take home
 
-AUDIENCE  
+**AUDIENCE**  
 Intermediate users
 
-PREREQUISITES
+**PREREQUISITES**
 
 Attendees should bring a MacOS or Linux laptop with Elixir installed. USB cables and a MicroSD card reader are recommended. Details will be sent prior to the training.
