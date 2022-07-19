@@ -7,7 +7,6 @@ tags:
 title: Learn You Some Pattern Matching for Great Good!
 speakers:
 - _participants/Elayne-Juten.md
-published: false
 
 ---
 Move `if` to the bottom of your toolbox. Have you ever looked at a function with numerous conditionals buried within and thought ""there has to be a better way""? Well, there is! It's pattern matching!
