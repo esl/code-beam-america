@@ -26,9 +26,18 @@ fields:
   label: twitter
 pages:
 - _participants/Boyd-multerer.md
+- _participants/Christian-Koch.md
+- _participants/David-Ansari-1.md
+- _participants/David-Ansari.md
+- _participants/Elayne-Juten.md
 - _participants/Francesco-cesarini.md
+- _participants/Ian-Butler.md
 - _participants/Jeffrey-matthias.md
 - _participants/Ju-liu.md
+- _participants/Katelynn-Burns.md
+- _participants/Lee-Barney.md
+- _participants/Michal-Kuratczyk.md
+- _participants/Mitchell-Hanberg.md
 - _participants/adam-lancaster.md
 - _participants/adam-tornhill.md
 - _participants/adi-iyengar.md
@@ -46,7 +55,6 @@ pages:
 - _participants/aswin-mohan.md
 - _participants/ben-marx.md
 - _participants/bernardo-amorim.md
-- _participants/bruce-tate.md
 - _participants/bruno-ripa.md
 - _participants/charlotte-deoliveira.md
 - _participants/chris-mccord.md
@@ -62,7 +70,6 @@ pages:
 - _participants/elle-imhoff.md
 - _participants/eric-meadows.md
 - _participants/esteban-ibarra.md
-- _participants/ethan-gunderson.md
 - _participants/evadne-wu.md
 - _participants/fernando-hamasaki-de-amorim.md
 - _participants/frank-hunleth.md
@@ -96,6 +103,7 @@ pages:
 - _participants/mike-martinson.md
 - _participants/nikola-begedin.md
 - _participants/parker-selbert.md
+- _participants/paulo-valente.md
 - _participants/peter-ullrich.md
 - _participants/rafal-studnicki.md
 - _participants/randall-thomas.md
@@ -109,7 +117,6 @@ pages:
 - _participants/simon-de-haan.md
 - _participants/simon-kistler.md
 - _participants/sophie-debenedetto.md
-- _participants/steven-nunez.md
 - _participants/tam-kbeili.md
 - _participants/thomas-orourke.md
 - _participants/tonci-galic.md
@@ -121,4 +128,3 @@ pages:
 - _participants/wiebe-marten-wijnja.md
 - _participants/willian-frantz.md
 - _participants/zac-barnes.md
-- _participants/zack-kayser.md
