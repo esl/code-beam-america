@@ -1,6 +1,6 @@
 ---
 name: Frank Hunleth
-pic_url: "/assets/images/frank-hunleth.jpg"
+pic_url: "/assets/images/frank-hunleth-bw.png"
 tagline: Nerves Co-Author
 github: fhunleth
 twitter: "@fhunleth"
