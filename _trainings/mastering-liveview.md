@@ -4,6 +4,7 @@ experience:
 name: Mastering LiveView (virtual)
 type: tutorial
 trainers:
+- _participants/steven-nunez.md
 - _participants/sophie-debenedetto.md
 
 ---
