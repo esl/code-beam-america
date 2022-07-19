@@ -7,6 +7,7 @@ tags:
 - Performance
 title: RabbitMQ Performance Improvements
 speakers:
+- _participants/Michal-Kuratczyk.md
 - _participants/David-Ansari.md
 published: false
 
