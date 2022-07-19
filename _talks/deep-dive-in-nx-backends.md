@@ -8,7 +8,6 @@ tags:
 title: Deep Dive in Nx Backends
 speakers:
 - _participants/paulo-valente.md
-published: false
 
 ---
 Elixir's Nx library implements its features through a configurable backend structure, in which inputs are dispatched to their respective implementations at runtime. 
