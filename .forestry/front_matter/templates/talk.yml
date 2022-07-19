@@ -62,6 +62,7 @@ pages:
 - _talks/intellij-elixir-works-even-if-your-code-doesn-t.md
 - _talks/introducing-livedata-liveview-for-json-endpoints.md
 - _talks/it-s-a-live-book.md
+- _talks/learn-you-some-pattern-matching-for-great-good.md
 - _talks/lessons-learned-from-elixir-learning-paths.md
 - _talks/love-your-crash-dumps.md
 - _talks/membrane-sfu-bringing-webrtc-to-elixir.md
