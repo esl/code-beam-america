@@ -38,6 +38,7 @@ pages:
 - _trainings/getting-up-to-speed-with-phoenix-and-liveview.md
 - _trainings/going-back-to-devops-roots,-a-real-journey-from-dev-to-production-with-BEAM-apps-(in-person).md
 - _trainings/hands-on-tour-of-nerves-using-livebook-(in-person).md
+- _trainings/instrumenting-elixir-application.md
 - _trainings/introduction-to-liveview-(virtual).md
 - _trainings/oban-101-201-(virtual).md
 - _trainings/phoenix-liveview-from-prototype-to-production.md
