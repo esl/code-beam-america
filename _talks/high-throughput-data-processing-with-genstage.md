@@ -6,7 +6,6 @@ tags:
 title: High Throughput Data Processing with GenStage
 speakers:
 - _participants/Ian-Butler.md
-published: false
 
 ---
 Data processing is a part of many disciplines in technology and as the amount of data you need to process grows so do the techniques you need to be able to safely and speedily ingest that data. Join us as we go through the building blocks Elixir offers to build different ingestion topologies that handle things like backpressure, partitioning, retries, and batching.

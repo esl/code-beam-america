@@ -8,7 +8,6 @@ tags:
 title: How Elixir Helped Me to Love the Back-End
 speakers:
 - _participants/Katelynn-Burns.md
-published: false
 
 ---
 As someone whose main language was Javascript, I used to dread the backend. I would create the bare minimum and then set my focus on the frontend. Now that I use Elixir, however, I love working in the backend. This talk focuses on how Elixir makes the backend easy and intuitive and much less intimidating for anyone who shied away from the backend before.
