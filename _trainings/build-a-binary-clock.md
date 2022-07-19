@@ -4,6 +4,7 @@ experience:
 name: Build a Binary Clock with Elixir, Livebook, and Nerves
 type: tutorial
 trainers:
+- _participants/bruce-tate.md
 - _participants/frank-hunleth.md
 
 ---
