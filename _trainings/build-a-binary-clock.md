@@ -20,6 +20,10 @@ Along the way, you’ll explore:
 
 When you’re done, you’ll get to take your hardware home for more experimentation on your own time.
 
+CHANNEL
+
+in person
+
 DURATION
 
 8 hours
