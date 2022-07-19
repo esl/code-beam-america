@@ -28,6 +28,7 @@ fields:
 pages:
 - _trainings/Architecting-reactive-systems.md
 - _trainings/Why-on-Earth-would-I-test-if-I-have-to-just-Let-it-crash-(virtual).md
+- _trainings/build-a-binary-clock.md
 - _trainings/debugging-a-running-system.md
 - _trainings/distributed-systems-with-riak-core-lite.md
 - _trainings/ecto-everything-you-need-to-know.md
@@ -37,7 +38,9 @@ pages:
 - _trainings/getting-up-to-speed-with-phoenix-and-liveview.md
 - _trainings/going-back-to-devops-roots,-a-real-journey-from-dev-to-production-with-BEAM-apps-(in-person).md
 - _trainings/hands-on-tour-of-nerves-using-livebook-(in-person).md
+- _trainings/instrumenting-elixir-application.md
 - _trainings/introduction-to-liveview-(virtual).md
+- _trainings/mastering-liveview.md
 - _trainings/oban-101-201-(virtual).md
 - _trainings/phoenix-liveview-from-prototype-to-production.md
 - _trainings/rebuild-phoenix-from-scratch.md

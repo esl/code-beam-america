@@ -1,7 +1,7 @@
 ---
 experience:
 - Intermediate
-name: Mastering LiveView (virtual)
+name: Mastering LiveView - virtual tutorial
 type: tutorial
 trainers:
 - _participants/steven-nunez.md
@@ -16,22 +16,22 @@ You’ll get hands-on experience by pairing up with your classmates to iterative
 
 \**
 
-CHANNEL
+**CHANNEL**
 
 Virtual
 
-DURATION
+**DURATION**
 
 8 hours
 
-COURSE OBJECTIVES
+**COURSE OBJECTIVES**
 
 Students will understand how LiveView works under the hood to support real-time, interactive UIs and be prepared to write LiveView professionally by the end of this course.
 
-AUDIENCE
+**AUDIENCE**
 
 Intermediate users
 
-PREREQUISITES
+**PREREQUISITES**
 
 Latest versions of Elixir and Phoenix installed
