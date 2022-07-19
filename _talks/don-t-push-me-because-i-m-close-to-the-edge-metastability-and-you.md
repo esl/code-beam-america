@@ -8,7 +8,6 @@ tags:
 title: Don't Push Me Because I'm Close To The Edge - Metastability And You
 speakers:
 - _participants/Christian-Koch.md
-published: false
 
 ---
 Distributed systems have an emergent property of hidden instability which typically require a confluence of triggers and manifest as black-swan crashes.
