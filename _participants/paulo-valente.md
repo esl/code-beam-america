@@ -1,6 +1,6 @@
 ---
 name: Paulo Valente
-pic_url: ''
+pic_url: "/assets/images/paulo-valente.jpg"
 tagline: Elixir Enthusiast, Nx Maintainer and Tech Leader at Stone Co
 github: ''
 twitter: polvalente
