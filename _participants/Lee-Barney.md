@@ -1,6 +1,6 @@
 ---
 name: Lee Barney
-pic_url: ''
+pic_url: "/assets/images/lee_barney.jpg"
 tagline: Professor of Computer Science, Brigham Young University-Idaho
 github: ''
 twitter: ''
