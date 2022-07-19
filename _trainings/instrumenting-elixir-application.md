@@ -3,7 +3,9 @@ experience:
 - Beginners
 name: Instrumenting Elixir Application
 type: tutorial
-trainers: []
+trainers:
+- _participants/zack-kayser.md
+- _participants/ethan-gunderson.md
 
 ---
 Come learn about the tools and techniques needed to instrument an Elixir application.
