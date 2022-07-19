@@ -1,6 +1,6 @@
 ---
 name: Michal Kuratczyk
-pic_url: "/assets/images/michal_kuratczyk.jpg"
+pic_url: "/assets/images/michal-kuratczyk.jpeg"
 tagline: Staff Engineer, RabbitMQ @ VMware
 github: mkuratczyk
 twitter: MichalKuratczyk
