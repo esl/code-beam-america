@@ -71,6 +71,7 @@ pages:
 - _talks/nerves-and-snmp-just-relax-and-use-it.md
 - _talks/porting-a-big-rails-app-to-elixir-in-two-months.md
 - _talks/q-a-on-liveview.md
+- _talks/rabbitmq-performance-improvements.md
 - _talks/testing-asynchronous-otp.md
 - _talks/the-elixir-journey-convincing-enterprise-to-use-elixir.md
 - _talks/the-pillars-of-metaprogramming-in-elixir.md
