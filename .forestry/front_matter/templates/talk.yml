@@ -58,6 +58,7 @@ pages:
 - _talks/get-your-crud-together.md
 - _talks/getting-to-phoenix-liveview-a-journey-through-nextjs-hasura-faunadb-supabase-rails-and-vanilla-phoenix.md
 - _talks/going-multi-node-with-exunit.md
+- _talks/high-throughput-data-processing-with-genstage.md
 - _talks/intellij-elixir-works-even-if-your-code-doesn-t.md
 - _talks/introducing-livedata-liveview-for-json-endpoints.md
 - _talks/it-s-a-live-book.md
