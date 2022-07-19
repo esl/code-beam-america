@@ -1,6 +1,6 @@
 ---
 name: David Ansari
-pic_url: ''
+pic_url: "/assets/images/david_ansari.jpg"
 tagline: Software Engineer, VMware
 github: ansd
 twitter: david1ansari
