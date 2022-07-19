@@ -8,7 +8,6 @@ tags:
 title: OTP Process Abstractions with Proc_lib
 speakers:
 - _participants/Mitchell-Hanberg.md
-published: false
 
 ---
 Creating your own generic process abstraction can allow developers to focus on their implementation and not worry about boilerplate. Examples of this exist in OTP with \`gen_server\`, in Elixir's Task, and in libraries like Phoenix with Channels. 

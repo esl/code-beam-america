@@ -9,7 +9,6 @@ title: RabbitMQ Performance Improvements
 speakers:
 - _participants/David-Ansari.md
 - _participants/Michal-Kuratczyk.md
-published: false
 
 ---
 This talk starts by providing an overview of RabbitMQ's architecture. Michal and David explain how the Erlang Runtime System is leveraged to implement a scalable message broker.
