@@ -72,6 +72,7 @@ pages:
 - _talks/monitoring-elixir-with-opentelemetry.md
 - _talks/nerves-an-industrialization-journey.md
 - _talks/nerves-and-snmp-just-relax-and-use-it.md
+- _talks/otp-process-abstractions-with-proc_lib.md
 - _talks/porting-a-big-rails-app-to-elixir-in-two-months.md
 - _talks/q-a-on-liveview.md
 - _talks/rabbitmq-performance-improvements.md
