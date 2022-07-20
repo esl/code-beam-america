@@ -9,7 +9,7 @@ speakers:
 - _participants/Elayne-Juten.md
 
 ---
-Move `if` to the bottom of your toolbox. Have you ever looked at a function with numerous conditionals buried within and thought ""there has to be a better way""? Well, there is! It's pattern matching!
+Move if to the bottom of your toolbox. Have you ever looked at a function with numerous conditionals buried within and thought ""there has to be a better way""? Well, there is! It's pattern matching!
 
 This talk will focus on the basics of pattern matching, both how pattern matching works and why we might want to use it to simplify our code structure.
 
