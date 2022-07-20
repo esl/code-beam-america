@@ -2,7 +2,7 @@
 name: Mitchell Hanberg
 pic_url: "/assets/images/mitchell_hanberg.jpg"
 tagline: Senior Software Engineer at Simplebet
-github: ''
+github: mhanberg
 twitter: mitchhanberg
 
 ---
