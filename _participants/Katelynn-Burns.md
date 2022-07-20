@@ -1,6 +1,6 @@
 ---
 name: Katelynn Burns
-pic_url: ''
+pic_url: "/assets/images/katelynn_burns.jpg"
 tagline: Software Engineer at Launch Scout
 github: k-burns
 twitter: ''
