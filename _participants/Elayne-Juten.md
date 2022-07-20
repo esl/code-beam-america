@@ -1,6 +1,6 @@
 ---
 name: Elayne Juten
-pic_url: ''
+pic_url: "/assets/images/elayne_juten.jpg"
 tagline: Software Engineer at Cars.com
 github: ''
 twitter: ''
