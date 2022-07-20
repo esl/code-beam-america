@@ -5,7 +5,7 @@ tags:
 - OTP
 - Abstraction
 - Behavior
-title: OTP Process Abstractions with Proc_lib
+title: OTP Process Abstractions with proc_lib
 speakers:
 - _participants/Mitchell-Hanberg.md
 
