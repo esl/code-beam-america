@@ -27,6 +27,7 @@ fields:
   label: tags
 pages:
 - _keynotes/code-homicide-what-software-developers-can-learn-from-offender-profiling.md
+- _keynotes/formal-verification-no-formal-reasoning.md
 - _keynotes/it-s-alive-instrumenting-phoenix-1.5-with-telemetry-and-livedashboard.md
 - _keynotes/q-a-with-chris-mccord.md
 - _keynotes/security-under-the-beam.md
