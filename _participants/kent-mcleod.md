@@ -1,6 +1,6 @@
 ---
 name: Kent McLeod
-pic_url: ''
+pic_url: "/assets/images/kent_mcleod.jpg"
 tagline: Operating system engineer at Kry10 Limited
 github: ''
 twitter: kentm_t
