@@ -86,3 +86,4 @@ pages:
 - _talks/the-pillars-of-metaprogramming-in-elixir.md
 - _talks/tls-the-otp-way.md
 - _talks/typecheck-effortless-runtime-type-checking.md
+- _talks/typing-with-pixie-dust.md
