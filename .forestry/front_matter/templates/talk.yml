@@ -46,6 +46,7 @@ pages:
 - _talks/config.exs-is-simple-and-other-lies.md
 - _talks/control-node-continuous-delivery-and-orchestration-as-code-for-elixir.md
 - _talks/creating-a-scalable-intent-classifier-with-elixir-python-and-tensorflow.md
+- _talks/crossing-boundaries-with-gleam-from-functions-to-runtime.md
 - _talks/debugging-elixir-code-the-tools-the-mindset.md
 - _talks/deep-dive-in-nx-backends.md
 - _talks/digitalizing-the-steel-industry-with-elixir.md
