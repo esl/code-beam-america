@@ -24,8 +24,8 @@
   link: "training"
 #- name: Diversity
 #  link: "diversity"
-#- name: Volunteer
-#  link: "volunteer"
+- name: Volunteer
+  link: "volunteer"
 - name: Venue
   link: "venue"
 #- name: COVID-19 safety
