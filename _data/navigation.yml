@@ -10,8 +10,8 @@
 #  link: "call-for-tutorials"
 #- name: All Recordings
 #  link: "recordings"
-#- name: Student
-#  link: "student"
+- name: Student
+  link: "student"
 #- name: Public videos
 #  link: "video"
 - name: Speakers
