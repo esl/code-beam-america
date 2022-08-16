@@ -22,8 +22,8 @@
 #  link: schedule
 - name: Training
   link: "training"
-#- name: Diversity
-#  link: "diversity"
+- name: Diversity
+  link: "diversity"
 - name: Volunteer
   link: "volunteer"
 - name: Venue
@@ -36,10 +36,10 @@
 #  link: "shop"
 #- name: Blog
 #  link: "blog"
-- name: Call for Talks
-  link: "cft"
-- name: Programme Committee
-  link: "members"
+#- name: Call for Talks
+#  link: "cft"
+#- name: Programme Committee
+#  link: "members"
 - name: Sponsors
   link: "sponsors"
 - name: Contact
