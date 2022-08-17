@@ -81,6 +81,7 @@ pages:
 - _talks/monitoring-elixir-with-opentelemetry.md
 - _talks/nerves-an-industrialization-journey.md
 - _talks/nerves-and-snmp-just-relax-and-use-it.md
+- _talks/nerves-in-a-cloud-world.md
 - _talks/network-observability-at-linkedin.md
 - _talks/one-liveview-to-rule-them-all-from-web-to-mobile-and-back-again.md
 - _talks/otp-process-abstractions-with-proc_lib.md
