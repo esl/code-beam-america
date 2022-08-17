@@ -39,6 +39,7 @@ pages:
 - _talks/activememory-the-missing-orm-for-ets-and-mnesia.md
 - _talks/architectural-and-codewise-learnings-building-a-successful-elixir-application-1.md
 - _talks/automating-the-automator.md
+- _talks/better-data-access-with-composable-queries.md
 - _talks/bringing-opencv-to-the-elixir-world.md
 - _talks/build-animatronics-with-nerves.md
 - _talks/building-a-block-based-editor-in-phoenix-live-view.md
