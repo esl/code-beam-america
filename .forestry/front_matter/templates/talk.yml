@@ -36,6 +36,7 @@ pages:
 - _talks/a-blueprint-for-intuitive-internal-elixir-ecosystems.md
 - _talks/a-journey-of-eventsourcing-and-cqrs-through-commanded.md
 - _talks/a-safer-elixir.md
+- _talks/activememory-the-missing-orm-for-ets-and-mnesia.md
 - _talks/architectural-and-codewise-learnings-building-a-successful-elixir-application-1.md
 - _talks/automating-the-automator.md
 - _talks/bringing-opencv-to-the-elixir-world.md
