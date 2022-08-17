@@ -80,6 +80,7 @@ pages:
 - _talks/nerves-an-industrialization-journey.md
 - _talks/nerves-and-snmp-just-relax-and-use-it.md
 - _talks/network-observability-at-linkedin.md
+- _talks/one-liveview-to-rule-them-all-from-web-to-mobile-and-back-again.md
 - _talks/otp-process-abstractions-with-proc_lib.md
 - _talks/porting-a-big-rails-app-to-elixir-in-two-months.md
 - _talks/q-a-on-liveview.md
