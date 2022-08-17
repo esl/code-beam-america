@@ -6,6 +6,7 @@ tags: []
 title: Get Your CRUD Together!
 speakers:
 - _participants/andrew-ek.md
+published: false
 
 ---
 Most web applications, at their heart, are CRUD (Create / Read / Update / Destroy) applications wrapped around a database with some business logic mixed in. In a Ruby on Rails application, for instance, ActiveRecord provides us with a pre-built set of functions for working with our records. In Phoenix applications, we have Ecto, but it's much less opinionated, and developers are left to their own devices. In this talk we present some opinions on how to organize these operations using Boundaries, Repos, and Queries.
