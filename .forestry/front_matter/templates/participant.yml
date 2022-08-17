@@ -25,6 +25,7 @@ fields:
   name: twitter
   label: twitter
 pages:
+- _participants/Andrew-moore.md
 - _participants/Boyd-multerer.md
 - _participants/Christian-Koch.md
 - _participants/David-Ansari.md
