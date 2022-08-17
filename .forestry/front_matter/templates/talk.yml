@@ -69,6 +69,7 @@ pages:
 - _talks/going-multi-node-with-exunit.md
 - _talks/high-throughput-data-processing-with-genstage.md
 - _talks/how-elixir-helped-me-to-love-the-back-end.md
+- _talks/infinity-messages-or-how-i-stopped-worrying-and-learned-to-love-the-beam.md
 - _talks/intellij-elixir-works-even-if-your-code-doesn-t.md
 - _talks/introducing-livedata-liveview-for-json-endpoints.md
 - _talks/it-s-a-live-book.md
