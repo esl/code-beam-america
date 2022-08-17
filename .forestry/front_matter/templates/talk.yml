@@ -61,6 +61,7 @@ pages:
 - _talks/elixir-webassembly-and-rust-the-ultimate-hybrid.md
 - _talks/exercism-v3.md
 - _talks/exploring-elixir-project-re-compilation.md
+- _talks/fast-ip-address-matching-in-elixir-with-radix-trees-and-persistent_term.md
 - _talks/freestanding-erlang-porting-beam-close-to-the-metal.md
 - _talks/get-your-crud-together.md
 - _talks/getting-to-phoenix-liveview-a-journey-through-nextjs-hasura-faunadb-supabase-rails-and-vanilla-phoenix.md
