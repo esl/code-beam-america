@@ -1,23 +1,22 @@
 ---
 audience:
-- Intermediate
+- Introductory and overview
 tags:
-- Messaging
-- Oban
-- Broadway
 - Growth
-title: 'Infinity messages, or: How I stopped worrying and learned to love the BEAM'
+- Adoption
+- Maintenance
+- System
+title: 'Good behaviour: cultivating healthy Elixir teams and codebases'
 speakers:
 - _participants/meryl-dakin.md
 
 ---
-This talk is about how our team leveraged the power of Elixir and the Beam to build a high-powered notification system using recursion and processes. We enabled a messaging system to introspect and call itself in order to deliver messages upon messages, putting our confidence in the Beam’s ability to handle concurrency and Elixir libraries to build a stable, powerful new feature on top of our existing infrastructure. We’ll cover how we approached making this build-over-buy decision, the overall architecture of how our own notification engine powers our webhooks, and how we leverage Oban, Broadway, and AWS Kinesis.
+This talk is about how we as Elixir developers and managers can use our tool most effectively. As an Elixir developer who’s worked at three companies at varying stages of using the language, I cover practices of adoption and maintainability I’ve seen work best. We’ll look at an organization adopting it for microservices, a legacy codebase rebuilt from Ruby, and a startup using Elixir for its greenfield application. We’ll delve into best practices around testing, context organization, macros, Ecto, and more. IC’s and managers will come away with tangible strategies to develop processes and organize their work so the codebase remains flexible and coherent for the future of the product.
 
 OBJECTIVES
 
-* Introduce a case study on messaging systems
-* Discuss async message processing and concurrency in the BEAM and Elixir libraries
+To share best practices with organizations and individuals at any level of Elixir adoption to maintain a healthy codebase and aligned team
 
 AUDIENCE
 
-Those interested in messaging systems, Oban and Broadway, and technical decision-making
+Elixir enthusiasts who are encouraging adoption on their team, developers on legacy codebases looking at how to standardize, managers working to onboard IC’s new to Elixir, anyone interested in best practices on production Elixir applications
