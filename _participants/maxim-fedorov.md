@@ -1,6 +1,6 @@
 ---
 name: Maxim Fedorov
-pic_url: "/assets/images/maxim-fedorov-cba.png"
+pic_url: "/assets/images/maxim-fedorov-codebeam-sf.jpg"
 tagline: Performance & Scalability Engineer
 github: max-au
 twitter: ''
