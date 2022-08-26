@@ -6,7 +6,9 @@ tags:
 - Refactoring,
 - LanguageServerProtocol
 title: Refactoring via the Language Server Protocol
-speakers: []
+speakers:
+- _participants/dominik-katko.md
+- _participants/simon-thompson.md
 
 ---
 Refactoring is the process of improving code without changing what it does, and is typically supported in tools such as Wrangler for Erlang. The Language Server Protocol (LSP) allows tools like this to be integrated in a variety of editors, including VS Code, emacs and vim, and the Erlang Language Server (ELS) provides an integration of Erlang into LSP. 
