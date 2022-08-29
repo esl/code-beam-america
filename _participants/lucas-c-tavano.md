@@ -2,7 +2,7 @@
 name: Lucas C. Tavano
 pic_url: "/assets/images/lucas_c-_tavano.jpg"
 tagline: Elixir Software Engineer
-github: ''
+github: sallaumen
 twitter: ''
 
 ---
