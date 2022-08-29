@@ -2,7 +2,7 @@
 name: Adolfo Neto
 pic_url: "/assets/images/adolfo_neto.jpg"
 tagline: Creator and co-host of Elixir Em Foco Podcast
-github: ''
+github: adolfont
 twitter: adolfont
 
 ---
