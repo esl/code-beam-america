@@ -33,6 +33,7 @@ pages:
 - _keynotes/security-under-the-beam.md
 - _keynotes/surviving-your-first-big-customer-as-a-startup.md
 - _keynotes/using-elixir-and-whatsapp-to-launch-who-s-global-covid-19-response.md
+- _keynotes/we-are-stronger-together.md
 - _talks/a-blueprint-for-intuitive-internal-elixir-ecosystems.md
 - _talks/a-journey-of-eventsourcing-and-cqrs-through-commanded.md
 - _talks/a-safer-elixir.md
@@ -103,4 +104,3 @@ pages:
 - _talks/tls-the-otp-way.md
 - _talks/typecheck-effortless-runtime-type-checking.md
 - _talks/typing-with-pixie-dust.md
-- _talks/we-are-stronger-together.md
