@@ -9,6 +9,7 @@ tags:
 title: Testing Asynchronous OTP
 speakers:
 - _participants/andrea-leopardi.md
+published: false
 
 ---
 Testing the functional side of Elixir is great. The mix of immutable data, pure functions, and ExUnit make for a streamlined testing experience.  
