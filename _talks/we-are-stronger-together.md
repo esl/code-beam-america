@@ -8,6 +8,7 @@ tags:
 title: We are stronger together
 speakers:
 - _participants/maxim-fedorov.md
+- _participants/andrea-leopardi.md
 
 ---
 There are more than 30 languages running on the BEAM, and over a dozen of Erlang VM implementations. Bright minds spending countless hours adding pieces to the puzzle. How does it contribute to ecosystem success?  
