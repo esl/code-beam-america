@@ -28,6 +28,8 @@
   link: "volunteer"
 - name: Venue
   link: "venue"
+- name: Hogels
+  link: "hogels"
 #- name: COVID-19 safety
 #  link: "covid-19"
 #- name: Hybrid
