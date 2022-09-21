@@ -1,12 +1,16 @@
 .hotels
+    width: 100%
     h3
         width: 100%
     .row
+        display: flex
+        flex-wrap: wrap
         .col
-            padding: 1em
-            width: 25%
+            padding: 0 1em 3em 1em
+            width: 100%
             h4
-                height: 9em
+                height: auto
+                margin-bottom: 3em
                 a
                     font-size: 1.5em
                     font-weight: 600
@@ -16,5 +20,44 @@
                     font-weight: 600
             a
                 margin-bottom: .6em
+    @media only screen and (min-width: 926px)
+        .row
+            display: flex
+            flex-wrap: wrap
+            .col
+                padding: 0 1em 3em 1em
+                width: 50%
+                h4
+                    height: auto
+                    margin-bottom: 3em
+                    a
+                        font-size: 1.5em
+                        font-weight: 600
+                p
+                    margin-bottom: 1em
+                    b
+                        font-weight: 600
+                a
+                    margin-bottom: .6em
+    @media only screen and (min-width: 1240px)
+        .row
+            display: flex
+            flex-wrap: wrap
+            .col
+                max-width: 23em
+                padding: 1em
+                width: 25%
+                h4
+                    height: 9em
+                    a
+                        font-size: 1.5em
+                        font-weight: 600
+                p
+                    margin-bottom: 1em
+                    b
+                        font-weight: 600
+                a
+                    margin-bottom: .6em
+
 
                 
