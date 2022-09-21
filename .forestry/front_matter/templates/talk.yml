@@ -65,6 +65,7 @@ pages:
 - _talks/diving-into-ecto.query.md
 - _talks/doing-weird-things-with-ecto.md
 - _talks/don-t-push-me-because-i-m-close-to-the-edge-metastability-and-you.md
+- _talks/elixir-update.md
 - _talks/elixir-webassembly-and-rust-the-ultimate-hybrid.md
 - _talks/exercism-v3.md
 - _talks/exploring-elixir-project-re-compilation.md
