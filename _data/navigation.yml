@@ -14,12 +14,12 @@
   link: "student"
 #- name: Public videos
 #  link: "video"
+- name: Schedule
+  link: schedule
 - name: Speakers
   link: "keynotes"
 - name: Trainers
   link: "trainers"
-#- name: Schedule
-#  link: schedule
 - name: Training
   link: "training"
 - name: Diversity
