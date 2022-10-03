@@ -8,6 +8,7 @@ tags:
 - Web/Cloud
 title: 'One LiveView to Rule Them All: From Web to Mobile and Back Again'
 speakers:
+- _participants/parker-rueve.md
 - _participants/Andrew-moore.md
 
 ---
