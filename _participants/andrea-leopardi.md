@@ -1,5 +1,5 @@
 ---
-pic_url: "/assets/images/andrea-leopardi-bw.jpeg"
+pic_url: "/assets/images/andrea-leopardi_.jpg"
 name: Andrea Leopardi
 tagline: Elixir Core Team Member
 github: whatyouhide
