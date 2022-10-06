@@ -1,6 +1,6 @@
 ---
 name: Dominik Katkó
-pic_url: "/assets/images/dominik-katko.jpg"
+pic_url: "/assets/images/dominik.jpeg"
 tagline: Computer Science student
 github: ''
 twitter: ''
