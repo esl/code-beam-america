@@ -92,6 +92,7 @@ pages:
 - _talks/network-observability-at-linkedin.md
 - _talks/one-liveview-to-rule-them-all-from-web-to-mobile-and-back-again.md
 - _talks/otp-process-abstractions-with-proc_lib.md
+- _talks/otp-update.md
 - _talks/panel-discussion-erlang-all-the-things.md
 - _talks/porting-a-big-rails-app-to-elixir-in-two-months.md
 - _talks/q-a-on-liveview.md
