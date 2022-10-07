@@ -5,6 +5,7 @@ tags:
 - BEAM
 title: 'Freestanding Erlang: Porting BEAM close to the metal'
 speakers:
+- _participants/Ihor-kuz.md
 - _participants/kent-mcleod.md
 
 ---
