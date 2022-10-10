@@ -1,6 +1,6 @@
 ---
 name: Christian Koch
-pic_url: "/assets/images/christian_koch.png"
+pic_url: "/assets/images/0e8b561d4eb6b384d0db279a4ee1c6e2fc1a22a4.jpeg"
 tagline: Christian Koch, Senior Engineer, cars.com
 github: ''
 twitter: ckochx
