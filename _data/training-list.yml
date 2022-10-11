@@ -1,14 +1,8 @@
 ---
 trainings:
 - training: _trainings/mastering-liveview.md
-  start: 2022-11-01 16:00:00 +0000
-  end: 2022-11-02 00:00:00 +0000
-- training: _trainings/instrumenting-elixir-application.md
-  start: 2022-11-02 16:00:00 +0000
-  end: 2022-11-03 00:00:00 +0000
-- training: _trainings/build-a-binary-clock.md
-  start: 2022-11-02 16:00:00 +0000
-  end: 2022-11-03 00:00:00 +0000
+  start: 2022-11-01T16:00:00.000+00:00
+  end: 2022-11-02T00:00:00.000+00:00
 - training: _trainings/Architecting-reactive-systems.md
-  start: 2022-11-02 16:00:00 +0000
-  end: 2022-11-02 20:00:00 +0000
+  start: 2022-11-02T16:00:00.000+00:00
+  end: 2022-11-02T20:00:00.000+00:00
