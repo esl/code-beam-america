@@ -91,6 +91,7 @@ pages:
 - _talks/nerves-and-snmp-just-relax-and-use-it.md
 - _talks/nerves-in-a-cloud-world.md
 - _talks/network-observability-at-linkedin.md
+- _talks/on-the-way-to-achieve-autonomous-node-communication-in-the-elixir-ecosystem.md
 - _talks/one-liveview-to-rule-them-all-from-web-to-mobile-and-back-again.md
 - _talks/otp-process-abstractions-with-proc_lib.md
 - _talks/otp-update.md
