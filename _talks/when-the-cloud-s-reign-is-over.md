@@ -1,6 +1,8 @@
 ---
-audience: []
-tags: []
+audience:
+- Introductory and overview
+tags:
+- Cloud
 title: When the Cloud's Reign is Over
 speakers:
 - _participants/nicholas-adams.md
