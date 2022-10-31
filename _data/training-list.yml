@@ -1,8 +1,5 @@
 ---
 trainings:
-- training: _trainings/mastering-liveview.md
-  start: 2022-11-01T16:00:00.000+00:00
-  end: 2022-11-02T00:00:00.000+00:00
 - training: _trainings/Architecting-reactive-systems.md
   start: 2022-11-02T16:00:00.000+00:00
   end: 2022-11-02T20:00:00.000+00:00
