@@ -10,22 +10,22 @@
 #  link: "call-for-tutorials"
 #- name: All Recordings
 #  link: "recordings"
-- name: Student
-  link: "student"
+# name: Student
+#  link: "student"
 #- name: Public videos
 #  link: "video"
 - name: Schedule
   link: schedule
 - name: Speakers
   link: "keynotes"
-- name: Trainers
-  link: "trainers"
-- name: Training
-  link: "training"
+# name: Trainers
+#  link: "trainers"
+# name: Training
+#  link: "training"
 - name: Diversity
   link: "diversity"
-- name: Volunteer
-  link: "volunteer"
+# name: Volunteer
+#  link: "volunteer"
 - name: Venue
   link: "venue"
 - name: Hotels
