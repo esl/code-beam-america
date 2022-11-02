@@ -4,10 +4,10 @@ tags:
 - Keynote
 title: 'Panel discussion: Erlang all the things!'
 speakers:
+- _participants/andy-king.md
 - _participants/randall-thomas.md
 - _participants/amos-king.md
 - _participants/Boyd-multerer.md
-- _participants/bruce-tate.md
 - _participants/frank-hunleth.md
 
 ---
