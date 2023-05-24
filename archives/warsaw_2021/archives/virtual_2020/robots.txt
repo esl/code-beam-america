@@ -1,1 +1,0 @@
-Sitemap: https://virtual.elixirconf.eu/sitemap.xml
