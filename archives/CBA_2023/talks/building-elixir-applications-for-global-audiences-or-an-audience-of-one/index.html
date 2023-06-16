@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+  <title>Code BEAM America</title>
+  <meta content="width=device-width" name="viewport" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="description" content="Welcome to Code BEAM America, a conference organised by Code Sync. Code BEAM America is the premiere Erlang and Elixir conference in America, bringing the best speakers in the community together, for two days of first-rate BEAM-related talks and two days of tutorials.
+" />
+  <link
+    rel="canonical"
+    href="http://0.0.0.0:4000/talks/building-elixir-applications-for-global-audiences-or-an-audience-of-one/"
+  />
+  <link rel="stylesheet" href="/assets/css/styles.css">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=UA-44973668-1"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "UA-44973668-1");
+  </script>
+  
+  <!-- Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != "dataLayer" ? "&l=" + l : "";
+      j.async = true;
+      j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, "script", "dataLayer", "GTM-NZK2LB5");
+  </script>
+  <!-- End Google Tag Manager -->
+
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Building Elixir applications for global audiences - or an audience of one | Code BEAM America</title>
+<meta name="generator" content="Jekyll v4.3.2" />
+<meta property="og:title" content="Building Elixir applications for global audiences - or an audience of one" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Localising applications in Elixir for global audiences - or just an audience of one - doesn’t have to be difficult. In this session, we’ll define some design patterns and workflows using common Elixir libraries to build a simple e-commerce application showing how localisation can improve user experience and deliver better audience engagement." />
+<meta property="og:description" content="Localising applications in Elixir for global audiences - or just an audience of one - doesn’t have to be difficult. In this session, we’ll define some design patterns and workflows using common Elixir libraries to build a simple e-commerce application showing how localisation can improve user experience and deliver better audience engagement." />
+<link rel="canonical" href="http://0.0.0.0:4000/talks/building-elixir-applications-for-global-audiences-or-an-audience-of-one/" />
+<meta property="og:url" content="http://0.0.0.0:4000/talks/building-elixir-applications-for-global-audiences-or-an-audience-of-one/" />
+<meta property="og:site_name" content="Code BEAM America" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2023-06-16T08:30:50+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Building Elixir applications for global audiences - or an audience of one" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-06-16T08:30:50+00:00","datePublished":"2023-06-16T08:30:50+00:00","description":"Localising applications in Elixir for global audiences - or just an audience of one - doesn’t have to be difficult. In this session, we’ll define some design patterns and workflows using common Elixir libraries to build a simple e-commerce application showing how localisation can improve user experience and deliver better audience engagement.","headline":"Building Elixir applications for global audiences - or an audience of one","mainEntityOfPage":{"@type":"WebPage","@id":"http://0.0.0.0:4000/talks/building-elixir-applications-for-global-audiences-or-an-audience-of-one/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://0.0.0.0:4000/assets/images/logo2022.png"}},"url":"http://0.0.0.0:4000/talks/building-elixir-applications-for-global-audiences-or-an-audience-of-one/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  <!--Remove image dragging -->
+  <body ondragstart="return false;" ondrop="return false;">
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="/assets/font-awesome/css/font-awesome.min.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Kaushan+Script"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Karla:400,400i,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400i,700i"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- WEBSITE ICON IN BROWSER -->
+    <!-- <link href="/css/2016_style/img/icon.png" rel="icon" type="image/png"> -->
+  </body>
+  <script>
+    (function () {
+      window.ldfdr = window.ldfdr || {};
+      (function (d, s, ss, fs) {
+        fs = d.getElementsByTagName(s)[0];
+        function ce(src) {
+          var cs = d.createElement(s);
+          cs.src = src;
+          setTimeout(function () {
+            fs.parentNode.insertBefore(cs, fs);
+          }, 1);
+        }
+        ce(ss);
+      })(
+        document,
+        "script",
+        "https://sc.lfeeder.com/lftracker_v1_bElvO73DxJE4ZMqj.js"
+      );
+    })();
+  </script>
+  <!-- Hotjar Tracking Code for www.elixirconf.eu -->
+  <!-- <script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1678389,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script> -->
+</head>
+
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KRSPKJ3" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    </div>
+    <nav class="navbar-fixed-top navbar-speaker">
+    <a class="logo" href="/"></a>
+    <ul class="nav">
+        <li>
+            <a href="/">Home</a>
+        </li>
+    </ul>
+</nav>
+    <div class="training-content">
+        <div class="training-card">
+            <div class="training-head">
+                <div class="training-col">
+                    <h1 class="training-name">
+                        Building Elixir applications for global audiences - or an audience of one
+                    </h1>
+
+                    
+
+                    <div class="training-info">
+                        
+                        <p><strong>Speaker:</strong><br> <a
+                                href="/participants/kip-cole/">Kip Cole</a></p>
+                        <br>
+                        
+                    </div>
+                    <div class="training-info">
+                        <p><strong>Abstract:</strong></p>
+                        <div class="content">
+                            <p>Localising applications in Elixir for global audiences - or just an audience of one - doesn’t have to be difficult. In this session, we’ll define some design patterns and workflows using common Elixir libraries to build a simple e-commerce application showing how localisation can improve user experience and deliver better audience engagement.</p>
+
+<p><strong>Talk objectives:</strong></p>
+
+<ul>
+  <li>Show that building localised applications for global audiences - or just an audience of one - can be as easy as building non-localised applications.</li>
+  <li>Demonstrate these techniques and tools by building a simple e-commerce system during the session.</li>
+  <li>Illustrate simple design patterns and workflows to make localisation simple and fun.</li>
+</ul>
+
+<p><strong>Target audience:</strong></p>
+
+<ul>
+  <li>Developers looking to deliver improved user experience, who recognise that respecting users preferences (like language, formats, …) improves audience engagement and delivers better outcomes.</li>
+</ul>
+
+                        </div>
+                    </div>
+                    <div class="training-info">
+                        <p><strong>Audience:</strong><br> intermediate,proficient</p>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer" id="footer">
+  <div class="social-icons">
+    <a href="https://www.youtube.com/c/CodeSync" target="_blank">
+      <svg
+        aria-hidden="true"
+        data-prefix="fab"
+        data-icon="youtube"
+        class="svg-inline--fa fa-youtube fa-w-18"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 576 512"
+      >
+        <path
+          fill="#e32dfd"
+          d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"
+        ></path>
+      </svg>
+    </a>
+    <a href="https://twitter.com/codebeamio?lang=en" target="_blank">
+      <svg
+        aria-hidden="true"
+        data-prefix="fab"
+        data-icon="twitter"
+        class="svg-inline--fa fa-twitter fa-w-16"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 512 512"
+      >
+        <path
+          fill="#e32dfd"
+          d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+        ></path>
+      </svg>
+    </a>
+    <a href="https://www.linkedin.com/company/code-sync/" target="_blank">
+      <svg
+        aria-hidden="true"
+        data-prefix="fab"
+        data-icon="linkedin-in"
+        class="svg-inline--fa fa-linkedin-in fa-w-14"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 512 512"
+      >
+        <path
+          fill="#e32dfd"
+          d="M100.3 448H7.4V148.9h92.9V448zM53.8 108.1C24.1 108.1 0 83.5 0 53.8S24.1 0 53.8 0s53.8 24.1 53.8 53.8-24.1 54.3-53.8 54.3zM448 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448h-.1z"
+        ></path>
+      </svg>
+    </a>
+  </div>
+  <hr />
+  <p>All Rights Reserved</p>
+  <p>
+    <strong>Code Sync</strong>
+    © 2022 Copyright
+  </p>
+  <p>
+    <strong>Organised by</strong>
+    <a href="https://codesync.global">Code Sync</a> powered by <a href="https://www.erlang-solutions.com/?utm_source=elixirconf&utm_medium=referral">Erlang Solutions</a>
+  </p>
+
+  <p>
+    <br />
+      View
+      <a href="https://codesync.global/terms_and_conditions/"> Terms of use</a>
+      |
+      <a href="https://codesync.global/about-us/#Conduct"> Code of Conduct</a>
+      |
+      <a href="https://codesync.global/privacy_policy/"> Privacy Policy</a>
+
+  </p>
+</div>
+
+    <!-- jQuery Version 1.11.0 -->
+<script src="/assets/js/jquery-1.11.0.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/assets/js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="/assets/js/jquery.easing.min.js"></script>
+<script src="/assets/js/classie.js"></script>
+<script src="/assets/js/cbpAnimatedHeader.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/assets/js/agency.js"></script>
+
+<!-- Owl Carousel -->
+<script src="/assets/js/carousel.min.js" charset="utf-8"></script>
+
+<!-- Parallaxing & SmoothScroll -->
+<script src="/assets/js/scrollax.min.js" charset="utf-8"></script>
+
+
+
+<!-- Main JS -->
+<script src="/assets/js/main.js" charset="utf-8"></script>
+<script type="text/javascript">
+piAId = '24452';
+piCId = '63005';
+piHostname = 'pi.pardot.com';
+
+(function() {
+function async_load(){
+var s = document.createElement('script'); s.type = 'text/javascript';
+s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+}
+if(window.attachEvent) { window.attachEvent('onload', async_load); }
+else { window.addEventListener('load', async_load, false); }
+})();
+</script>
+
+</body>
+
+</html>
