@@ -1,6 +1,6 @@
 title: Code BEAM America
 description: > # this means to ignore newlines until "baseurl:"
-  Welcome to Code BEAM America, a conference organised by Code Sync. Code BEAM America is the premiere Erlang and Elixir conference in America, bringing the best speakers in the community together, for two days of first-rate BEAM-related talks and two days of tutorials.
+  Welcome to Code BEAM America, a conference organised by Code Sync. This is the premiere Erlang and Elixir conference in America, bringing the best speakers in the community together, for two days of first-rate BEAM-related talks and two days of tutorials.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://codebeamamerica.com" # the base hostname & protocol for your site
 
@@ -87,7 +87,7 @@ defaults:
 # Google Map JS api
 # This is my api for this template
 key-api: AIzaSyBf-F7nBzxi_73uI9QUxRQ-cNihYtlZ_AA
-map-text: Computer History Museum
-map-text-location: 41401 N Shoreline Blvd, Mountain View, CA 94043
-map-lat: 37.4145135
-map-lng: -122.0787026
+map-text: Marines Memorial Club & Hotel
+map-text-location: 609 Sutter Street, San Francisco, CA 94102
+map-lat: 37.788690
+map-lng: -122.410430
