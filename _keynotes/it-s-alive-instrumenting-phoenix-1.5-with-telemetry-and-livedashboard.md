@@ -7,7 +7,6 @@ tags:
 - Telementry
 title: 'Telemetry and LiveDashboard: Elixir Ecosystem Superpowers'
 speakers:
-- _participants/sophie-debenedetto.md
 
 ---
 Phoenix 1.5 is here and it comes powered up with out-of-the-box instrumentation and visualization thanks to Telemetry and Live Dashboard.
