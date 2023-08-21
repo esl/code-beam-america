@@ -4,8 +4,6 @@ experience:
 name: Mastering LiveView - virtual tutorial
 type: tutorial
 trainers:
-- _participants/steven-nunez.md
-- _participants/sophie-debenedetto.md
 
 ---
 LiveView empowers developers and teams to be highly productive by keeping your brain firmly focused on the server-side. Backed by OTP, it brings a fast and fault-tolerant UI to your web apps and enables you to build complex interactive and real-time features easily. In this training, you’ll master the tools you need to be a productive LiveView developer.
