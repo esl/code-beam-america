@@ -40,8 +40,8 @@
 #  link: "blog"
 #- name: Call for Talks
 #  link: "cft"
-#- name: Programme Committee
-#  link: "members"
+- name: Programme Committee
+  link: "members"
 - name: Sponsors
   link: "sponsors"
 - name: Contact
