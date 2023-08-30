@@ -6,7 +6,7 @@
   link: "cft"
 # name: Register
 #  link: "register"
-name: Waiting List
+- name: Waiting List
 link: "newsletter"
 - name: Call for Tutorials
   link: "call-for-tutorials"
