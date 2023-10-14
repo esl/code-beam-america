@@ -1,5 +1,5 @@
 title: Code BEAM America
-description: > # this means to ignore newlines until "baseurl:"
+description:  # this means to ignore newlines until "baseurl:"
 Welcome to Code BEAM America - the Erlang and Elixir conference in the US. Binging the best speakers in the community together, for two days of first-rate BEAM-related talks and two days of tutorials.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://codebeamamerica.com" # the base hostname & protocol for your site
