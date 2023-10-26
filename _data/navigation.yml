@@ -19,7 +19,7 @@
 #- name: Schedule
 #  link: schedule
 - name: Speakers
-  link: "keynotes"
+  link: "speakers"
 # name: Trainers
 #  link: "trainers"
 #- name: Training
