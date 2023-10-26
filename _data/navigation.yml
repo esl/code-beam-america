@@ -34,14 +34,14 @@
 #  link: "hotels"
 #- name: COVID-19 safety
 #  link: "covid-19"
-- name: Hybrid
-  link: "hybrid"
+# name: Hybrid
+#  link: "hybrid"
 #- name: E-SHOP
 #  link: "shop"
 #- name: Blog
 #  link: "blog"
-- name: Programme Committee
-  link: "members"
+#- name: Programme Committee
+#  link: "members"
 - name: Sponsors
   link: "sponsors"
 - name: Contact
