@@ -18,8 +18,8 @@
 #  link: "video"
 #- name: Schedule
 #  link: schedule
-#- name: Speakers
-#  link: "keynotes"
+- name: Speakers
+  link: "keynotes"
 # name: Trainers
 #  link: "trainers"
 #- name: Training
@@ -28,20 +28,20 @@
 #  link: "diversity"
 # name: Volunteer
 #  link: "volunteer"
-#- name: Venue & Hotel
-#  link: "venue"
+- name: Venue & Hotel
+  link: "venue"
 # name: Hotels
 #  link: "hotels"
 #- name: COVID-19 safety
 #  link: "covid-19"
-#- name: Hybrid
-#  link: "hybrid"
+- name: Hybrid
+  link: "hybrid"
 #- name: E-SHOP
 #  link: "shop"
 #- name: Blog
 #  link: "blog"
-#- name: Programme Committee
-#  link: "members"
+- name: Programme Committee
+  link: "members"
 - name: Sponsors
   link: "sponsors"
 - name: Contact
