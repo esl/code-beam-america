@@ -1,23 +1,20 @@
 ---
 trainers:
-- _participants/bruce-tate.md
+- _participants/sasa-juric.md
 event_date: 6 March
 venue: Marines' Memorial Club & Hotel
 experience:
 - Intermediate
 type: in-person full-day tutorial
-title: Breakdown: Designing Better LiveView Components
-summary: Break down your LiveViews! If you want to design good live views, you need to know the tools. That means building layered software with components. You can make the most of Phoenix LiveView by understanding the tools at your disposal: live components and function components.
+title: Practical testing with Elixir (and Phoenix)
+summary: This tutorial teaches a practical testing approach which maximizes the value you can get out of your tests in real-life collaborative Elixir projects.
 published: true
 
 ---
-Break down your LiveViews! If you want to design good live views, you need to know the tools. That means building layered software with components. You can make the most of Phoenix LiveView by understanding the tools at your disposal: live components and function components.
+This tutorial teaches a practical testing approach which maximizes the value you can get out of your tests in real-life collaborative Elixir projects. You'll learn how to increase the confidence in your tests, organically maximize coverage, and improve the test clarity. This is going to be a very interactive and hands-on session involving a lot of coding and discussions. You'll be writing tests for a Phoenix-powered Elixir web server, so it is expected you are familiar with Elixir, Phoenix, and Ecto.
 
 **OBJECTIVES:**
-* Explore LiveView components including directives, and slots.
-* Understand how to layer code to best take advantage of components.
-* Know when to employ stateful components, and when to leave logic and state in the parent view.
-* Decorate LiveViews with the proper type and slot macros.
+Get the most out of your tests with the least amount of the test code
 
 **PREREQUISITES:**
-Must know Elixir. Some LiveView experience is preferred but not required.
+Familiarity with Erlang, Elixir, Phoenix, and ExUnit. Attendees also need to bring a working machine with Erlang and Elixir installed, and an IDE of their choice.
