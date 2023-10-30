@@ -1,11 +1,14 @@
 ---
 trainings:
-- training: _trainings/breakdown-designing-better-liveview-components.md
-  start: 2024-03-06T17:00:00.000+00:00
-  end: 2024-03-07T01:00:00.000+00:00
 - training: _trainings/everything-you-always-wanted-to-know-about-testing-on-the-beam.md
   start: 2024-03-05T17:00:00.000+00:00
   end: 2024-03-05T21:00:00.000+00:00
 - training: _trainings/elixir-security.md
   start: 2024-03-05T17:00:00.000+00:00
   end: 2024-03-05T21:00:00.000+00:00
+- training: _trainings/breakdown-designing-better-liveview-components.md
+  start: 2024-03-06T17:00:00.000+00:00
+  end: 2024-03-07T01:00:00.000+00:00
+- training: _trainings/practical-testing-with-elixir-and-phoenix.md
+  start: 2024-03-06T17:00:00.000+00:00
+  end: 2024-03-07T01:00:00.000+00:00
