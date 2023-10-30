@@ -6,7 +6,7 @@ venue: online
 experience:
 - Beginner
 type: virtual half-day tutorial
-title: Everything you always wanted to know about testing on the BEAM
+title: Everything you always wanted to know about testing on the BEAM (online)
 summary: You will leave the training with a new-found (or a reinvigorated) passion for testing, and with more tools in your repertoire to catch bugs in the future to come!
 published: true
 
