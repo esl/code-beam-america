@@ -12,3 +12,6 @@ trainings:
 - training: _trainings/practical-testing-with-elixir-and-phoenix.md
   start: 2024-03-06T17:00:00.000+00:00
   end: 2024-03-07T01:00:00.000+00:00
+- training: _trainings/beam-vm-under-the-hood.md
+  start: 2024-03-06T17:00:00.000+00:00
+  end: 2024-03-07T01:00:00.000+00:00
