@@ -3,3 +3,6 @@ trainings:
 - training: _trainings/breakdown-designing-better-liveview-components.md
   start: 2024-03-06T09:00:00.000+00:00
   end: 2024-03-06T17:00:00.000+00:00
+- training: _trainings/everything-you-always-wanted-to-know-about-testing-on-the-beam.md
+  start: 2024-03-05T09:00:00.000+00:00
+  end: 2024-03-05T13:00:00.000+00:00
