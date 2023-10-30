@@ -6,7 +6,7 @@ venue: Marines' Memorial Club & Hotel
 experience:
 - Intermediate
 type: in-person full-day tutorial
-title: Breakdown - Designing Better LiveView Components
+title: Breakdown: Designing Better LiveView Components
 summary: Break down your LiveViews! If you want to design good live views, you need to know the tools. That means building layered software with components. You can make the most of Phoenix LiveView by understanding the tools at your disposal: live components and function components.
 published: true
 
