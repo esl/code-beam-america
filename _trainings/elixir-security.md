@@ -8,7 +8,7 @@ experience:
 - Intermediate
 - Advanced
 type: virtual half-day tutorial
-title: Elixir Security
+title: Elixir Security (online)
 summary: This training will be an introduction to the web application security concepts most relevant to Elixir applications, common vulnerabilities, and recommended best practices.
 published: true
 
