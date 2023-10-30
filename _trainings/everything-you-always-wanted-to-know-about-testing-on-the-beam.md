@@ -27,8 +27,8 @@ To conclude, we’ll shift our attention to Property-Based Testing and we’ll t
 
 You will leave the training with a new-found (or a reinvigorated) passion for testing, and with more tools in your repertoire to catch bugs in the future to come!
 
-OBJECTIVES:
+**OBJECTIVES:**
 Through this training, the students will learn everything they need to know in order to start writing well-tested and, therefore, more maintainable Erlang systems.
 
-PREREQUISITES:
+**PREREQUISITES:**
 Students need to have Erlang 25+, rebar3.20+, and their favourite text editor installed on their machines. Although we’ll start with the basics, it’s recommended to be at least a little familiar with the Erlang compiler and shell, as well as rebar3.
