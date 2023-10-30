@@ -17,14 +17,12 @@ When deploying your Elixir/Phoenix application, it seems like there is a never e
 
 This training will be an introduction to the web application security concepts most relevant to Elixir applications, common vulnerabilities, and recommended best practices.
 
-1 Introduce web application security vulnerabilities, and how they occur in Elixir applications
+* Introduce web application security vulnerabilities, and how they occur in Elixir applications
+* Show vulnerable code in Elixir/Phoenix, and have students run the code locally to understand how it works
+* Demonstrate tools to prevent and fix these vulnerabilities
 
-2 Show vulnerable code in Elixir/Phoenix, and have students run the code locally to understand how it works
-
-3 Demonstrate tools to prevent and fix these vulnerabilities
-
-OBJECTIVES:
+**OBJECTIVES:**
 Give students the necessary knowledge to keep their applications safe from attack.
 
-PREREQUISITES:
+**PREREQUISITES:**
 [https://github.com/securityelixir/potion_shop](https://github.com/securityelixir/potion_shop)
