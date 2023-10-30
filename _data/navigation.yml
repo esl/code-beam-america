@@ -7,7 +7,7 @@
 # name: Call for Talks
 #  link: "cft"
 - name: Register
--  link: "register"
+  link: "register"
 # name: Call for Tutorials
 #  link: "call-for-tutorials"
 #- name: All Recordings
@@ -35,7 +35,7 @@
 #- name: COVID-19 safety
 #  link: "covid-19"
 - name: Hybrid
--  link: "hybrid"
+  link: "hybrid"
 #- name: E-SHOP
 #  link: "shop"
 #- name: Blog
