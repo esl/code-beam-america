@@ -8,7 +8,7 @@ experience:
 - Intermediate
 - Advanced
 type: virtual half-day tutorial
-title: Everything you always wanted to know about testing on the BEAM
+title: Elixir Security
 summary: This training will be an introduction to the web application security concepts most relevant to Elixir applications, common vulnerabilities, and recommended best practices.
 published: true
 
