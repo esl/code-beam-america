@@ -18,3 +18,6 @@ OBJECTIVES:
 - Understand how to layer code to best take advantage of components.
 - Know when to employ stateful components, and when to leave logic and state in the parent view.
 - Decorate LiveViews with the proper type and slot macros.
+
+PREREQUISITES:
+Must know Elixir. Some LiveView experience is preferred but not required. 
