@@ -6,6 +6,7 @@ type: tutorial
 trainers:
 - _participants/bruce-tate.md
 - _participants/frank-hunleth.md
+published: false
 
 ---
 Build your own binary clock with Elixir, Livebook, and Nerves. A binary clock is a puzzle for viewers that cryptically represents time using individual LED lights instead of digital numbers. Rather than building an LED circuit yourself, you’ll use a custom printed circuit board custom-built to power the clock. Building the clock in this way gives us a greater opportunity to explore layered design concepts.
