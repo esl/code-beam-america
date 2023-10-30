@@ -1,6 +1,6 @@
 ---
 name: Michael Lubas
-pic_url: "/assets/images/0e8b561d4eb6b384d0db279a4ee1c6e2fc1a22a4.jpeg"
+pic_url: "/assets/images/michael-lubas.jpg"
 tagline: Paraxial.io Founder
 github: ''
 twitter: paraxialio
