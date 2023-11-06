@@ -1,6 +1,6 @@
 ---
 name: Kathy Rodante
-pic_url: "/assets/images/Kathy_Rodante.jpg"
+pic_url: "/assets/images/Kathy_Rodante.png"
 tagline: Lead Software Engineer at Factory Quality
 
 ---
