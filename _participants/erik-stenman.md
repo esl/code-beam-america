@@ -1,6 +1,6 @@
 ---
 name: Erik Stenman
-pic_url: "/assets/images/Erik-Stenman.jpg"
+pic_url: "/assets/images/Erik_Stenman.jpg"
 tagline: From Code to Company - Architecting Concurrent Systems
 github: batate
 twitter: "@erik_stenman"
