@@ -6,4 +6,4 @@ github: kvakvs
 twitter: kvakvs
 
 ---
-Erlang and C++ professional, Rust, C# and Python enthusiast, 9 years of Erlang experience, 20+ years of C and C++.
+Soon 3 decades at software developer, has been through a lot of programming and worked with every popular language and so many software and hardware technologies ever since. It is great to know the existing approaches to the same problem from different sides. It is great to spot the potential problems before they have come.
