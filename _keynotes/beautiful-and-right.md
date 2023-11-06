@@ -3,7 +3,7 @@ audience:
 - Intermediate
 tags:
 - Fightning-technical-debt
-title: Beautiful and Right: Using Protocols, Behaviours, Macros and Types to Keep Elixir Apps On Track
+title: Beautiful and Right - Using Protocols, Behaviours, Macros and Types to Keep Elixir Apps On Track
 speakers:
 - _participants/bruce-tate.md
 
