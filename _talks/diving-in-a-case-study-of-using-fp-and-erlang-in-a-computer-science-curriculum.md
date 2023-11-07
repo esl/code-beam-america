@@ -5,6 +5,7 @@ tags: []
 title: 'Diving In: a Case Study of Using FP and Erlang in a Computer Science Curriculum'
 speakers:
 - _participants/Lee-Barney.md
+published: false
 
 ---
 Change can be hard, especially when everyone has input but not detailed experience. At BYU-Idaho we faced an outdated CS undergraduate curriculum that did not meet Higher Education or industry, and therefore student, needs. In a dramatic and complete rewrite of our CS curriculum, Functional Programming and Erlang became a large part of the solution to our problem.
