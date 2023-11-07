@@ -6,7 +6,7 @@
 #  link: "newsletter"
 # name: Call for Talks
 #  link: "cft"
-- name: Register
+- name: Tickets
   link: "register"
 # name: Call for Tutorials
 #  link: "call-for-tutorials"
@@ -22,20 +22,20 @@
   link: "keynotes"
 - name: Trainers
   link: "trainers"
-- name: Training
-  link: "training"
+#- name: Training
+#  link: "training"
 # name: Diversity
 #  link: "diversity"
 # name: Volunteer
 #  link: "volunteer"
-- name: Venue & Hotel
-  link: "venue"
+#- name: Venue & Hotel
+#  link: "venue"
 # name: Hotels
 #  link: "hotels"
 #- name: COVID-19 safety
 #  link: "covid-19"
-- name: Hybrid
-  link: "hybrid"
+#- name: Hybrid
+#  link: "hybrid"
 #- name: E-SHOP
 #  link: "shop"
 #- name: Blog
