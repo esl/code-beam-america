@@ -1,13 +1,13 @@
 #- name: Home
 #  link: "cover"
-- name: About
-  link: "welcome"
-# name: Waiting List
-#  link: "newsletter"
-# name: Call for Talks
-#  link: "cft"
 - name: Tickets
   link: "register"
+- name: About
+  link: "welcome"
+- name: Newsletter
+  link: "newsletter"
+# name: Call for Talks
+#  link: "cft"
 # name: Call for Tutorials
 #  link: "call-for-tutorials"
 #- name: All Recordings
