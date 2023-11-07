@@ -6,4 +6,4 @@ github: fhunleth
 twitter: "@fhunleth"
 
 ---
-Frank has built embedded Linux-based software for products in many industries including medical, consumer, telecommunications and defense. He is a coauthor of the Nerves project and maintains several projects used in embedded Elixir-based devices such as the Elixir Circuits set of libraries, toolshed, fwup, and erlinit.
+Frank Hunleth is an embedded systems programmer, OSS maintainer, and Nerves core team member. At his day job, he uses Elixir and Nerves at SmartRent, a company that provides smart home automation for rental properties. When not in front of a computer, he loves running and spending time with his family.
