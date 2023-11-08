@@ -1,6 +1,6 @@
 ---
 trainers:
-- _participants/brian-cardarella.md
+- _participants/brooklyn-myers.md
 event_date: 6 March
 venue: Marines' Memorial Club & Hotel
 experience:
