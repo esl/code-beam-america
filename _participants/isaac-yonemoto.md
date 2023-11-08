@@ -1,7 +1,7 @@
 ---
 name: Isaac Yonemoto
 pic_url: "/assets/images/Isaac_Yonemoto.jpg"
-tagline: Elixir Plumber
+tagline: Elixir Plumber at positron.ai
 twitter: dnautics
 
 ---
