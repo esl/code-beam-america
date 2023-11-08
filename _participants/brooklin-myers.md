@@ -1,6 +1,6 @@
 ---
 name: Brooklin Myers
-pic_url: "/assets/images/brooklin_myers.jpg"
+pic_url: "/assets/images/brooklin-myers.jpg"
 tagline: Elixir Instructor at @DockYard Academy
 github: 'BrooklinJazz'
 twitter: BrooklinJMyers
