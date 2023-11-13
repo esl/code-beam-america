@@ -2,7 +2,6 @@
 name: Saša Jurić
 pic_url: "/assets/images/sasa-juric.png"
 tagline: Elixir mentor, author of Elixir in Action
-github: ''
 twitter: sasajuric
 linkedin: sasajuric
 
