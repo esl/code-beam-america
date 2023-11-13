@@ -4,7 +4,7 @@ audience:
 tags:
 - AI
 - Machine Learning
-title: Elixir, Erlang, and the Quest for AI Justice: Building Unbiased ML Systems
+title: Elixir, Erlang, and the Quest for AI Justice. Building Unbiased ML Systems
 speakers:
 - _participants/rashmi-nagpal.md
 published: true
