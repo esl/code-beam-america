@@ -16,4 +16,4 @@ As someone who models, dances, and draws in my spare time, the movement of bodie
 This talk aims to demystify machine learning and image/video manipulation in the hopes of making it understandable and approachable to anyone who is interested in starting.
 
 **AUDIENCE:**
-Elixir engineers who are interested in machine learning or motion tracking but are intimidated by the process or are not sure where to start.
+Engineers who are interested in machine learning or motion tracking but are intimidated by the process or are not sure where to start.
