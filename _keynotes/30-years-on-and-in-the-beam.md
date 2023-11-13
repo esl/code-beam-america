@@ -5,7 +5,7 @@ tags:
 - History
 - Innovation
 - Sustainability
-title: 30 Years On and In the Beam: Mastering Concurrency
+title: 30 Years On and In the Beam. Mastering Concurrency
 speakers:
 - _participants/erik-stenman.md
 published: true
