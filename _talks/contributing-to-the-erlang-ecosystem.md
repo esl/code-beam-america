@@ -9,7 +9,7 @@ speakers:
 published: true
 
 ---
-"Lately the Erlang Ecosystem has grown to address many new domains. But is its community growing enough to support it? My experience as a new contributor may shed light on this.
+Lately the Erlang Ecosystem has grown to address many new domains. But is its community growing enough to support it? My experience as a new contributor may shed light on this.
 
 I'm a 16 year old student who started contributing to the Livebook, Hexpm and Nx projects at 14. Since then I've grown from being a raw newbie to receiving funding from The EEF to work on packages that will support Erlang's telemetry implementation.
 
@@ -21,7 +21,7 @@ Join me as I talk about my challenging transition and see how I:
 
 If you're new to the community, you'll learn how to get started and grow in the community - even if you have as little experience as i did.
 
-Maintainers will see how the community helped me to make valuable contributions, how it got in my way, and how my experiences can help their projects."
+Maintainers will see how the community helped me to make valuable contributions, how it got in my way, and how my experiences can help their projects.
 
 **OBJECTIVES:**
 This talk has 2 major objectives:
