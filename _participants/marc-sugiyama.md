@@ -1,6 +1,6 @@
 ---
 name: Marc Sugiyama
-pic_url: "/assets/images/Marc_Sugiyama.jpeg"
+pic_url: "/assets/images/Marc_Sugiyama.png"
 tagline: Senior Principal Erlang Engineer, Baxter International
 github: marcsugiyama
 linkedin: marc-sugiyama-57664b1
