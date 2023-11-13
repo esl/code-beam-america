@@ -7,7 +7,7 @@ tags:
 - Devices
 title: SwErl - a library for phones, watches, and headsets
 speakers:
-- _participants/lee-barney.md
+- _participants/Lee-Barney.md
 - _participants/sylvia-deal.md
 published: true
 
