@@ -14,5 +14,5 @@ The talk presents origins of legacy code: the messy tangle of untested code you 
 **OBJECTIVES:**
 Filling the gaps in knowledge of many developers who have to deal with the legacy but didn't receive the training to do so. The legacy is often dreaded as impossible to approach to, there are tricks on making it possible.
 
-**AUDIENCE**
+**AUDIENCE:**
 Everyone has to work with legacy at every point in their life, but junior to middle developers might value this most.
