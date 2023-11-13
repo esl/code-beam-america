@@ -6,7 +6,7 @@ tags:
 title: Working with Legacy Code
 speakers:
 - _participants/dmytro-lytovchenko.md
-published: false
+published: true
 
 ---
 The talk presents origins of legacy code: the messy tangle of untested code you might have as today's legacy, once was perfectly documented and tested, reviewed by the team's seniors and merged. The talk shows multiple approaches to investigating, learning the structure of, testing and transforming the existing legacy into workable pieces of code.
