@@ -5,7 +5,7 @@ tags:
 - Edge
 - Cloud
 - Devices
-title: The BEAM in Homes across the US: Deploying Nerves at Scale
+title: The BEAM in Homes across the US. Deploying Nerves at Scale
 speakers:
 - _participants/frank-hunleth.md
 published: true
