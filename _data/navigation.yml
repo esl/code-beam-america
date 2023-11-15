@@ -1,11 +1,9 @@
 #- name: Home
 #  link: "cover"
 - name: Tickets
-  link: "register"
+  link: "/tickets"
 - name: About
   link: "welcome"
-- name: Newsletter
-  link: "newsletter"
 # name: Call for Talks
 #  link: "cft"
 # name: Call for Tutorials
@@ -44,5 +42,7 @@
 #  link: "members"
 - name: Sponsors
   link: "sponsors"
+- name: Newsletter
+  link: "newsletter"
 - name: Contact
   link: "contact"
