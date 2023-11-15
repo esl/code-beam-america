@@ -22,10 +22,10 @@
   link: "trainers"
 #- name: Training
 #  link: "training"
-# name: Diversity
-#  link: "diversity"
-# name: Volunteer
-#  link: "volunteer"
+- name: Diversity
+  link: "diversity"
+- name: Volunteer
+  link: "volunteer"
 #- name: Venue & Hotel
 #  link: "venue"
 # name: Hotels
