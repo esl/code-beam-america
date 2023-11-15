@@ -1,7 +1,7 @@
 #- name: Home
 #  link: "cover"
 - name: Tickets
-  link: "banner-1"
+  link: "tickets"
 - name: About
   link: "welcome"
 # name: Call for Talks
