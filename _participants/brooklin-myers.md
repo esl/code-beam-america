@@ -6,4 +6,7 @@ github: 'BrooklinJazz'
 twitter: BrooklinJMyers
 
 ---
-🎙️ Host of ElixirNewbie podcast 🧙‍♂️ Elixir Instructor @DockYard Academy 🙏 I help new and aspiring developers adopt Elixir
+I'm a nerdy web developer who loves building web apps as much as I love playing Dungeons & Dragons. Since joining the Elixir community, I've focused on helping new and aspiring developers adopt Elixir.
+* Host of the ElixirNewbie podcast
+* Elixir Instructor at DockYard Academy
+* LiveViewNative Core team member
