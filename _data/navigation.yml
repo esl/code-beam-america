@@ -26,8 +26,8 @@
   link: "diversity"
 - name: Volunteer
   link: "volunteer"
-#- name: Venue & Hotel
-#  link: "venue"
+- name: Venue
+  link: "venue"
 # name: Hotels
 #  link: "hotels"
 #- name: COVID-19 safety
@@ -42,7 +42,7 @@
 #  link: "members"
 - name: Sponsors
   link: "sponsors"
-- name: Newsletter
-  link: "newsletter"
-- name: Contact
-  link: "contact"
+#- name: Newsletter
+#  link: "newsletter"
+#- name: Contact
+#  link: "contact"
