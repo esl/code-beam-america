@@ -84,9 +84,9 @@ a { font-family: 'Montserrat', sans-serif; font-size: 100%; font-weight: normal;
 
 .btn-blue:hover { background-color: #ffffff; color: #2f5677; }
 
-.btn-orange { border: solid .1em #e22bfc; color: #e22bfc; }
+.btn-orange { border: solid .1em $primary-color; color: $primary-color; }
 
-.btn-orange:hover { background-color: #e22bfc; color: #fff; }
+.btn-orange:hover { background-color: $primary-color; color: #fff; }
 
 .btn-orange-hover-white:hover { background-color: #ffffff; color: #e32dfd; }
 
@@ -116,7 +116,7 @@ a { font-family: 'Montserrat', sans-serif; font-size: 100%; font-weight: normal;
 
 .section .section-text { color: #fff; font-style: italic; font-weight: 500; font-size: .9em; text-align: center; width: 100%; }
 
-.section hr { border: none; background: linear-gradient(to right, #0074a9 50%, #e32dfd 50%); display: block; height: .3em; margin-top: 2em; margin-bottom: 2em; margin-left: auto; margin-right: auto; width: 5em; }
+.section hr { border: none; background: linear-gradient(to right, $secondary-color 50%, #e32dfd 50%); display: block; height: .3em; margin-top: 2em; margin-bottom: 2em; margin-left: auto; margin-right: auto; width: 5em; }
 
 .section .row { display: flex; }
 
@@ -154,7 +154,7 @@ a { font-family: 'Montserrat', sans-serif; font-size: 100%; font-weight: normal;
 
 .items-container .item .item-position { color: #ffffff; font-style: italic; font-weight: 500; font-size: 1em; text-align: left; margin: 0 1em 1em 1.45em; }
 
-.items-container .item .item-training { color: #0074a9; font-family: 'Montserrat', sans-serif !important; font-size: 1.2em; font-weight: 500; line-height: 1.45em !important; margin: 0 1em 1em 1em; }
+.items-container .item .item-training { color: $secondary-color; font-family: 'Montserrat', sans-serif !important; font-size: 1.2em; font-weight: 500; line-height: 1.45em !important; margin: 0 1em 1em 1em; }
 
 .items-container .item .item-training:hover { color: #372140; }
 
@@ -172,7 +172,7 @@ a { font-family: 'Montserrat', sans-serif; font-size: 100%; font-weight: normal;
 
 .align-center { align-items: center; }
 
-.newsletter { background-color: #0074a9; }
+.newsletter { background-color: $secondary-color; }
 
 .newsletter .title, .newsletter .section-text { color: #fff; }
 
@@ -226,7 +226,7 @@ a { font-family: 'Montserrat', sans-serif; font-size: 100%; font-weight: normal;
 
 .cover .cover-bottom .call-for-talks { line-height: 36px; text-align: center; }
 
-.banner-1 { align-items: center; background-color: #e22bfc; display: flex; justify-content: center; padding: 2.8em 5em; }
+.banner-1 { align-items: center; background-color: $primary-color; display: flex; justify-content: center; padding: 2.8em 5em; }
 
 @media only screen and (max-width: 1112px) { .banner-1 { flex-wrap: wrap; } }
 
@@ -236,7 +236,7 @@ a { font-family: 'Montserrat', sans-serif; font-size: 100%; font-weight: normal;
 
 @media only screen and (max-width: 1112px) { .banner-1 .text { font-size: 1.3em; margin: 0 0 1em 0; text-align: center; } }
 
-.banner-2 { align-items: center; background-color: #0074a9; display: flex; justify-content: center; padding: 2.8em 5em; }
+.banner-2 { align-items: center; background-color: $secondary-color; display: flex; justify-content: center; padding: 2.8em 5em; }
 
 @media only screen and (max-width: 1112px) { .banner-2 { flex-wrap: wrap; } }
 
@@ -256,7 +256,7 @@ a { font-family: 'Montserrat', sans-serif; font-size: 100%; font-weight: normal;
 
 @media only screen and (max-width: 1112px) { .banner-3 .text { font-size: 1.3em; margin: 0 0 1em 0; text-align: center; } }
 
-.banner-4 { align-items: center; background-color: #0074a9; display: flex; justify-content: center; padding: 2.8em 5em; }
+.banner-4 { align-items: center; background-color: $secondary-color; display: flex; justify-content: center; padding: 2.8em 5em; }
 
 @media only screen and (max-width: 1112px) { .banner-4 { flex-wrap: wrap; } }
 
@@ -296,9 +296,9 @@ a { font-family: 'Montserrat', sans-serif; font-size: 100%; font-weight: normal;
 
 @media only screen and (max-width: 800px) { .training .table-container .table-item .item-training { align-items: center; } }
 
-.training .table-container .table-item .item-training .item-title { color: #0074a9; cursor: pointer; font-family: 'Montserrat', sans-serif !important; font-size: 1.2em; font-weight: 500; line-height: 1.45em !important; }
+.training .table-container .table-item .item-training .item-title { color: $secondary-color; cursor: pointer; font-family: 'Montserrat', sans-serif !important; font-size: 1.2em; font-weight: 500; line-height: 1.45em !important; }
 
-.training .table-container .table-item .item-training .item-title:hover { color: #0074a9; }
+.training .table-container .table-item .item-training .item-title:hover { color: $secondary-color; }
 
 @media only screen and (max-width: 1112px) { .training .table-container .table-item .item-training .item-title { font-size: 1.2em; } }
 
@@ -316,13 +316,13 @@ a { font-family: 'Montserrat', sans-serif; font-size: 100%; font-weight: normal;
 
 .training-content .training-card .training-head .training-col { align-items: flex-start; display: flex; flex-flow: column; padding: 1em; }
 
-.training-content .training-card .training-head .training-col .training-name { color: #0074a9; display: flex; font-size: 1.6em; flex-wrap: wrap; line-height: 1.45em !important; margin: 1em 1em .8em 0; }
+.training-content .training-card .training-head .training-col .training-name { color: $secondary-color; display: flex; font-size: 1.6em; flex-wrap: wrap; line-height: 1.45em !important; margin: 1em 1em .8em 0; }
 
 .training-content .training-card .training-head .training-col .training-info { display: flex; flex-flow: column; margin-bottom: .5em; }
 
-.training-content .training-card .training-head .training-col .training-info a { color: #0074a9; text-decoration: underline; }
+.training-content .training-card .training-head .training-col .training-info a { color: $secondary-color; text-decoration: underline; }
 
-.training-content .training-card .training-head .training-col .training-info strong { color: #0074a9; font-family: 'Montserrat', sans-serif !important; font-size: 1.2em; font-weight: 600; line-height: 1.45em !important; }
+.training-content .training-card .training-head .training-col .training-info strong { color: $secondary-color; font-family: 'Montserrat', sans-serif !important; font-size: 1.2em; font-weight: 600; line-height: 1.45em !important; }
 
 .training-content .training-card .training-head .training-col .training-info p { color: #000000; font-size: .955em; font-family: 'Montserrat', sans-serif; }
 
@@ -342,7 +342,7 @@ a { font-family: 'Montserrat', sans-serif; font-size: 100%; font-weight: normal;
 
 .training-content .training-card .training-head .training-col .training-info .content p strong { font-family: "Karla", Arial, sans-serif; font-weight: bold !important; }
 
-.training-content .training-card .training-head .training-col .training-info .content p a { color: #0074a9; }
+.training-content .training-card .training-head .training-col .training-info .content p a { color: $secondary-color; }
 
 .training-content .training-card .training-head .training-col .training-info .content p img { height: auto; width: auto; max-width: 100%; }
 
