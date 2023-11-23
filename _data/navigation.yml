@@ -2,8 +2,8 @@
 #  link: "cover"
 - name: Tickets
   link: "tickets"
-- name: About
-  link: "welcome"
+#- name: About
+#  link: "welcome"
 # name: Call for Talks
 #  link: "cft"
 # name: Call for Tutorials
