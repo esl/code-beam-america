@@ -5,7 +5,7 @@ tags:
 - History
 - Innovation
 - Sustainability
-title: An Elixir for Environmental Health: Empowering environmental recovery with software
+title: An Elixir for Environmental Health. Empowering environmental recovery with software
 speakers:
 - _participants/tom-collins.md
 published: true
