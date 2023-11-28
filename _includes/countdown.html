@@ -1,0 +1,105 @@
+<div id="countdown" class="countdown-container">
+  <div class="countdown-row">
+    <div class="countdown-content">
+      <div class="countdown-title">Months</div>
+      <div class="countdown-square">
+        <div class="countdown-value" id="countdown-months"></div>
+      </div>
+    </div>
+
+    <div class="countdown-content">
+      <div class="countdown-title">Days</div>
+      <div class="countdown-square">
+        <div class="countdown-value" id="countdown-days"></div>
+      </div>
+    </div>
+
+    <div class="countdown-content">
+      <div class="countdown-title">Hours</div>
+      <div class="countdown-square">
+        <div class="countdown-value" id="countdown-hours"></div>
+      </div>
+    </div>
+
+    <div class="countdown-content">
+      <div class="countdown-title">Minutes</div>
+      <div class="countdown-square">
+        <div class="countdown-value" id="countdown-minutes"></div>
+      </div>
+    </div>
+
+    <div class="countdown-content">
+      <div class="countdown-title">Seconds</div>
+      <div class="countdown-square">
+        <div class="countdown-value" id="countdown-seconds"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="countdown-cta-container">
+    <a
+      class="countdown-cta-button"
+      target="_blank"
+      href="https://codebeameurope.com/#newsletter"
+      >Join the Waiting List</a
+    >
+  </div>
+  <div class="dismiss-container">
+    <div class="countdown-dismiss">
+      <svg
+        class="dismiss-icon"
+        onclick="dismissCountdown()"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+      >
+        <path fill="#888" d="M19 13H5v-2h14v2z" />
+      </svg>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Set the target date for your conference
+  var targetDate = new Date("October 15, 2024").getTime();
+
+  // Update the countdown every second
+  var countdownInterval = setInterval(function () {
+    // Get the current date and time
+    var now = new Date().getTime();
+
+    // Calculate the time remaining
+    var timeRemaining = targetDate - now;
+
+    // Check if the countdown is complete
+    if (timeRemaining <= 0) {
+      clearInterval(countdownInterval);
+      document.getElementById("countdown").innerHTML =
+        "Conference is happening now!";
+    } else {
+      // Calculate the months, days, hours, minutes, and seconds
+      var months = Math.floor(timeRemaining / (1000 * 60 * 60 * 24 * 30));
+      var days = Math.floor(
+        (timeRemaining % (1000 * 60 * 60 * 24 * 30)) / (1000 * 60 * 60 * 24)
+      );
+      var hours = Math.floor(
+        (timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+      );
+      var minutes = Math.floor(
+        (timeRemaining % (1000 * 60 * 60)) / (1000 * 60)
+      );
+      var seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
+
+      // Update the countdown elements
+      document.getElementById("countdown-months").innerHTML = months;
+      document.getElementById("countdown-days").innerHTML = days;
+      document.getElementById("countdown-hours").innerHTML = hours;
+      document.getElementById("countdown-minutes").innerHTML = minutes;
+      document.getElementById("countdown-seconds").innerHTML = seconds;
+    }
+  }, 1000);
+
+  function dismissCountdown() {
+    clearInterval(countdownInterval);
+    document.getElementById("countdown").style.display = "none";
+  }
+</script>

@@ -1,0 +1,49 @@
+<!-- The modal -->
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    {% include modal-newsletter.html %}
+    <!-- {% include modal-waitlist.html %} -->
+    <!-- {% include modal-call-for-talks-link.html %} -->
+    <!-- {% include modal-after-conf-videos.html %} --> 
+    </div>
+  </div>
+</div>
+
+<script>
+  // Get the modal element
+  var modal = document.getElementById("myModal");
+
+  // Get the <span> element that closes the modal
+  var closeBtn = document.getElementsByClassName("close")[0];
+
+  // Function to open the modal
+  function openModal() {
+    modal.style.display = "block";
+  }
+
+  // Function to close the modal
+  function closeModal() {
+    modal.style.display = "none";
+  }
+
+  // Event listener to close the modal when the close button is clicked
+  closeBtn.addEventListener("click", closeModal);
+
+  // Event listener to close the modal when clicking on the backdrop
+  window.addEventListener("click", function (event) {
+    if (event.target === modal) {
+      closeModal();
+    }
+  });
+
+  // Event listener to close the modal when the "Escape" key is pressed
+  document.addEventListener("keydown", function (event) {
+    if (event.key === "Escape") {
+      closeModal();
+    }
+  });
+
+  // Open the modal after 4 seconds
+  setTimeout(openModal, 4000);
+</script>
