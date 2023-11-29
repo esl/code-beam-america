@@ -1,9 +1,12 @@
 ---
-pic_url: "/assets/images/andrea-leopardi_.jpg"
-name: Andrea Leopardi
-tagline: Elixir Core Team Member
-github: whatyouhide
-twitter: whatyouhide
+pic_url: "/assets/images/Artur_Sulej.png"
+name: Artur Sulej
+tagline: Senior Software Engineer at Fresha.com
+twitter: artur_sulej
 
 ---
-Andrea is a human born in the ancient lands of central Italy. He loves functional programming, beautiful code, and learning stuff. He's a software architect, speaker, and member of the core team of the Elixir programming language. His weak spot is having red hair.
+I'm a senior software engineer at Fresha.
+
+I enjoy DIY and creating stuff. Programming for me is one those things but without creating mess at home. I enjoy motorcycling and coffee brewing. I'm a happy husband and dad.
+
+I started as Android developer, moved to Ruby and fell in love with Elixir and functional programming.
