@@ -8,6 +8,7 @@ tags:
 title: An Elixir for Environmental Health. Empowering environmental recovery with software
 speakers:
 - _participants/tom-collins.md
+- _participants/emily-degroot.md
 published: true
 
 ---
