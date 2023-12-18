@@ -10,8 +10,7 @@
 #  link: "call-for-tutorials"
 #- name: All Recordings
 #  link: "recordings"
-# name: Student
-#  link: "student"
+
 #- name: Public videos
 #  link: "video"
 #- name: Schedule
@@ -24,6 +23,8 @@
 #  link: "training"
 - name: Diversity
   link: "diversity"
+- name: Student
+  link: "student"
 - name: Volunteer
   link: "volunteer"
 - name: Venue
