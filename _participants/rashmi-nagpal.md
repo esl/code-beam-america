@@ -1,7 +1,7 @@
 ---
 name: Rashmi	Nagpal
 pic_url: "/assets/images/Rashmi_Nagpal.jpg"
-tagline: Software Engineer (Machine Learning) at Cactus Research Labs
+tagline: Machine Learning Engineer at Patchstack"
 twitter: "@iamrashminagpal"
 
 ---
