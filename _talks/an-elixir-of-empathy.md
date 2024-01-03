@@ -4,7 +4,7 @@ audience:
 tags:
 - Growth-of-the-Ecosystem
 - Livebook
-title: An Elixir of Empathy. Using Livebook to Empower & Engages
+title: An Elixir of Empathy. Using Livebook and AI to Empower & Engage
 speakers:
 - _participants/vanessa-lee.md
 published: true
