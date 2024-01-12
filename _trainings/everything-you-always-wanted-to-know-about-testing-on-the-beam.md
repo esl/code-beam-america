@@ -1,6 +1,7 @@
 ---
 trainers:
 - _participants/brujo-benavides.md
+- _participants/pablo-costas.md
 event_date: 5 March
 venue: online
 experience:
