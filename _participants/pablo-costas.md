@@ -6,4 +6,4 @@ github: pablocostass
 twitter: pablocostass
 
 ---
-Pablo Costas Sánchez is a Software Engineer deeply interested in creating, maintaining, and shipping distributed software. His biggest contribution has been extending one of the most powerful Property-Based Testing tools out there, PropEr, with parallel and distributed execution. He is currently one of the organizers of SpawnFest and an active member of Erlang Ecosystem Foundation.
+Pablo Costas Sánchez is a Software Engineer deeply interested in creating, maintaining, and shipping distributed software; he also enjoys his fair share of testing (with a special love for Property-Based Testing). He is currently an active member of Erlang Ecosystem Foundation, specially in the Education working group. In his free time, you will most probably find him rollerblading around the city.
