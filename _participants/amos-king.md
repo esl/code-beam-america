@@ -1,7 +1,7 @@
 ---
 name: Amos King
 pic_url: "/assets/images/amos-king.png"
-tagline: CEO @ Binary Noggin, @THEERLEF member, co-host of Elixir Outlaws
+tagline: CEO @ Binary Noggin, Consulting Architect @ HCA, Host of Elixir Outlaws
 github: adkron
 twitter: Adkron
 
