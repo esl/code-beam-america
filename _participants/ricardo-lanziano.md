@@ -1,6 +1,6 @@
 ---
 name: Ricardo Lanziano
-pic_url: "/assets/images/exman.png"
+pic_url: "/assets/images/Ricardo-Lanziano.png"
 tagline: Software developer at ESL Americas
 
 ---
