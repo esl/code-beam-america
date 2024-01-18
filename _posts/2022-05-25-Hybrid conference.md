@@ -6,13 +6,13 @@ pic_url: "/assets/images/hybrid-conference.jpg"
 tags: hybrid, virtual, covid-19
 
 ---
-Code BEAM America is going to be a hybrid event, combining both an in-person and virtual conference to accommodate those, who would like to listen to the talks from the comfort of their homes or offices.
+Code BEAM America is a hybrid event, combining both an in-person and virtual conference to accommodate those, who would like to listen to the talks from the comfort of their homes or offices.
 
-There will be two different categories of tickets going on sale at the same time - for the in-person conference and training and for virtual conference attendance.
+There are two categories of tickets - for the in-person conference and training and for virtual conference and training attendance.
 
-**What does a hybrid event mean?** We’ll be hosting a live event for those who are just as excited as us to attend in person at the conference venue. There will be a mix of speakers attending in-person and streaming into the venue to help us create the right balance and atmosphere that you would expect from one of our events. The talks from the venue will be streamed to the virtual platform, accessible for those who attend online.
+**What does a hybrid event mean?** We’ll be hosting a live event for those who are just as excited as us to attend in person at the conference venue. The talks given at the venue will be streamed to the virtual platform, accessible for those who attend online.
 
-**What if I can’t attend in person?** To cater to people’s varying needs, we are continuing to offer this conference as a virtual event, live, on the same day as the in-person conference with talks streamed from the venue and given virtually. Over the last 3 years, we have developed a format for running virtual conferences that is full of learning, networking and social interaction. That will continue to be the cast for this event.
+**What if I can’t attend in person?** To cater to people’s varying needs, we are continuing to offer this conference as a virtual event, live, on the same day as the in-person conference with talks streamed from the venue.
 
 **What if I purchase my ticket and my circumstances change?** Anyone who cannot attend in person can receive a full refund by contacting us up-to a month before the conference or exchange the in-person ticket to a virtual one and receive the reimbursement of the difference in the tickets’ prices.
 
@@ -29,15 +29,15 @@ The talks and their content will be the same for both the virtual and in-person 
 The price of the physical ticket includes the expense of hiring the venue and catering for lunches and breaks throughout the day.
 
 **As a virtual attendee, how will I be able to interact with speakers and other attendees?**
-The [Whova app](https://youtu.be/pK1hnGIR0EI) will be in use for both versions of the conference, allowing you to message other users and interact on the community board during breaks and on the talk’s chat during talks. The Q&A tab will allow you and in-person delegates to ask questions to speakers during presentations. To ensure there is still a dynamic networking feel at the conference, virtual attendees will have access to a virtual hallway room and will be able to talk to each other on camera.
+The [Whova app](https://youtu.be/pK1hnGIR0EI) will be in use for both versions of the conference, allowing you to message other users and interact on the community board during breaks and on the talk’s chat during talks. The Q&A tab will allow you and in-person delegates to ask questions to speakers during presentations. To ensure there is still a dynamic networking feel at the conference, virtual attendees will have possibility to create themed virtual meetings to talk to each other on camera.
 
 **What time zones will be used?**
 Virtual and in-person talks will take place at the same time on two tracks (9:00-17:00) in the Pacific Time zone.
 
 **How can I give a talk at this year’s event?**
-Call for talks will be open according to the information on the website. We will consider talks from speakers who can attend in person only. If you missed the Call for Papers, as an attendee (with a ticket) you can submit a lightning talk. More information will be available closer to the conference.
+Call for talks will be open according to the information on the website. We will consider talks from speakers who can attend in person only.
 
-**If I submit to the in-person event will I be able to alter my choice?**
+**If I register to the in-person event will I be able to alter my choice?**
 Yes, all ticket holders will be able to change from an in-person to a virtual ticket up-to a month before the conference without any costs. Closer to the event it's also possible, but it's not fully refunded - see the refund policy on Eventbrite.
 
 **If I submit to the virtual event will I be able to alter my choice?**
