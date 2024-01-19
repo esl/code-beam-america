@@ -7,7 +7,7 @@ tags:
 - full-stack
 title: Elixir is the One-Person Stack for Building a Software Startup
 speakers:
-- _participants/tyler-young.md
+- _participants/andrew-ek.md
 published: true
 
 ---
