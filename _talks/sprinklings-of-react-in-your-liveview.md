@@ -21,11 +21,12 @@ As happy as we are writing LiveView (very happy), sometimes the right choice is 
 Specifically, we'll look at how to set it up so that we can work productively with minimal suffering (or accidental state clobbering). We'll also see how the patterns we use for this particular case (both code organization and using Channels/sockets as the primary contact point, rather than Hooks) can be generalized to handle some fairly complex interactions and integrations regardless of whether we're specifically using React or LiveView!
 
 **OBJECTIVES**
-The narrow focus of the talk is to give audience members the tools they need for situations like It sure would be nice if I could just bring [some react component] into this LiveVIew page"
+
+The narrow focus of the talk is to give audience members the tools they need for situations like It sure would be nice if I could just bring [some react component] into this LiveVIew page
 
 More broadly, we'll lay out principles for how to build our systems in this way, and then we'll see how the tools we use (for example, making the React component interact with the server over its own Channel/Socket instead of through the LiveView hooks interface) make our solutions incredibly portable.
 
-There'll also be just a bit about Pub/Sub and the broader "event-state reducer" pattern (which we see already in the various `handle_info` (etc.) callbacks that take an event and then return a data structure containing the new state.
+There'll also be just a bit about Pub/Sub and the broader "event-state reducer" pattern (which we see already in the various handle_info (etc.) callbacks that take an event and then return a data structure containing the new state.
 
 **AUDIENCE**
 
