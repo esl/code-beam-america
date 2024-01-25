@@ -8,7 +8,7 @@ tags:
 title: Building Real-Time Integrations at Scale by Utilizing GenServers
 speakers:
 - _participants/kathy-rodante.md
-published: true
+published: false
 
 ---
 At Factored Quality, we specialize in bridging the gap between American brands and manufacturing facilities. We are providing services that utilize information about product specifications, factories and shipment schedule. We have built real-time integrations with Anvyl, Flexport and NetSuite by utilizing GenServers to process data at scale in the most efficient and resilient way. We want to share recipes, gotchas and best practices.
