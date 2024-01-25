@@ -2,7 +2,8 @@
 audience:
 - Introductory and overview
 tags:
-- Event Sourcing
+- Concurrency
+- OTP
 - LiveView
 title: Managing Event Sourcing Race Conditions with LiveView
 speakers:
