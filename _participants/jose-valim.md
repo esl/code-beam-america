@@ -1,6 +1,6 @@
 ---
 name: José Valim (remote)
-pic_url: "/assets/images/jose-valim.jpg"
+pic_url: "/assets/images/jose-valim.jpeg"
 tagline: Creator of Elixir, Chief Adoption Officer @ Dashbit
 github: josevalim
 twitter: josevalim
