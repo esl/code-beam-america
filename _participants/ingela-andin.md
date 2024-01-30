@@ -1,7 +1,7 @@
 ---
-name: Ingela Anderton Andin
+name: Ingela Anderton Andin (remote)
 pic_url: "/assets/images/ingela-andin.jpeg"
-tagline: Remote Speaker, SW developer in the OTP Team
+tagline: SW developer in the OTP Team
 github: IngelaAndin
 twitter: "@IngelaAndin"
 
