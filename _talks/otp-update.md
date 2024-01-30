@@ -4,7 +4,7 @@ audience:
 tags: []
 title: OTP Update
 speakers:
-- _participants/kenneth-lundin.md
+- _participants/ingela-andin.md
 
 ---
 Update from the OTP Core Team on their work.
