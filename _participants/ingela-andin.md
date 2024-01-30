@@ -1,7 +1,7 @@
 ---
 name: Ingela Anderton Andin (remotely)
 pic_url: "/assets/images/ingela-andin.jpeg"
-tagline: SW developer in the OTP Team
+tagline: Senior Erlang/OTP core developer
 github: IngelaAndin
 twitter: "@IngelaAndin"
 
