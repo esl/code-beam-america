@@ -1,5 +1,5 @@
 ---
-name: Ingela Anderton Andin (remote)
+name: Ingela Anderton Andin (remotely)
 pic_url: "/assets/images/ingela-andin.jpeg"
 tagline: SW developer in the OTP Team
 github: IngelaAndin
