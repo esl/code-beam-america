@@ -1,5 +1,5 @@
 ---
-name: Sylvia/Sylvester	Deal
+name: Sylvia	Deal
 pic_url: "/assets/images/SylviaSylvester_Deal.jpg"
 tagline: Seeking Meaningful Employment
 
