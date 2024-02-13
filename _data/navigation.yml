@@ -17,12 +17,12 @@
   link: schedule
 - name: Speakers
   link: "keynotes"
-- name: Trainers
-  link: "trainers"
-#- name: Training
-#  link: "training"
-- name: Diversity
-  link: "diversity"
+#- name: Trainers
+#  link: "trainers"
+- name: Training
+  link: "training"
+#- name: Diversity
+#  link: "diversity"
 - name: Student
   link: "student"
 - name: Volunteer
