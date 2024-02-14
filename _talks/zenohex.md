@@ -9,6 +9,7 @@ title: Zenohex - an eloquent, scalable and fast communication library for Elixir
 speakers:
 - _participants/hideki-takase.md
 - _participants/shintaro-hosoai.md
+- _participants/mitsuhiro-osaki.md
 published: true
 
 ---
