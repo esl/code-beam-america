@@ -1,6 +1,6 @@
 ---
 name: Henry Sun
-pic_url: "/assets/images/Zeyu_Zhang.jpg"
+pic_url: "/assets/images/henry-sun.jpg"
 tagline: Software Engineer at WhatsApp
 
 ---
