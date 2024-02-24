@@ -7,88 +7,73 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <meta name="description" content="{{ site.description }}" />
-  <link
-    rel="canonical"
-    href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"
-  />
-  <link rel="stylesheet" href="{{ "/assets/css/styles.css" | prepend:
-  site.baseurl }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+  <link rel="stylesheet" href="{{ " /assets/css/styles.css" | prepend: site.baseurl }}">
 
- <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-MNZ9VF5P');</script>
-<!-- End Google Tag Manager -->
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-MNZ9VF5P');</script>
+  <!-- End Google Tag Manager -->
 
   {% seo %}
 
   <!--Remove image dragging -->
-  <body ondragstart="return false;" ondrop="return false;">
-    <!-- Custom Fonts -->
-    <link rel="stylesheet" href="{{
-    "/assets/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}">
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Kaushan+Script"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Karla:400,400i,700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400i,700i"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700"
-      rel="stylesheet"
-      type="text/css"
-    />
 
-    <!-- WEBSITE ICON IN BROWSER -->
-    <!-- <link href="/css/2016_style/img/icon.png" rel="icon" type="image/png"> -->
+<body ondragstart="return false;" ondrop="return false;">
+  <!-- Custom Fonts -->
+  <link rel="stylesheet" href="{{
+      " /assets/font-awesome/css/fontawesome.min.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{
+        " /assets/font-awesome/css/v4-shims.min.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{
+        " /assets/font-awesome/css/brands.min.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{
+          " /assets/font-awesome/css/solid.min.css" | prepend: site.baseurl }}">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700" rel="stylesheet"
+    type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+    type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400i,700i" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+
+  <!-- WEBSITE ICON IN BROWSER -->
+  <!-- <link href="/css/2016_style/img/icon.png" rel="icon" type="image/png"> -->
 
   <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MNZ9VF5P"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-  </body>
-  <script>
-    (function () {
-      window.ldfdr = window.ldfdr || {};
-      (function (d, s, ss, fs) {
-        fs = d.getElementsByTagName(s)[0];
-        function ce(src) {
-          var cs = d.createElement(s);
-          cs.src = src;
-          setTimeout(function () {
-            fs.parentNode.insertBefore(cs, fs);
-          }, 1);
-        }
-        ce(ss);
-      })(
-        document,
-        "script",
-        "https://sc.lfeeder.com/lftracker_v1_bElvO73DxJE4ZMqj.js"
-      );
-    })();
-  </script>
-  <!-- Hotjar Tracking Code for www.elixirconf.eu -->
-  <!-- <script>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MNZ9VF5P" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+</body>
+<script>
+  (function () {
+    window.ldfdr = window.ldfdr || {};
+    (function (d, s, ss, fs) {
+      fs = d.getElementsByTagName(s)[0];
+      function ce(src) {
+        var cs = d.createElement(s);
+        cs.src = src;
+        setTimeout(function () {
+          fs.parentNode.insertBefore(cs, fs);
+        }, 1);
+      }
+      ce(ss);
+    })(
+      document,
+      "script",
+      "https://sc.lfeeder.com/lftracker_v1_bElvO73DxJE4ZMqj.js"
+    );
+  })();
+</script>
+<!-- Hotjar Tracking Code for www.elixirconf.eu -->
+<!-- <script>
     (function(h,o,t,j,a,r){
         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
         h._hjSettings={hjid:1678389,hjsv:6};
