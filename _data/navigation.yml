@@ -1,7 +1,7 @@
 #- name: Home
 #  link: "cover"
-- name: Tickets
-  link: "tickets"
+#- name: Tickets
+#  link: "tickets"
 #- name: About
 #  link: "welcome"
 # name: Call for Talks
@@ -10,11 +10,10 @@
 #  link: "call-for-tutorials"
 #- name: All Recordings
 #  link: "recordings"
-
 #- name: Public videos
 #  link: "video"
-- name: Schedule
-  link: schedule
+#- name: Schedule
+#  link: schedule
 - name: Speakers
   link: "keynotes"
 #- name: Trainers
@@ -23,10 +22,10 @@
   link: "training"
 #- name: Diversity
 #  link: "diversity"
-- name: Student
-  link: "student"
-- name: Volunteer
-  link: "volunteer"
+#- name: Student
+#  link: "student"
+#- name: Volunteer
+#  link: "volunteer"
 - name: Venue
   link: "venue"
 # name: Hotels
@@ -43,7 +42,7 @@
 #  link: "members"
 - name: Sponsors
   link: "sponsors"
-#- name: Newsletter
-#  link: "newsletter"
+- name: Newsletter
+  link: "newsletter"
 #- name: Contact
 #  link: "contact"
