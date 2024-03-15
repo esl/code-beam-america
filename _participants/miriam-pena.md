@@ -6,7 +6,6 @@ github: miriampena
 linkedin: miriampena
 
 ---
-Miriam loves to architect scalable, high performance, high concurrency, and high availability systems. Bonus point if they are written in Erlang/Elixir. She is a Staff Engineer at AdRoll, designing critical parts of their AdServers infrastructure and organizer of the Erlang and Elixir meetup in San Francisco. Prior to AdRoll, she provided Erlang specialized consultancy and studied Computer Science Engineering from La Coruña University in Spain. Voted one of the women to watch in 2018 by Women 2.0 <a href="https://you.women2.com/12-inspiring-female-staff-engineers-to-watch-b487b39558e1" target="_blank">here</a>.
+I love architecting distributed, highly scalable and highly available systems written in Erlang. I have been an Erlang engineer for +16 years in companies all over the World, including automakers in Detroit, real time bidding advertising infrastructure in Dublin & San Francisco, social network messaging (with Ejabberd!) in Madrid, telcos in Stockholm & Egypt, embedded control systems for renewable energy power plants in Spain…
 
-KEY ACHIEVEMENTS
-Open source <a href="https://github.com/adroll/mero" target="_blank">mero</a>, a scalable and lightweight client for Memcached and <a href="https://github.com/AdRoll/spillwaySpillway" target="_blank">Spillway</a>for load shedding.
+I am a founding member and have been a board member for the last 5 years of the Erlang Ecosystem Foundation and I have co-organized the Erlang & Elixir meetup in San Francisco for 2 years.
