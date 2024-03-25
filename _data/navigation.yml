@@ -2,8 +2,8 @@
 #  link: "cover"
 #- name: Tickets
 #  link: "tickets"
-#- name: About
-#  link: "welcome"
+- name: About
+  link: "welcome"
 # name: Call for Talks
 #  link: "cft"
 # name: Call for Tutorials
@@ -12,8 +12,8 @@
 #  link: "recordings"
 #- name: Public videos
 #  link: "video"
-#- name: Schedule
-#  link: schedule
+- name: Schedule
+  link: schedule
 - name: Speakers
   link: "keynotes"
 #- name: Trainers
