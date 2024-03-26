@@ -12,14 +12,14 @@
 #  link: "recordings"
 #- name: Public videos
 #  link: "video"
-- name: Schedule
-  link: schedule
+#- name: Schedule
+#  link: schedule
 - name: Speakers
   link: "keynotes"
 #- name: Trainers
 #  link: "trainers"
-- name: Training
-  link: "training"
+#- name: Training
+#  link: "training"
 #- name: Diversity
 #  link: "diversity"
 #- name: Student
@@ -42,7 +42,7 @@
 #  link: "members"
 - name: Sponsors
   link: "sponsors"
-- name: Newsletter
+- name: 2025 Waiting List
   link: "newsletter"
 #- name: Contact
 #  link: "contact"
