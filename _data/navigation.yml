@@ -4,6 +4,8 @@
 #  link: "tickets"
 - name: About
   link: "welcome"
+- name: 2025 Waiting List
+  link: "newsletter"
 # name: Call for Talks
 #  link: "cft"
 # name: Call for Tutorials
@@ -42,7 +44,5 @@
 #  link: "members"
 - name: Sponsors
   link: "sponsors"
-- name: 2025 Waiting List
-  link: "newsletter"
 #- name: Contact
 #  link: "contact"
