@@ -18,14 +18,19 @@
   padding: 20px;
   width: 80%;
   max-width: 500px;
+  text-align: center;
   .title {
     color: white;
     font-weight: bold;
-    margin-top: 10px;
-    margin-bottom: 8px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    font-size: 2rem;
+  }
+
+  .btn-outline {
+    margin-top: 20px;
   }
 }
-
 .close {
   color: #888;
   float: right;

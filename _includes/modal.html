@@ -2,12 +2,16 @@
 <div id="myModal" class="modal">
   <div class="modal-content">
     <span class="close">&times;</span>
-    {% include modal-newsletter.html %}
-    <!-- {% include modal-waitlist.html %} -->
-    <!-- {% include modal-call-for-talks-link.html %} -->
-    <!-- {% include modal-after-conf-videos.html %} --> 
-    </div>
+    <!-- modal content here -->
+    <h3 class="title">Expand your experience</h3>
+    <p> Give yourself a chance to grow: add a comprehensive exploration of the topic that interests you the most to your Code BEAM experience. This year we offer you six training sessions.
+</p>
+  
+    <a id="btn-modal" class="page-scroll btn-outline btn-orange mb-4 mt-4 btn-orange inline-block" href="#training" target="_blank">
+      Check now
+    </a>
   </div>
+</div>
 </div>
 
 <script>
@@ -16,6 +20,7 @@
 
   // Get the <span> element that closes the modal
   var closeBtn = document.getElementsByClassName("close")[0];
+  var btn = document.getElementById('btn-modal')
 
   // Function to open the modal
   function openModal() {
@@ -29,6 +34,7 @@
 
   // Event listener to close the modal when the close button is clicked
   closeBtn.addEventListener("click", closeModal);
+  btn.addEventListener("click", closeModal);
 
   // Event listener to close the modal when clicking on the backdrop
   window.addEventListener("click", function (event) {
@@ -44,6 +50,6 @@
     }
   });
 
-  // Open the modal after 4 seconds
-  setTimeout(openModal, 4000);
+  // Open the modal after given modal seconds
+  setTimeout(openModal, '{{page.modal.delay}}');
 </script>

@@ -2,7 +2,9 @@
 layout: default
 title: Code BEAM America - the Erlang & Elixir Conference March 7-8 2024
 image: assets/images/CBA24 - banner www2.png
-
+modal: 
+  show: true
+  delay: 2000 
 ---
 {% include cover.html %}
 <!-- end of cover -->
@@ -68,3 +70,6 @@ image: assets/images/CBA24 - banner www2.png
 <!-- end of newsletter -->
 {% include contact.html %}
 <!-- end of contact -->
+{% if page.modal.show == true %}
+  {% include modal.html %}
+{% endif %}
