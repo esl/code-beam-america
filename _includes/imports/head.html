@@ -9,7 +9,8 @@
   <meta name="description" content="{{ site.description }}" />
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
   <link rel="stylesheet" href="{{ " /assets/css/styles.css" | prepend: site.baseurl }}">
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.32/moment-timezone-with-data.min.js"></script>
   <!-- Google Tag Manager -->
   <script>(function (w, d, s, l, i) {
       w[l] = w[l] || []; w[l].push({
@@ -20,7 +21,10 @@
           'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-MNZ9VF5P');</script>
   <!-- End Google Tag Manager -->
+{% if site.data.settings.homepage_settings.testimonials.show %}
 
+<link rel="stylesheet" href="{{"/assets/css/owl.carousel.min.css" | prepend: site.baseurl }}">
+<link rel="stylesheet" href="{{"/assets/css/owl.theme.default.min.css" | prepend: site.baseurl }}">    {% endif %} 
   {% seo %}
 
   <!--Remove image dragging -->

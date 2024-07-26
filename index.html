@@ -2,13 +2,14 @@
 layout: default
 title: Code BEAM America - the Erlang & Elixir Conference March 7-8 2024
 image: assets/images/CBA24 - banner www2.png
-modal: 
-  show: false
-  delay: 2000 
+
 ---
 {% include cover.html %}
 <!-- end of cover -->
-{% comment %} {% include countdown.html %} {% endcomment %}
+<!-- start of coundown block -->
+{% if site.data.settings.homepage_settings.countdown.show %}
+  {% include countdown.html  %}
+{% endif %}
 <!-- end of coundown -->
 {% comment %} {% include modal.html %}  {% endcomment %}
 <!-- end of modal -->
@@ -66,10 +67,23 @@ modal:
 <!-- end of venue -->
 {% include sponsors.html %}
 <!-- end of sponsors -->
-{% include newsletter.html %}
+<!-- start of  testimonials  block -->
+{% if site.data.settings.homepage_settings.testimonials.show %}
+  {% include testimonials.html  %}
+{% endif %}
+<!-- end of  testimonials  block -->
+
+{% if site.data.settings.homepage_settings.gallery.show %}
+  {% include gallery-grid.html %}
+{% endif %}
+<!-- end of gallery-grid  -->
+{% comment %} {% include newsletter.html %} {% endcomment %}
 <!-- end of newsletter -->
 {% include contact.html %}
 <!-- end of contact -->
-{% if page.modal.show == true %}
+
+
+<!-- modal block -->
+{% if site.data.settings.homepage_settings.modal.show %}
   {% include modal.html %}
 {% endif %}

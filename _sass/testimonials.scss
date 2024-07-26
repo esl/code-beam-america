@@ -1,0 +1,131 @@
+#testimonials-carousel-quotes {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  @media screen and (min-width: 1024px) {
+    margin-top: 60px;
+    margin-bottom: 80px;
+  }
+
+  .owl-stage {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .testimonial-item {
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 220px;
+    max-width: 90vw;
+    width: 100%;
+    color: #000;
+    text-align: left;
+    box-shadow: none !important;
+    @media screen and (min-width: 768px) {
+      max-width: 310px;
+    }
+  }
+  * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+    transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  }
+
+  img {
+    max-width: 100%;
+    vertical-align: middle;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    margin: 40px 0 0 10px;
+  }
+
+  blockquote {
+    display: block;
+    border-radius: 8px;
+    position: relative;
+    background-color: #fafafa;
+    padding: 25px 50px 30px 50px;
+    font-size: 0.8em;
+    font-weight: 500;
+    margin: 0;
+    line-height: 1.6em;
+    font-style: italic;
+
+    p {
+      color: #000;
+    }
+
+    &::before,
+    &::after {
+      font-family: 'FontAwesome';
+      position: absolute;
+      font-size: 50px;
+      font-style: normal;
+      color: #e22bfc;
+    }
+
+    &::before {
+      content: '\201C';
+      top: 25px;
+      left: 20px;
+    }
+
+    &::after {
+      content: '\201D';
+      right: 20px;
+      bottom: 0;
+    }
+  }
+  .arrow {
+    top: 100%;
+    width: 0;
+    height: 0;
+    border-left: 0 solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 25px solid #fafafa;
+    margin: 0;
+    position: absolute;
+  }
+
+  .author {
+    position: absolute;
+    bottom: 45px;
+    padding: 0 10px 0 120px;
+    margin: 0;
+    text-transform: uppercase;
+    color: #ffffff;
+    -webkit-transform: translateY(50%);
+    transform: translateY(50%);
+
+    h5 {
+      opacity: 0.8;
+      margin: 0;
+      font-weight: 800;
+
+      span {
+        font-weight: 400;
+        text-transform: none;
+        display: block;
+      }
+    }
+  }
+  .owl-dot {
+    span {
+      background-color: #fff;
+      opacity: 0.5;
+    }
+    &.active {
+      span {
+        opacity: 1;
+      }
+    }
+  }
+
+  button.owl-next,
+  button.owl-prev {
+    color: #fff;
+    font-size: 30px;
+  }
+}

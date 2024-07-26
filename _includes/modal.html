@@ -5,13 +5,11 @@
     <!-- modal content here -->
     <h3 class="title">Expand your experience</h3>
     <p> Give yourself a chance to grow: add a comprehensive exploration of the topic that interests you the most to your Code BEAM experience. This year we offer you six training sessions.
-</p>
-  
+    </p>
     <a id="btn-modal" class="page-scroll btn-outline btn-orange mb-4 mt-4 btn-orange inline-block" href="#training" target="_blank">
       Check now
     </a>
   </div>
-</div>
 </div>
 
 <script>
@@ -20,7 +18,7 @@
 
   // Get the <span> element that closes the modal
   var closeBtn = document.getElementsByClassName("close")[0];
-  var btn = document.getElementById('btn-modal')
+  var btn = document.getElementById('btn-modal');
 
   // Function to open the modal
   function openModal() {
@@ -50,6 +48,6 @@
     }
   });
 
-  // Open the modal after given modal seconds
-  setTimeout(openModal, '{{page.modal.delay}}');
+  // Open the modal after given delay seconds
+  setTimeout(openModal, "{{ site.data.settings.homepage_settings.modal.delay }}");
 </script>

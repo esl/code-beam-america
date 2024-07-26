@@ -28,6 +28,8 @@ permalink: pretty
 collections:
   participants:
     output: true
+  testimonials:
+    output: true
   keynotes:
     output: true
   trainers:

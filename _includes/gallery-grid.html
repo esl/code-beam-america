@@ -1,0 +1,13 @@
+<div class="gallery-wrapper section">
+  {% if site.data.settings.homepage_settings.gallery.title %}
+  <h3 class="title">{{ page.gallery.title }}</h3>
+  <hr />
+  {% endif %}
+  <div class="gallery-grid my-3">
+     {% for image in site.data.gallery_images %}
+    <a data-fslightbox="gallery" class="gallery-item" href="{{ image.src }}">
+      <img src="{{ image.src }}" alt="{{ image.alt }}">
+    </a>
+    {% endfor %}
+  </div>
+</div>
