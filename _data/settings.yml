@@ -7,7 +7,7 @@ homepage_settings:
     show: false
     delay: 5000
   testimonials:
-    show: false
+    show: true
     title: "Testimonials"
   gallery:
     show: false
