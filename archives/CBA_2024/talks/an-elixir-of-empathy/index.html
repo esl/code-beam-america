@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+  <title>Code BEAM America</title>
+  <meta content="width=device-width" name="viewport" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="description" content="" />
+  <link rel="canonical" href="https://codebeamamerica.com/talks/an-elixir-of-empathy/" />
+  <link rel="stylesheet" href=" /assets/css/styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.32/moment-timezone-with-data.min.js"></script>
+  <!-- Google Tag Manager -->
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-MNZ9VF5P');</script>
+  <!-- End Google Tag Manager -->
+ 
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>An Elixir of Empathy. Using Livebook and AI to Empower &amp; Engage | Code BEAM America</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="An Elixir of Empathy. Using Livebook and AI to Empower &amp; Engage" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Livebook is an exciting interactive and collaborative code notebook. It offers a rich toolset for engineers to build cross-team empathy by empowering and engaging others as users and consumers of our code and data." />
+<meta property="og:description" content="Livebook is an exciting interactive and collaborative code notebook. It offers a rich toolset for engineers to build cross-team empathy by empowering and engaging others as users and consumers of our code and data." />
+<link rel="canonical" href="https://codebeamamerica.com/talks/an-elixir-of-empathy/" />
+<meta property="og:url" content="https://codebeamamerica.com/talks/an-elixir-of-empathy/" />
+<meta property="og:site_name" content="Code BEAM America" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2024-07-29T03:14:46-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="An Elixir of Empathy. Using Livebook and AI to Empower &amp; Engage" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-07-29T03:14:46-05:00","datePublished":"2024-07-29T03:14:46-05:00","description":"Livebook is an exciting interactive and collaborative code notebook. It offers a rich toolset for engineers to build cross-team empathy by empowering and engaging others as users and consumers of our code and data.","headline":"An Elixir of Empathy. Using Livebook and AI to Empower &amp; Engage","mainEntityOfPage":{"@type":"WebPage","@id":"https://codebeamamerica.com/talks/an-elixir-of-empathy/"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://codebeamamerica.com/assets/images/logo2022.png"}},"url":"https://codebeamamerica.com/talks/an-elixir-of-empathy/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  <!--Remove image dragging -->
+
+<body ondragstart="return false;" ondrop="return false;">
+  <!-- Custom Fonts -->
+  <link rel="stylesheet" href=" /assets/font-awesome/css/fontawesome.min.css">
+  <link rel="stylesheet" href=" /assets/font-awesome/css/v4-shims.min.css">
+  <link rel="stylesheet" href=" /assets/font-awesome/css/brands.min.css">
+  <link rel="stylesheet" href=" /assets/font-awesome/css/solid.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700" rel="stylesheet"
+    type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+    type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400i,700i" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+
+  <!-- WEBSITE ICON IN BROWSER -->
+  <!-- <link href="/css/2016_style/img/icon.png" rel="icon" type="image/png"> -->
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MNZ9VF5P" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+</body>
+<script>
+  (function () {
+    window.ldfdr = window.ldfdr || {};
+    (function (d, s, ss, fs) {
+      fs = d.getElementsByTagName(s)[0];
+      function ce(src) {
+        var cs = d.createElement(s);
+        cs.src = src;
+        setTimeout(function () {
+          fs.parentNode.insertBefore(cs, fs);
+        }, 1);
+      }
+      ce(ss);
+    })(
+      document,
+      "script",
+      "https://sc.lfeeder.com/lftracker_v1_bElvO73DxJE4ZMqj.js"
+    );
+  })();
+</script>
+<!-- Hotjar Tracking Code for www.elixirconf.eu -->
+<!-- <script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1678389,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script> -->
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KRSPKJ3" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    </div>
+    <nav class="navbar-fixed-top navbar-speaker">
+    <a class="logo" href="/"></a>
+    <ul class="nav">
+        <li>
+            <a href="/">Home</a>
+        </li>
+    </ul>
+</nav>
+    <div class="training-content">
+        <div class="training-card">
+            <div class="training-head">
+                <div class="training-col">
+                    <h1 class="training-name">
+                        An Elixir of Empathy. Using Livebook and AI to Empower & Engage
+                    </h1>
+
+                    
+
+                    <div class="training-info">
+                        
+                        <p><strong>Speaker:</strong><br> <a
+                                href="/participants/vanessa-lee/">Vanessa Lee</a></p>
+                        <br>
+                        
+                    </div>
+                    <div class="training-info">
+                        <p><strong>Abstract:</strong></p>
+                        <div class="content">
+                            <p>Livebook is an exciting interactive and collaborative code notebook. It offers a rich toolset for engineers to build cross-team empathy by empowering and engaging others as users and consumers of our code and data.</p>
+
+<p>Fostering empathy across teams and departments is paramount. This talk will showcase how Livebook can be a tool to empower and engage technical and non-technical collaborators. It can help us provide enhanced troubleshooting and understanding of our software.</p>
+
+<p>Livebook lets us easily visualize data, document applications interactively, give users inactive UI elements, and integrate widely from HuggingFace to Nerves to Snowflake. We will explore real-world examples of how Livebook has strengthened cross-team communication and empowered non-technical team members in times of limited engineering resources.</p>
+
+<p><strong>OBJECTIVES:</strong>
+Attendees will leave with an understanding of the importance of empathy in cross-functional teams. They’ll have insight into the capabilities and potential of Livebook to build empathy through empowerment and engagement. Moreover, they’ll be equipped with actionable takeaways on harnessing Livebook’s potential in their daily workflows to bridge the gap between departments and teams.</p>
+
+<p><strong>AUDIENCE:</strong>
+Engineers of all levels, newcomers to advanced.</p>
+
+<p>Managers and other business leaders looking to foster better collaboration across teams.</p>
+
+                        </div>
+                    </div>
+                    <div class="training-info">
+                        <p><strong>Audience:</strong><br> Introductory and overview</p>
+                    </div>
+                    
+                    
+                    <div class="training-info">
+                        <p><strong>Tags:</strong><br> Growth-of-the-Ecosystem,Livebook</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer" id="footer">
+  <div class="social-icons">
+    <a href="https://www.youtube.com/c/CodeSync" target="_blank">
+        <i class="fi flaticon-youtube"></i>
+    </a>
+    <a href="https://twitter.com/codebeamio?lang=en"" target="_blank">
+        <i class="fi flaticon-twitter"></i>
+    </a>
+    <a href="https://www.linkedin.com/company/code-sync/"" target="_blank">
+        <i class="fi flaticon-linkedin""></i>
+    </a>
+  </div>
+  <hr />
+  <p>All Rights Reserved</p>
+  <p>
+    <strong>Code Sync</strong>
+    © 2024 Copyright
+  </p>
+  <p>
+    <strong>Organised by</strong>
+    <a href="https://codesync.global">Code Sync</a> powered by <a href="https://www.erlang-solutions.com/?utm_source=elixirconf&utm_medium=referral">Erlang Solutions</a>
+  </p>
+
+  <p>
+    <br />
+
+      <a href="https://codesync.global/terms_and_conditions/"> Terms of use</a>
+      |
+      <a href="https://codesync.global/about-us/#Conduct"> Code of Conduct</a>
+      |
+      <a href="https://codesync.global/privacy_policy/"> Privacy Policy</a>
+      |
+      <a href="https://codesync.global/page/18/"> Anti-Slavery Policy</a>
+
+  </p>
+</div>
+
+    <!-- jQuery Version 1.11.0 -->
+<script src="/assets/js/jquery-1.11.0.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/assets/js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="/assets/js/jquery.easing.min.js"></script>
+<script src="/assets/js/classie.js"></script>
+<script src="/assets/js/cbpAnimatedHeader.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/assets/js/agency.js"></script>
+
+<!-- Owl Carousel -->
+<script src="/assets/js/owl.carousel.min.js" charset="utf-8"></script>
+
+<!-- Parallaxing & SmoothScroll -->
+<script src="/assets/js/scrollax.min.js" charset="utf-8"></script>
+
+
+
+<!-- Main JS -->
+<script src="/assets/js/main.js" charset="utf-8"></script>
+<script type="text/javascript">
+piAId = '24452';
+piCId = '63005';
+piHostname = 'pi.pardot.com';
+
+(function() {
+function async_load(){
+var s = document.createElement('script'); s.type = 'text/javascript';
+s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+var c = document.getElementsByTagName('script')[0]; c.parentNode.insertBefore(s, c);
+}
+if(window.attachEvent) { window.attachEvent('onload', async_load); }
+else { window.addEventListener('load', async_load, false); }
+})();
+</script>
+
+</body>
+
+</html>
