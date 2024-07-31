@@ -21,11 +21,16 @@ image: assets/images/CBA24 - banner www2.png
   {% include gallery-grid.html %}
 {% endif %}
 <!-- end of gallery-grid  -->
+<!-- start of  testimonials  block -->
+{% if site.data.settings.homepage_settings.testimonials.show %}
+  {% include testimonials.html  %}
+{% endif %}
+<!-- end of  testimonials  block -->
 {% comment %}{% include hardwarehacking.html %}{% endcomment %}
 <!-- end of hardwarehacking  -->
 {% comment %} {% include travelling.html %} {% endcomment %}
 <!-- end of travelling -->
-{% include banner-2.html %}
+{% comment %}{% include banner-2.html %}{% endcomment %}
 <!-- end of banner-2 -->
 {% comment %} {% include recordings.html %} {% endcomment %}
 <!-- end of recordings -->
@@ -71,13 +76,6 @@ image: assets/images/CBA24 - banner www2.png
 <!-- end of venue -->
 {% include sponsors.html %}
 <!-- end of sponsors -->
-<!-- start of  testimonials  block -->
-{% if site.data.settings.homepage_settings.testimonials.show %}
-  {% include testimonials.html  %}
-{% endif %}
-<!-- end of  testimonials  block -->
-
-
 {% comment %} {% include newsletter.html %} {% endcomment %}
 <!-- end of newsletter -->
 {% include contact.html %}
