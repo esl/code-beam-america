@@ -10,5 +10,5 @@ homepage_settings:
     show: true
     title: "Testimonials"
   gallery:
-    show: false
-    title: "Code BEAM Europe 2024"
+    show: true
+    title: "Code BEAM America 2024"
