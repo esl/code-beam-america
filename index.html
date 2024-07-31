@@ -17,7 +17,11 @@ image: assets/images/CBA24 - banner www2.png
 <!-- end of banner-1  -->
 {% include welcome.html %}
 <!-- end of welcome -->
-{% include hardwarehacking.html %}
+{% if site.data.settings.homepage_settings.gallery.show %}
+  {% include gallery-grid.html %}
+{% endif %}
+<!-- end of gallery-grid  -->
+{% comment %}{% include hardwarehacking.html %}{% endcomment %}
 <!-- end of hardwarehacking  -->
 {% comment %} {% include travelling.html %} {% endcomment %}
 <!-- end of travelling -->
@@ -73,10 +77,7 @@ image: assets/images/CBA24 - banner www2.png
 {% endif %}
 <!-- end of  testimonials  block -->
 
-{% if site.data.settings.homepage_settings.gallery.show %}
-  {% include gallery-grid.html %}
-{% endif %}
-<!-- end of gallery-grid  -->
+
 {% comment %} {% include newsletter.html %} {% endcomment %}
 <!-- end of newsletter -->
 {% include contact.html %}
