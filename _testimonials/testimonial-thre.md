@@ -1,7 +1,7 @@
 ---
-name: Anonymous
-role: Code BEAM America 2024
-profile_pic: /assets/images/testimonials/3.png
+name: Bruce Tate
+role: Grox.io
+profile_pic: /assets/images/bruce-tate-bw.png
 ---
 
-It's clear time has been spent ensuring there's a diverse group of speakers (skill levels, ages, nationality, gender, heck, even programming languages); I hope this continues. Everybody brought something interesting to the table.
+Many of the experts that have shaped my writing and my technical career are at Code BEAM America! 
