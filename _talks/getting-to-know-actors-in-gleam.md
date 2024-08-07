@@ -6,7 +6,7 @@ tags:
 title: Getting to know Actors in Gleam
 speakers:
 - _participants/raul-chouza.md
-published: true
+published: false
 
 ---
 Gleam is a programming language that makes the case for type safety in the BEAM. Give it a try and you will soon discover that the straightforward syntax and great error messages give you the power to start building your domain logic behind a lovely typed foundation.
