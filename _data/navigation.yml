@@ -3,7 +3,14 @@
 #- name: Tickets
 #  link: "tickets"
 - name: About
-  link: "welcome"
+  link: 
+  children: 
+  - name: Programme Committee
+    link: "members"
+  - name: Venue
+    link: "venue"
+  - name: Testimonials
+    link: "testimonials-carousel-quotes"
 - name: 2025 Waiting List
   link: "newsletter"
 # name: Call for Talks
@@ -28,8 +35,8 @@
 #  link: "student"
 #- name: Volunteer
 #  link: "volunteer"
-- name: Venue
-  link: "venue"
+#- name: Venue
+#  link: "venue"
 # name: Hotels
 #  link: "hotels"
 #- name: COVID-19 safety
