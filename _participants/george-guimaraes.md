@@ -4,7 +4,7 @@ pic_url: "/assets/images/george-guimaraes.jpg"
 tagline: Engineering Leader | Elixir Advocate | ex-Plataformatec
 github: georgeguimaraes
 twitter: georgeguimaraes
-linkedin: georgeguimaraes
+linkedin: in/georgeguimaraes/
 
 ---
 I have over 13 years of experience in Software Engineering, Leadership, Business Development, and Digital Products.
