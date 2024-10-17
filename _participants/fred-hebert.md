@@ -1,6 +1,6 @@
 ---
-name: Fred Herbert
-pic_url: "/assets/images/Fred-Herbert.png"
+name: Fred Hebert
+pic_url: "/assets/images/Fred-Hebert.png"
 tagline: Staff SRE @ Honeycomb
 
 ---
