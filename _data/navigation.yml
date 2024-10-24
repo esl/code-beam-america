@@ -13,8 +13,8 @@
     link: "testimonials-carousel-quotes"
 - name: 2025 Waiting List
   link: "newsletter"
-- name: Call for Talks & Tutorials
-  link: "cft"
+#- name: Call for Talks & Tutorials
+#  link: "cft"
 # name: Call for Tutorials
 #  link: "call-for-tutorials"
 #- name: All Recordings
