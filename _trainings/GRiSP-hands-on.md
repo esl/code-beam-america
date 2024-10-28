@@ -46,7 +46,7 @@ This one-day hands-on tutorial introduces participants to GRiSP, GRiSP.io, and L
    - Interactive session where participants can try out their own ideas or continue experimenting with the provided hardware setup
    - Closing discussion, Q&A, and reflections on the tutorial
 
-**Training objectives:**
+**Tutorial objectives:**
 1. Understand GRiSP and GRiSP.io platforms for IoT development
 2. Securely connect GRiSP boards to GRiSP.io
 3. Use Livebook to interact with sensors and actuators in real-time
@@ -58,5 +58,5 @@ This one-day hands-on tutorial introduces participants to GRiSP, GRiSP.io, and L
 **Target audience:**
 Intermediate users with basic Erlang or Elixir programming skills.
 
-**Training prerequisites:**
+**Tutorial prerequisites:**
 Basic Erlang or Elixir programming skills

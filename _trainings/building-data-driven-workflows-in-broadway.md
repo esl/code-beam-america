@@ -15,7 +15,7 @@ We'll start with a simple producer and consumer, and work through extending it u
 
 By the time you're finished, you'll have implemented your own ETL pipeline, understand how to integrate it with an existing ETL pipeline, and see how easy it is to switch message brokers without changing the underlying implementation.
 
-**Training objectives:**
+**Tutorial objectives:**
 1. Set up and configure message brokers with Docker
 2. Build scalable data pipelines using Broadway
 3. Implement producer-consumer patterns
@@ -27,7 +27,7 @@ By the time you're finished, you'll have implemented your own ETL pipeline, unde
 **Target audience:**
 - Intermediate users looking to build robust data processing pipelines with Broadway.
 
-**Training prerequisites:**
+**Tutorial prerequisites:**
 - Docker
 - Elixir
 - Familiarity with:
