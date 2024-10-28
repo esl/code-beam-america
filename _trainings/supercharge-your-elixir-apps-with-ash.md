@@ -3,6 +3,7 @@ experience:
 - Introductory and overview
 trainers:
 - _participants/zach-daniel.md
+- _participants/josh-price.md
 event_date: March 5, 2025
 type: "in-person full-day tutorial"
 venue: Marines' Memorial Club & Hotel
@@ -14,6 +15,7 @@ Ash Framework is a refreshingly different way to craft efficient and maintainabl
 Throughout this class, we'll build a real-world application from the ground up, leveraging Ash's unique features. You'll learn to design and implement resources, craft actions that encapsulate your core business logic, and seamlessly integrate APIs and UIs. We'll also explore advanced topics like custom extensions and strategies for incremental adoption in existing projects.
 
 **Tutorial objectives:**
+
 By the end of this course, you'll have gained practical experience in:
 - Using Igniter to rapidly scaffold your Ash applications
 - Structuring your Elixir projects with Ash for maximum maintainability
