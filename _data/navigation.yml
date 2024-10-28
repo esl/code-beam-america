@@ -25,10 +25,10 @@
 #  link: schedule
 - name: Speakers
   link: "keynotes"
-#- name: Trainers
-#  link: "trainers"
-#- name: Training
-#  link: "training"
+- name: Trainers
+  link: "trainers"
+- name: Training
+  link: "training"
 #- name: Diversity
 #  link: "diversity"
 #- name: Student
