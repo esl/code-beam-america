@@ -4,7 +4,7 @@ experience:
 trainers:
 - _participants/zach-daniel.md
 event_date: March 5, 2025
-type: in-person full-day tutorial
+type: "in-person full-day tutorial"
 venue: Marines' Memorial Club & Hotel
 title: "Supercharge Your Elixir Apps with Ash"
 published: true
