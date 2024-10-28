@@ -8,7 +8,7 @@ experience:
 type: in-person full-day tutorial
 title: Breakdown - Designing Better LiveView Components
 summary: Break down your LiveViews! If you want to design good live views, you need to know the tools. That means building layered software with components.
-published: true
+published: false
 
 ---
 Break down your LiveViews! If you want to design good live views, you need to know the tools. That means building layered software with components. You can make the most of Phoenix LiveView by understanding the tools at your disposal: live components and function components. And this 100% hands-on tutorial with Elixir’s most published author, Bruce Tate, will get you there.
