@@ -8,9 +8,17 @@
 
         {% if training != null %}
         <div class="table-item">
-            <div class="item-col item-hours" onload="this.innerText = 'foo'">
-                {{ item.start  | date: "%d/%m/%Y" }} {{ item.start  | date: "%I:%M %p" }} -  {{ item.end  | date: "%I:%M %p" }} {{ item.timezone }}
-            </div>
+<div class="item-col item-hours" onload="this.innerText = 'foo'">
+    {% assign start_date = item.start | date: "%d/%m/%Y" %}
+    {% assign end_date = item.end | date: "%d/%m/%Y" %}
+
+    {% if start_date != end_date %}
+        {{ item.start | date: "%b %-d" }}-{{ item.end | date: "%-d, %Y" }} {{ item.start | date: "%I:%M %p" }} - {{ item.end | date: "%I:%M %p" }} {{ item.timezone }}
+    {% else %}
+        {{ item.start | date: "%b %-d, %Y" }} {{ item.start | date: "%I:%M %p" }} - {{ item.end | date: "%I:%M %p" }} {{ item.timezone }}
+    {% endif %}
+</div>
+
 
             <div class="item-col item-training">
                 <a href="{{training.url | relative_url }}">
