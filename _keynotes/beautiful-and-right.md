@@ -6,7 +6,7 @@ tags:
 title: Beautiful and Right - Hidden Features and Abstractions that Make Languages Work
 speakers:
 - _participants/bruce-tate.md
-published: true
+published: false
 
 ---
 Elixir embraces a fascinating mix of types, features, and libraries to build a surprising breadth of concurrent libraries and services with stunning reliability and concurrency. This talk allows a peek under the hood at how Nerves, LiveView, NX, LiveBook, and more  push Elixir and yet provide a natural, coherent development experience.
