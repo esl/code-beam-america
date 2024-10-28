@@ -2,7 +2,7 @@
 experience:
 - Intermediate users
 event_date: March 5, 2025
-type: in-person full-day tutorial
+type: "in-person full-day tutorial"
 venue: Marines' Memorial Club & Hotel
 trainers:
 - _participants/britton-broderick.md
