@@ -3,7 +3,7 @@ experience:
 - Intermediate users
 trainers:
 - _participants/bruce-tate.md
-event_date: March 4-5, 2025
+event_date: March 4 and 5, 2025
 type: in-person 2-day training
 venue: Marines' Memorial Club & Hotel
 title: "Thinking In Elixir"
