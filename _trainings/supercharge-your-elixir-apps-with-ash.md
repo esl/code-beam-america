@@ -30,3 +30,6 @@ Join me to discover how Ash can transform your Elixir development workflow and h
 **Target audience:**
 - Software developers of all levels.
 - This tutorial is ideal for Elixir developers looking to take their skills to the next level. While we'll cover Ash from the ground up, a working knowledge of Elixir will help you get the most out of this intensive, hands-on experience.
+
+**Prerequisites:**
+- Basic Elixir skills, will need a laptop with Elixir, OTP, an Editor, Git and Postgres.
