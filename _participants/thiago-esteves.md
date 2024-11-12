@@ -1,10 +1,9 @@
 ---
 name: Thiago Esteves
-pic_url: "/assets/images/thiago-esteves.png"
-tagline: Tech Lead Consultant at Erlang Solutions | Founder at Calori
+pic_url: "/assets/images/Thiago_Esteves.jpg"
+tagline: Software Architect at Erlang Solutions
 github: thiagoesteves
+linkedin: in/thiago-cesar-calori-esteves-972368115/
 
 ---
-Thiago is a Founder at Calori & Tech Lead Consultant at Erlang Solutions. He is Software, Erlang, Elixir, Phoenix liveview consultant.
-
-“Every project has fought a battle you know nothing about, please be kind”
+Thiago Esteves is a Software Engineer whose career has evolved from low-level systems with microcontrollers to embedded systems, safety applications, and high-level language applications such as web servers. With a strong hardware background, he brings a unique perspective to software solutions. With over 20 years of experience—more than six dedicated to Beam projects—Thiago has led and contributed to many successful projects. Now, he's focused on spreading the word that the BEAM is all you need!

@@ -1,9 +1,14 @@
 ---
 name: Jeffrey Matthias
 pic_url: "/assets/images/jeffrey-matthias.jpg"
-tagline: Principal Engineer @ Community.com
+tagline: "Staff Software Engineer @ Mechanical Orchard"
 github: idlehands
 twitter: idlehands
+linkedin: in/jeffreymatthias/
 
 ---
-Jeffrey Matthias is a software engineer and industrial designer who loves modularity and quick feedback loops, two things that testing can help facilitate in code. When he's not coding or being dad, he's designing and making furniture.
+Jeffrey co-authored Testing Elixir with his friend and Elixir Core Team member Andrea Leopardi. He currently hangs his hat at Mechanical Orchard, where he is a Staff Engineer. 
+
+Jeffrey deployed his first Elixir app to production over 9 years ago.
+
+He's passionate about creating things and supporting others doing so.
