@@ -8,6 +8,7 @@ tags:
 title: The Socio-Technical Elements That Make Good Platforms
 speakers:
 - _participants/fred-hebert.md
+- _participants/charity-majors.md
 published: true
 
 ---
