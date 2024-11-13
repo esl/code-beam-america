@@ -5,7 +5,7 @@ tags:
 title: The Human Factor
 speakers:
 - _participants/jenny-bramble.md
-published: true
+published: false
 
 ---
 What does a crash in your app mean if it just happens to one person? What if that app is their only way to communicate with the outside world? What does a minor defect in your app mean when it’s supposed to be safeguarding the health of your community?
