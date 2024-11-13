@@ -10,6 +10,6 @@ Mitchell is very passionate about using and teaching Elixir and has been doing s
 
 He is the author/maintainer of a a few libraries (Wallaby, Temple), but most notably the elixir-tools project and am now a member of the official LSP team.
 
-Mitchell is currently work at Simplebet as a Lead Software Engineer.
+Mitchell works at Simplebet as a Lead Software Engineer.
 
 [www.mitchellhanberg.com](https://www.mitchellhanberg.com)
