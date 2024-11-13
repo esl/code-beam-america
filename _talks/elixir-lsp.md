@@ -7,7 +7,7 @@ tags:
 - Development Tools
 title: Elixir LSP
 speakers:
-- _participants/mitchell-hanberg.md
+- _participants/Mitchell-Hanberg.md
 published: true
 
 ---
