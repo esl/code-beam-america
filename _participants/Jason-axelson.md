@@ -1,7 +1,7 @@
 ---
 name: Jason Axelson
 pic_url: "/assets/images/jason_axelson.jpg"
-tagline: "Nerves and Scenic Enthusiast; Engineering Manager at Felt"
+tagline: "Nerves and Scenic Enthusiast, Engineering Manager at Felt"
 twitter: bostonvaulter
 linkedin: in/jasonaxelson/
 
