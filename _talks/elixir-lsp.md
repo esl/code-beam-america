@@ -5,7 +5,7 @@ tags:
 - LSP
 - IDE
 - Development Tools
-title: Your Official Elixir Expert
+title: Elixir LSP
 speakers:
 - _participants/mitchell-hanberg.md
 published: true
