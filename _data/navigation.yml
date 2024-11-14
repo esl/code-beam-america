@@ -29,6 +29,13 @@
   link: "trainers"
 - name: Training
   link: "training"
+- name: Join us
+  link: 
+  children: 
+  - name: Volunteer
+    link: "volunteer"
+  - name: Diversity Programme
+    link: "diversity" 
 #- name: Diversity
 #  link: "diversity"
 #- name: Student
