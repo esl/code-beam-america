@@ -1,6 +1,6 @@
 ---
 name: Thiago Esteves
-pic_url: "/assets/images/Thiago_Esteves.jpg"
+pic_url: "/assets/images/speakers/Thiago.png"
 tagline: Software Architect at Erlang Solutions
 github: thiagoesteves
 linkedin: in/thiago-cesar-calori-esteves-972368115/
