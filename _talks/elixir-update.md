@@ -1,5 +1,5 @@
 ---
-audience:
+level:
 - Introductory and overview
 tags:
 - Elixir
