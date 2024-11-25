@@ -1,5 +1,5 @@
 ---
-pic_url: /assets/images/eric-meadows-jonsson.jpeg
+pic_url: /assets/images/eric-meadows-joensson.jpeg
 name: Eric Meadows-Jönsson
 tagline: Elixir Team Member, Creator of Hex and Ecto
 github: ericmj
