@@ -20,6 +20,10 @@ social:
     url: https://twitter.com/codebeamio
     username: codebeamio
     card: image
+  - title: bluesky
+    url: https://bsky.app/profile/codebeam.bsky.social
+    username: codebeamio
+    card: image
 
 # Build settings
 markdown: kramdown
