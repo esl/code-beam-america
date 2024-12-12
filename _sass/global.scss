@@ -1,6 +1,8 @@
 $primary: blue;
 $light-blue: #543462;
 $white: #fff;
+$brand: #ff00ff;
+$secondary: #2aea9c;
 
 a {
   -webkit-transition: all 300ms ease-in-out;
@@ -39,7 +41,7 @@ a {
 
 .page-loader .load-icon:before,
 .page-loader .load-icon:after {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   background: rgba(151, 33, 248, 0.2);
