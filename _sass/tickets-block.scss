@@ -1,0 +1,118 @@
+.tickets-block {
+  font-family: 'Montserrat', sans-serif;
+  .items-container {
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1em;
+    @media screen and (min-width: 768px) {
+      flex-direction: row;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 1.5em;
+    }
+  }
+  .ticket-item {
+    // background: linear-gradient(to left, #0074a9 50%, #e32dfd 50%);
+    padding: 3.5px;
+    text-align: center;
+    font-family: 'Lato';
+    border-radius: 8px;
+    background: linear-gradient(-45deg, #0074a9, #e32dfd, #2aea9c, #e32dfd);
+    background-size: 400% 400%;
+    position: relative;
+    z-index: 1;
+    animation: gradientAnimation 9s linear infinite;
+    @media screen and (min-width: 768px) {
+      flex: 0 1 25%;
+    }
+    &:nth-child(even) {
+      background: linear-gradient(-45deg, #e32dfd, #2aea9c, #e32dfd, #0074a9);
+    }
+    > div {
+      background-color: #fff;
+      padding: 30px 20px;
+      border-radius: 8px;
+    }
+
+    h3 {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 1em;
+    }
+    .price {
+      margin: 0.75em auto;
+      font-size: 35px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+      span {
+        display: inline-block;
+        width: auto;
+        font-size: 1rem;
+
+        background-color: $secondary;
+        padding: 3px 8px;
+      }
+    }
+    .description {
+      margin: 1em auto;
+    }
+    a {
+      align-items: center;
+      border: 1px solid $brand;
+      color: $brand;
+      border-radius: 0.3em;
+      margin: 1em auto;
+      font-size: 0.75em;
+      font-weight: 500;
+      letter-spacing: 0.16em;
+      padding: 0.5em 2.7em;
+      display: inline-block;
+      transition: all 0.3s linear;
+      &:hover {
+        background-color: $brand;
+        color: #ffffffff;
+      }
+    }
+
+    hr {
+      margin: 1em auto !important;
+      height: 1px;
+      background: lightgray;
+    }
+    .features {
+      padding: 18px 30px;
+      ul {
+        text-align: left;
+        margin: 20px 0;
+        list-style-type: '👉';
+        padding-inline-start: 1em;
+        li {
+          margin-bottom: 10px;
+          padding-left: 0.5em;
+        }
+      }
+    }
+    .conditions p {
+      font-size: 0.7rem;
+      margin-bottom: 8px;
+      opacity: 0.86;
+      color: #000;
+    }
+  }
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

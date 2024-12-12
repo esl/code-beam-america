@@ -1,0 +1,38 @@
+<div class="section tickets-block" id="register">
+  <h2 class="title">Register</h2>
+<hr/>
+  <div class="items-container">
+    {% for item in site.tickets %}
+    <div class="ticket-item">
+      <div>
+        <h3>{{ item.title }}</h3>
+        <div class="price">
+          {{ item.price }}
+          {% if item.discount %}
+          <span>{{ item.discount }}</span>
+          {% endif %}
+        </div>
+
+        {% if item.description %}
+        <div class="description">
+          {{ item.description}}
+        </div>
+        {% endif %}
+        <a href="{{item.link}}" target="_blank" title="Register">Register</a>
+        <hr />
+        <div class="features">
+          {{ item.content | markdownify }}
+        </div>
+        {% if item.conditions %}
+        <div class="conditions">
+          <hr />
+          {% for condition in item.conditions %}
+          <p>{{ condition}}</p>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>
