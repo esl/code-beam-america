@@ -37,8 +37,6 @@ image: assets/images/CBA25-stage.png
 <!-- end of trainers -->
 {% include training.html %}
 <!-- end of training -->
-{% include banner-1.html %}
-<!-- end of banner-1  -->
 {% if site.data.settings.homepage_settings.gallery.show %}
 {% include gallery-grid.html %}
 {% endif %}
@@ -79,9 +77,11 @@ image: assets/images/CBA25-stage.png
 <!-- end of blog -->
 {% include venue.html %}
 <!-- end of venue -->
+{% include banner-1.html %}
+<!-- end of banner-1  -->
 {% include sponsors.html %}
 <!-- end of sponsors -->
-{% include hybrid.html %}
+{% comment %} {% include hybrid.html %}{% endcomment %}
 <!-- end of hybrid -->
 {% include newsletter.html %}
 <!-- end of newsletter -->
