@@ -1,6 +1,6 @@
 #- name: Home
 #  link: "cover"
-- name: Tickets
+- name: TICKETS
   link: "register"
 - name: About
   link:
