@@ -35,7 +35,9 @@
   - name: Volunteer
     link: "volunteer"
   - name: Diversity Programme
-    link: "diversity" 
+    link: "diversity"
+  - name: Become a Sponsor
+    link: "sponsor-2"
 #- name: Diversity
 #  link: "diversity"
 #- name: Student
