@@ -18,15 +18,7 @@ image: assets/images/CBA25-stage.png
 {% include welcome.html %}
 <!-- end of welcome -->
 
-{% if site.data.settings.homepage_settings.gallery.show %}
-{% include gallery-grid.html %}
-{% endif %}
-<!-- end of gallery-grid  -->
-<!-- start of  testimonials  block -->
-{% if site.data.settings.homepage_settings.testimonials.show %}
-{% include testimonials.html %}
-{% endif %}
-<!-- end of  testimonials  block -->
+
 {% comment %} {% include hardwarehacking.html %}{% endcomment %}
 <!-- end of hardwarehacking  -->
 {% comment %} {% include travelling.html %} {% endcomment %}
@@ -47,7 +39,15 @@ image: assets/images/CBA25-stage.png
 <!-- end of trainers -->
 {% include training.html %}
 <!-- end of training -->
-
+{% if site.data.settings.homepage_settings.gallery.show %}
+{% include gallery-grid.html %}
+{% endif %}
+<!-- end of gallery-grid  -->
+<!-- start of  testimonials  block -->
+{% if site.data.settings.homepage_settings.testimonials.show %}
+{% include testimonials.html %}
+{% endif %}
+<!-- end of  testimonials  block -->
 {% if site.data.settings.homepage_settings.tickets %}
 {% include tickets-block.html %}
 {% else %}
