@@ -3,6 +3,7 @@ audience:
 - Introductory and overview
 tags: []
 title: OTP Update
+level: beginner
 speakers:
 - _participants/ingela-andin.md
 
