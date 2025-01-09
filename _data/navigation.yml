@@ -21,8 +21,8 @@
 #  link: "recordings"
 #- name: Public videos
 #  link: "video"
-#- name: Schedule
-#  link: schedule
+- name: Schedule
+  link: schedule
 - name: Speakers
   link: "keynotes"
 - name: Trainers
@@ -30,8 +30,8 @@
 - name: Training
   link: "training"
 - name: Join us
-  link: 
-  children: 
+  link:
+  children:
   - name: Volunteer
     link: "volunteer"
   - name: Diversity Programme
