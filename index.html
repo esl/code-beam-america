@@ -48,9 +48,8 @@ image: assets/images/CBA25-stage.png
 <!-- end of  testimonials  block -->
 {% if site.data.settings.homepage_settings.tickets %}
 {% include tickets-block.html %}
-{% else %}
-{% include register.html %}
 {% endif %}
+{% comment %} {% include register.html %} {% endcomment %}
 
 <!-- end of register -->
 {% include diversity.html %}
