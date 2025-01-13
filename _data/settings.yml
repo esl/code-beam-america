@@ -1,6 +1,6 @@
 homepage_settings:
   countdown:
-    show: true
+    show: false
     timezone: America/Los_Angeles
     deadline: 2025-01-21 23:58
   modal:
