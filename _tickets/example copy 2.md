@@ -1,7 +1,7 @@
 ---
 title: 'This is the ticket title'
 price: '1000$'
-discount: '15% off until dec 2025'
+discount: '15% off until dec 2026'
 description: 'Solis 39 urbanitas utuntur explicari adiungimus efficeretur delicata faciam errorem atomos adiungimus Albucius acri intelleges.'
 link: 'www.link.com'
 conditions:
