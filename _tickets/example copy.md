@@ -5,7 +5,7 @@ discount: 'with Early Bird discount till Jan 21'
 description: "Get full Code BEAM experience by joining us in San Francisco!"
 link: 'https://codebeamamerica.com/#register'
 conditions:
-  - 'Ticket for 2 Days of conference'
+  - 'The conference ticket doesn't include training sessions.'
 ---
 
 ### FEATURES
