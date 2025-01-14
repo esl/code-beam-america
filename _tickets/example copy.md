@@ -1,8 +1,8 @@
 ---
-title: 'Virtual Tickets'
-price: '$155'
+title: 'In-Person Tickets'
+price: '$830'
 discount: 'with Early Bird discount till Jan 21'
-description: 'Can't join us in San Francisco in March? Opt for virtuall attendance!'
+description: "Get full Code BEAM experience by joining us in San Francisco!"
 link: 'https://codebeamamerica.com/#register'
 conditions:
   - 'Confidet desideraturam excruciant malit firmitatem tempore seditiones distinctio placet'
