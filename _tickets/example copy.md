@@ -1,9 +1,9 @@
 ---
-title: 'This is the ticket title'
-price: '1000$'
-discount: '15% off until dec 2025'
-description: 'Solis 39 urbanitas utuntur explicari adiungimus efficeretur delicata faciam errorem atomos adiungimus Albucius acri intelleges.'
-link: 'www.link.com'
+title: 'Virtual Tickets'
+price: '$155'
+discount: 'with Early Bird discount till Jan 21'
+description: 'Can't join us in San Francisco in March? Opt for virtuall attendance!'
+link: 'https://codebeamamerica.com/#register'
 conditions:
   - 'Confidet desideraturam excruciant malit firmitatem tempore seditiones distinctio placet'
 ---
