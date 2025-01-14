@@ -12,4 +12,4 @@ homepage_settings:
   gallery:
     show: true
     title: "Code BEAM America 2024"
-  tickets: false
+  tickets: true
