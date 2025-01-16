@@ -11,6 +11,8 @@
     link: "venue"
   - name: Testimonials
     link: "testimonials-carousel-quotes"
+  - name: Roundtables
+    link: "bof"
 # name: 2025 Waiting List
 #  link: "newsletter"
 #- name: Call for Talks & Tutorials
@@ -36,6 +38,8 @@
     link: "volunteer"
   - name: Diversity Programme
     link: "diversity"
+  - name: Students
+    link: "student"
   - name: Become a Sponsor
     link: "sponsor-2"
 #- name: Diversity
