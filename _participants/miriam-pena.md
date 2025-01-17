@@ -1,7 +1,7 @@
 ---
 name: Miriam Pena
 pic_url: "/assets/images/Miriam-Pena.jpeg"
-tagline: Voted One Of The Women to Watch in Tech by Women 2.0
+tagline: Engineering@meta, Founder & Board @Erlang Ecosystem Foundation
 github: miriampena
 linkedin: miriampena
 
