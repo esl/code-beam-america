@@ -6,7 +6,7 @@ tags:
 - History, Innovation & Sustainability
 - Phoenix
 - LiveView
-title: Cracking the PubSub Code: Elixir's Key to Scalable Real-Time Systems
+title: Cracking the PubSub Code. Elixir's Key to Scalable Real-Time Systems
 speakers:
 - _participants/alvaro-callero.md
 published: true
