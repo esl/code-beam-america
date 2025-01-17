@@ -1,6 +1,6 @@
 ---
 name: Alvaro Callero
-pic_url: "/assets/images/Alvaro-Callero.jpg"
+pic_url: "/assets/images/Alvaro_Callero.jpg"
 tagline: Staff Engineer at WyeWorks | Scrum Master | Senior Elixir Developer
 linkedin: in/alvaro-callero/
 
