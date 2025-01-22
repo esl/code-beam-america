@@ -1,7 +1,7 @@
 ---
 title: 'Virtual Ticket'
-price: '$155'
-discount: 'with Early Bird discount till Jan 21'
+price: '$185'
+discount: '2-Days Online Pass'
 description: "Can't join us in San Francisco in March? Opt for virtual attendance!"
 link: '/#register'
 ---
