@@ -27,9 +27,18 @@
                             {% endfor %}
                         </p>
                     </div>
-                    <div class="training-info">
-                        <p><strong>Date:</strong><br> {{schedule.start | date: '%Y-%m-%d'}}</p>
-                    </div>
+                <div class="training-info">
+    <p><strong>Date:</strong><br>
+        {% assign start_date = schedule.start | date: "%Y-%m-%d" %}
+        {% assign end_date = schedule.end | date: "%Y-%m-%d" %}
+
+        {% if start_date != end_date %}
+            {{ schedule.start | date: "%B %-d" }}-{{ schedule.end | date: "%-d, %Y" }}
+        {% else %}
+            {{ schedule.start | date: "%B %-d, %Y" }}
+        {% endif %}
+    </p>
+</div>
                     <div class="training-info">
                         <p><strong>Venue:</strong><br> {{ page.venue }}</p>
                     </div>

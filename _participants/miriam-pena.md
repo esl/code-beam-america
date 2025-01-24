@@ -1,9 +1,10 @@
 ---
 name: Miriam Pena
 pic_url: "/assets/images/Miriam-Pena.jpeg"
-tagline: Voted One Of The Women to Watch in Tech by Women 2.0
+tagline: Engineering@meta, Founder & Board @Erlang Ecosystem Foundation
 github: miriampena
 linkedin: miriampena
+twitter: miriampena
 
 ---
 I love architecting distributed, highly scalable and highly available systems written in Erlang. I have been an Erlang engineer for +16 years in companies all over the World, including automakers in Detroit, real time bidding advertising infrastructure in Dublin & San Francisco, social network messaging (with Ejabberd!) in Madrid, telcos in Stockholm & Egypt, embedded control systems for renewable energy power plants in Spain…

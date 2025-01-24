@@ -2,7 +2,7 @@
 title: Erlang Fundamentals for Debugging Elixir
 speakers:
 - _participants/lorena-mireles.md
-published: true
+published: false
 
 ---
 In this talk we will explore the fundamentals behind the magic of some of the debugging tools in Elixir and their benefits to debug borderline conditions and find hard to reproduce bugs in live Erlang systems 🔮🪄

@@ -37,21 +37,11 @@
   </div>
 
   <div class="countdown-cta-container">
-    <a
-      class="countdown-cta-button"
-      target="_blank"
-      href="https://codebeameurope.com/#newsletter"
-      >Join the Waiting List</a
-    >
+    <a class="countdown-cta-button" target="_blank" href="https://codebeamamerica.com/#register">Early Birds Discount ends soon!</a>
   </div>
   <div class="dismiss-container">
     <div class="countdown-dismiss">
-      <svg
-        class="dismiss-icon"
-        onclick="dismissCountdown()"
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 24 24"
-      >
+      <svg class="dismiss-icon" onclick="dismissCountdown()" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
         <path fill="#888" d="M19 13H5v-2h14v2z" />
       </svg>
     </div>
@@ -59,13 +49,25 @@
 </div>
 
 <script>
-  // Set the target date for your conference
-  var targetDate = new Date("October 15, 2024").getTime();
+  /*** Sample timezones: ***/
+  // "Europe/Lisbon"
+  // "Europe/London"
+  // "America/New_York"
+  // "Asia/Tokyo"
+  // "Australia/Sydney" 
+
+  let UTC = "UTC";
+
+  // Define the desired timezone here
+  let timezone = '{{ site.data.settings.homepage_settings.countdown.timezone }}';
+
+  // Set the target date for your conference with time zone
+  var targetDate = moment.tz('{{ site.data.settings.homepage_settings.countdown.deadline }}', timezone).valueOf();
 
   // Update the countdown every second
   var countdownInterval = setInterval(function () {
-    // Get the current date and time
-    var now = new Date().getTime();
+    // Get the current date and time in UTC
+    var now = moment.utc().valueOf();
 
     // Calculate the time remaining
     var timeRemaining = targetDate - now;

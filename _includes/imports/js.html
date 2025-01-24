@@ -13,7 +13,7 @@
 <script src="{{ "/assets/js/agency.js" | prepend: site.baseurl }}"></script>
 
 <!-- Owl Carousel -->
-<script src="{{ site.baseurl }}/assets/js/carousel.min.js" charset="utf-8"></script>
+<script src="{{ site.baseurl }}/assets/js/owl.carousel.min.js" charset="utf-8"></script>
 
 <!-- Parallaxing & SmoothScroll -->
 <script src="{{ site.baseurl }}/assets/js/scrollax.min.js" charset="utf-8"></script>
@@ -21,7 +21,9 @@
 {% if site.smooth-scroll %}
     <script src="{{ site.baseurl }}/assets/js/smoothscroll.js" charset="utf-8"></script>
 {% endif %}
-
+{% if  site.data.settings.homepage_settings.gallery.show %}
+<script src="{{ site.baseurl }}/assets/js/fslightbox.js" charset="utf-8"></script>
+{% endif %}
 <!-- Main JS -->
 <script src="{{ site.baseurl }}/assets/js/main.js" charset="utf-8"></script>
 <script type="text/javascript">

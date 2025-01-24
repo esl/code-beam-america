@@ -1,6 +1,6 @@
 ---
 name: Ingela Anderton Andin (remotely)
-pic_url: "/assets/images/ingela-andin.jpeg"
+pic_url: "/assets/images/ingela-andin.jpg"
 tagline: Senior Erlang/OTP core developer
 github: IngelaAndin
 twitter: "@IngelaAndin"

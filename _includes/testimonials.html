@@ -1,0 +1,27 @@
+{% assign testimonials = site.testimonials %}
+
+{% if testimonials != null %}
+<!-- Slider main container -->
+<div class="section section--carousel">
+<div class="carousel-wrapper">
+ <h3 class="title">{{ site.data.settings.homepage_settings.testimonials.title }}</h3>
+<hr/>
+  <div id="testimonials-carousel-quotes" class="owl-carousel owl-theme"> 
+    {% for testimonial in site.testimonials %}
+<figure class="testimonial-item item">
+  <blockquote>
+   {{ testimonial.content | markdownify }}
+    <div class="arrow"></div>
+  </blockquote>
+    <img src="{{ testimonial.profile_pic }}" alt="{{ testimonial.name }}">
+  <div class="author">
+    <h5>{{ testimonial.name }} <span> {{ testimonial.role }}</span></h5>
+  </div>
+</figure>
+   
+    {% endfor %}
+
+  </div>
+</div>
+</div>
+{% endif %}

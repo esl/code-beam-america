@@ -1,0 +1,15 @@
+homepage_settings:
+  countdown:
+    show: false
+    timezone: America/Los_Angeles
+    deadline: 2025-01-21 23:58
+  modal:
+    show: false
+    delay: 5000
+  testimonials:
+    show: true
+    title: "What Attendees think about the event?"
+  gallery:
+    show: true
+    title: "Code BEAM America 2024"
+  tickets: true

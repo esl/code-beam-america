@@ -1,12 +1,21 @@
 #- name: Home
 #  link: "cover"
-#- name: Tickets
-#  link: "tickets"
+- name: TICKETS
+  link: "tickets"
 - name: About
-  link: "welcome"
-- name: 2025 Waiting List
-  link: "newsletter"
-# name: Call for Talks
+  link:
+  children:
+  - name: Programme Committee
+    link: "members"
+  - name: Venue & Hotel
+    link: "venue"
+  - name: Testimonials
+    link: "testimonials-carousel-quotes"
+  - name: Roundtables
+    link: "bof"
+# name: 2025 Waiting List
+#  link: "newsletter"
+#- name: Call for Talks & Tutorials
 #  link: "cft"
 # name: Call for Tutorials
 #  link: "call-for-tutorials"
@@ -14,22 +23,33 @@
 #  link: "recordings"
 #- name: Public videos
 #  link: "video"
-#- name: Schedule
-#  link: schedule
+- name: Schedule
+  link: schedule
 - name: Speakers
   link: "keynotes"
-#- name: Trainers
-#  link: "trainers"
-#- name: Training
-#  link: "training"
+- name: Trainers
+  link: "trainers"
+- name: Training
+  link: "training"
+- name: Join us
+  link:
+  children:
+  - name: Volunteer
+    link: "volunteer"
+  - name: Diversity Programme
+    link: "diversity"
+  - name: Students
+    link: "student"
+  - name: Become a Sponsor
+    link: "sponsor-2"
 #- name: Diversity
 #  link: "diversity"
 #- name: Student
 #  link: "student"
 #- name: Volunteer
 #  link: "volunteer"
-- name: Venue
-  link: "venue"
+#- name: Venue
+#  link: "venue"
 # name: Hotels
 #  link: "hotels"
 #- name: COVID-19 safety

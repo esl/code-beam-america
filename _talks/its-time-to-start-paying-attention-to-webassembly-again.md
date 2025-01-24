@@ -6,7 +6,7 @@ tags:
 title: It’s time to start paying attention to WebAssembly (again)
 speakers:
 - _participants/chris-nelson.md
-published: true
+published: false
 
 ---
 WebAssembly is an up and coming technology with wide support and bright promise. But until recently, integrating with WebAssembly for something as simple as calling a function with a string was almost prohibitively difficult. That is in the process of changing: there are now multiple options to integrate Elixir and WebAssembly at a higher level in a more productive way.

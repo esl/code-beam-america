@@ -1,29 +1,44 @@
 <nav class="navbar-fixed-top nav-menu" id="navMenu">
-    <a class="logo" href="#cover"></a>
-    <div class="toggle-menu">
-        <!-- Burger -->
-        <div class="navTrigger">
-            <i class="fa fa-bars"></i>
-        </div>
+  <a class="logo" href="#cover"></a>
+  <div class="toggle-menu">
+    <!-- Burger -->
+    <div class="navTrigger">
+      <i class="fa fa-bars"></i>
     </div>
-    <ul class="nav navigation-bar">
-        {% for item in site.data.navigation %}
-            <li>
-                <a class="page-scroll" href="#{{ item.link }}">{{ item.name }}</a>
-            </li>
-        {% endfor %}
-        <li>
-            <div class="dropdown">
-                <a class="dropbtn">Archives
-                    <i class="fa fa-caret-down"></i>
-                </a>
-                <div class="dropdown-content">
-                    {% for conf in site.data.archive-links %}
-                        <a href="{{conf.link}}" target="_blank">{{conf.name}}</a>
-                    {% endfor %}
+  </div>
+  <ul class="nav navigation-bar">
+    {% for item in site.data.navigation %}
+    {% if item.children %}
+    <li>
+      <div class="dropdown">
+        <a class="dropbtn">{{item.name}}
+          <i class="fa fa-caret-down"></i>
+        </a>
+        <div class="dropdown-content">
+          {% for child in item.children %}
+            <a class="page-scroll" href="#{{ child.link }}">{{ child.name }}</a>
+          {% endfor %}
+        </div>
+      </div>
+    </li>
+    {% else %}
+    <li>
+      <a class="page-scroll" href="#{{ item.link }}">{{ item.name }}</a>
+    </li>
+    {% endif %}
+    {% endfor %}
+    <li>
+      <div class="dropdown">
+        <a class="dropbtn">Archives
+          <i class="fa fa-caret-down"></i>
+        </a>
+        <div class="dropdown-content">
+          {% for conf in site.data.archive-links %}
+          <a href="{{conf.link}}" target="_blank">{{conf.name}}</a>
+          {% endfor %}
 
-                </div>
-            </div>
-        </li>
-    </ul>
+        </div>
+      </div>
+    </li>
+  </ul>
 </nav>
