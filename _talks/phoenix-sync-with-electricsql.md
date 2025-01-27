@@ -16,7 +16,7 @@ At ElixirConf US in September 2024, José gave a keynote outlining his vision fo
 
 The talk re-caps the design objectives of local-first sync into the front-end directly from Phoenix and Ecto. It talks through our implementation approach with Electric and shows you how you can use the new Electric.Phoenix library to add sync to your Phoenix applications.
 
-This includes syncing ""shapes"" based on Ecto queries, for direct sync into the front-end. And it includes syncing into the LiveView client using Phoenix.Streams via a new `electric_stream/2` function.
+This includes syncing ""shapes"" based on Ecto queries, for direct sync into the front-end. And it includes syncing into the LiveView client using Phoenix.Streams via a new electric_stream/2 function.
 
 **OBJECTIVES:**
 Update the community on the development of the https://github.com/josevalim/sync project.
