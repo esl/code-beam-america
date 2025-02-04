@@ -10,7 +10,7 @@ title: "GRiSP, GRiSP.io, and Livebook Hands-On"
 published: true
 
 ---
-This one-day hands-on tutorial introduces participants to GRiSP, GRiSP.io, and Livebook for IoT development. You'll learn to securely connect GRiSP boards to GRiSP.io, use Livebook for real-time sensor and actuator control, and explore secure over-the-air (OTA) updates. Participants will set up a local development environment, deploy their own software over the air, and experiment with IoT applications live using Livebook. Ideal for engineers and developers, this tutorial simplifies cloud-to-edge IoT workflows and distributed computing with real-time data visualization.
+This one-day hands-on tutorial introduces participants to GRiSP, GRiSP.io, and Livebook for IoT development. As part of the tutorial, each attendee will receive a free GRiSP2 board, which provides ongoing access to basic functionality for the GRiSP.io IoT platform at no additional cost. You’ll learn to securely connect GRiSP boards to GRiSP.io, use Livebook for real-time sensor and actuator control, and explore secure over-the-air (OTA) updates. Participants will set up a local development environment, deploy their own software over the air, and experiment with IoT applications live using Livebook. Ideal for engineers and developers, this tutorial simplifies cloud-to-edge IoT workflows and distributed computing with real-time data visualization. Attendees will be able to continue using their GRiSP2 board and the GRiSP.io platform after the tutorial to further explore IoT development.
 
 **Tutorial Outline:**
 
