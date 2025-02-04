@@ -1,9 +1,5 @@
 ---
 trainings:
-- training: _trainings/thinking-in-elixir.md
-  start: 2025-03-04 09:00:00
-  end: 2025-03-05 17:00:00
-  timezone: PST (SF time)
 - training: _trainings/GRiSP-hands-on.md
   start: 2025-03-05 09:00:00
   end: 2025-03-05 17:00:00
@@ -19,7 +15,7 @@ trainings:
 
 
 
-# Below values need to be written down manually according to 
+# Below values need to be written down manually according to
 # event specific timezone and dates
 # timezone - timezone of the event e.g. EST
 # start - start date and time of the event !!! time in 24-hour format !!!
