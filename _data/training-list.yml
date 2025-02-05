@@ -4,10 +4,6 @@ trainings:
   start: 2025-03-05 09:00:00
   end: 2025-03-05 17:00:00
   timezone: PST (SF time)
-- training: _trainings/building-data-driven-workflows-in-broadway.md
-  start: 2025-03-05 09:00:00
-  end: 2025-03-05 17:00:00
-  timezone: PST (SF time)
 - training: _trainings/supercharge-your-elixir-apps-with-ash.md
   start: 2025-03-05 09:00:00
   end: 2025-03-05 17:00:00
