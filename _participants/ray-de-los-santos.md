@@ -1,5 +1,5 @@
 ---
-name: Ray De Los Santos
+name: Ray De Los Santos (remotely)
 pic_url: "/assets/images/ray-de-los-santos.jpg"
 tagline: "Lead Software Developer @ Ensemble Systems Inc"
 linkedin: in/ray-delossantos/
