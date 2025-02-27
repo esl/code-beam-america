@@ -1,6 +1,6 @@
 ---
 title: 'In-Person Ticket'
-price: '$999'
+price: '$1250'
 discount: '2-Days Conference Pass'
 description: "Get the full Code BEAM experience by joining us in San Francisco!"
 link: 'https://codebeamamerica.com/#register'
