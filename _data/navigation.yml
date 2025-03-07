@@ -1,7 +1,7 @@
 #- name: Home
 #  link: "cover"
-- name: TICKETS
-  link: "tickets"
+#- name: TICKETS
+#  link: "tickets"
 - name: About
   link:
   children:
