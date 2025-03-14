@@ -15,8 +15,8 @@
     link: "bof"
   - name: Webinar
     link: "webinar"
-# name: 2025 Waiting List
-#  link: "newsletter"
+ name: 2025 Waiting List
+ link: "newsletter"
 #- name: Call for Talks & Tutorials
 #  link: "cft"
 # name: Call for Tutorials
@@ -36,12 +36,12 @@
 - name: Join us
   link:
   children:
-  - name: Volunteer
-    link: "volunteer"
-  - name: Support Programme
-    link: "diversity"
-  - name: Students
-    link: "student"
+  #- name: Volunteer
+  #  link: "volunteer"
+  #- name: Support Programme
+  #  link: "diversity"
+  #- name: Students
+  #  link: "student"
   - name: Become a Sponsor
     link: "sponsor-2"
 #- name: Diversity
