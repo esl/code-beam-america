@@ -31,8 +31,8 @@
   link: "keynotes"
 - name: Trainers
   link: "trainers"
-# - name: Training
-#  link: "training"
+- name: Training
+  link: "training"
 - name: Join us
   link:
   children:
