@@ -13,10 +13,14 @@
     link: "testimonials-carousel-quotes"
   - name: Roundtables
     link: "bof"
+  - name: Training
+    link: "training"
 # - name: Webinar
 #   link: "webinar"
 - name: 2025 Waiting List
   link: "newsletter"
+- name: Become a Sponsor
+  link: "sponsor-2"
 #- name: Call for Talks & Tutorials
 #  link: "cft"
 # name: Call for Tutorials
@@ -31,8 +35,6 @@
   link: "keynotes"
 - name: Trainers
   link: "trainers"
-- name: Training
-  link: "training"
 #- name: Join us
 #  link:
 #  children:
@@ -42,8 +44,6 @@
   #  link: "diversity"
   #- name: Students
   #  link: "student"
-- name: Become a Sponsor
-  link: "sponsor-2"
 #- name: Diversity
 #  link: "diversity"
 #- name: Student
