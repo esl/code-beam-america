@@ -5,16 +5,16 @@
 - name: About
   link:
   children:
-- name: Programme Committee
-  link: "members"
-- name: Venue & Hotel
-  link: "venue"
-- name: Testimonials
-  link: "testimonials-carousel-quotes"
-- name: Roundtables
-  link: "bof"
-- name: Webinar
-  link: "webinar"
+  - name: Programme Committee
+    link: "members"
+  - name: Venue & Hotel
+    link: "venue"
+  - name: Testimonials
+    link: "testimonials-carousel-quotes"
+  - name: Roundtables
+    link: "bof"
+# - name: Webinar
+#   link: "webinar"
 - name: 2025 Waiting List
   link: "newsletter"
 #- name: Call for Talks & Tutorials
@@ -33,9 +33,9 @@
   link: "trainers"
 - name: Training
   link: "training"
-- name: Join us
-  link:
-  children:
+#- name: Join us
+#  link:
+#  children:
   #- name: Volunteer
   #  link: "volunteer"
   #- name: Support Programme
