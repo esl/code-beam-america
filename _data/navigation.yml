@@ -66,5 +66,5 @@
 #  link: "members"
 - name: Sponsors
   link: "sponsors"
-#- name: Contact
-#  link: "contact"
+- name: Contact
+  link: "contact"
