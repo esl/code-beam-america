@@ -2,7 +2,7 @@
 name: Erik Stenman
 pic_url: "/assets/images/Erik_Stenman.jpg"
 tagline: From Code to Company - Architecting Concurrent Systems
-github: batate
+github: happi
 twitter: "@erik_stenman"
 
 ---
