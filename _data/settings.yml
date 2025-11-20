@@ -4,7 +4,7 @@ homepage_settings:
     timezone: America/Los_Angeles
     deadline: 2025-03-06 08:58
   modal:
-    show: false
+    show: true
     delay: 5000
   testimonials:
     show: true
