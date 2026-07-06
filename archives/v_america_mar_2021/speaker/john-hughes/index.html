@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/">
+<head>
+<meta content="#ff005f" name="theme-color"/>
+<title>John Hughes</title>
+<meta content="Conference" name="keywords"/>
+<meta content='John Hughes has been a functional programming enthusiast for more than thirty years, at the Universities of Oxford, Glasgow, and since 1992 Chalmers University in Gothenburg, Sweden. He served on the Haskell design committee, co-chairing the committee for Haskell 98, and is the author of more than 100 papers, including "Why Functional Programming Matters", one of the classics of the area. With Koen Claessen, he created QuickCheck, the most popular testing tool among Haskell programmers, and in 2006 he founded Quviq to commercialise the technology using Erlang. In 2018 he became an ACM Fellow.' name="description"/>
+<meta content="index, follow" name="robots"/>
+<meta content="Code Sync" property="og:site_name"/>
+<meta content='John Hughes has been a functional programming enthusiast for more than thirty years, at the Universities of Oxford, Glasgow, and since 1992 Chalmers University in Gothenburg, Sweden. He served on the Haskell design committee, co-chairing the committee for Haskell 98, and is the author of more than 100 papers, including "Why Functional Programming Matters", one of the classics of the area. With Koen Claessen, he created QuickCheck, the most popular testing tool among Haskell programmers, and in 2006 he founded Quviq to commercialise the technology using Erlang. In 2018 he became an ACM Fellow.' property="og:description"/>
+<meta content="John Hughes" property="og:title"/>
+<meta content="person" property="og:type"/>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="IE=IE=edge,chrome=1" http-equiv="X-Ua-Compatible"/>
+<meta charset="utf-8"/>
+<meta content="777600" property="og:ttl"/>
+<link href="../../assets/manifest.json" rel="manifest"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="../../assets/assets/global.73570f4b.css" rel="stylesheet"/><link href="../../assets/assets/img/favicon.93e85b1c.png" rel="icon" type="image/png">
+        &lt;
+    <link href="http://codesync.global/speaker/john-hughes/" rel="canonical"/>
+<meta content="index, follow" name="robots">
+<meta content="0ADqSE0jcVWTzdaYNiMgTNIuSUUz9by-7zw49rRHOEY" name="google-site-verification">
+<script async="async" defer="defer" src="https://www.recaptcha.net/recaptcha/api.js"></script>
+<!-- Google Tag Manager -->
+
+<!-- End Google Tag Manager -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+<!-- End Global site tag (gtag.js) - Google Analytics -->
+
+</meta></meta></link></head>
+<body>
+<script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "image": "http://codesync.global/uploads/media/speakers/0001/02/f6338781e6f17935a68d48dcc0ca41de61696cc6.jpeg",
+      "jobTitle": "Co-Designer Of Haskell And QuickCheck",
+      "name": "John Hughes",
+    }
+
+
+    </script>
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+<iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-WGN5WRJ" style="display:none;visibility:hidden" width="0"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+<header class="header calculate-offset">
+<div class="container">
+<div class="logo">
+<a href="https://codesync.global/">
+<svg height="41" viewbox="0 0 30.861 41" width="30.861" xmlns="http://www.w3.org/2000/svg">
+<defs><style>.svg-a{fill:#fff;}</style></defs>
+<path class="svg-a" d="M11.537,38.01a.253.253,0,1,1-.253-.253h0a.253.253,0,0,1,.253.253Zm.668-1.175a.253.253,0,1,0,.253.253h0a.253.253,0,0,0-.253-.253Zm.922-.922a.253.253,0,1,0,.253.254h0A.253.253,0,0,0,13.128,35.913Zm.921-.922a.253.253,0,1,0,.253.254h0A.253.253,0,0,0,14.049,34.992Zm.922-.922a.253.253,0,1,0,.253.254h0a.253.253,0,0,0-.253-.253Zm.922-.922a.253.253,0,1,0,.253.254h0a.253.253,0,0,0-.253-.253Zm.922-.922a.253.253,0,1,0,.253.254h0a.254.254,0,0,0-.253-.253Zm.922-.922a.253.253,0,1,0,.253.254h0A.253.253,0,0,0,17.736,31.3Zm-6.452,4.61a.253.253,0,1,0,.253.254h0A.253.253,0,0,0,11.284,35.915Zm.922-.922a.253.253,0,1,0,.253.254h0a.253.253,0,0,0-.253-.253Zm.922-.922a.253.253,0,1,0,.253.254h0A.253.253,0,0,0,13.128,34.071Zm.921-.922a.253.253,0,1,0,.253.254h0A.253.253,0,0,0,14.049,33.15Zm.922-.922a.253.253,0,1,0,.253.254h0a.253.253,0,0,0-.253-.253Zm.922-.922a.253.253,0,1,0,.253.254h0a.254.254,0,0,0-.253-.253ZM11.284,34.07a.253.253,0,1,0,.253.254h0A.253.253,0,0,0,11.284,34.07Zm.922-.922a.253.253,0,1,0,.253.254h0a.253.253,0,0,0-.253-.253Zm.922-.922a.253.253,0,1,0,.253.254h0A.253.253,0,0,0,13.128,32.227Zm.921-.922a.253.253,0,1,0,.253.254h0A.253.253,0,0,0,14.049,31.306Zm-2.765.92a.253.253,0,1,0,.253.254h0a.253.253,0,0,0-.253-.253Zm.922-.921a.253.253,0,1,0,.253.254h0A.253.253,0,0,0,12.205,31.3Zm-9.216.509a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253Zm.922.922a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253Zm.922.415a.253.253,0,1,0,.253.253.253.253,0,0,0-.253-.253h0Zm.922.922a.253.253,0,1,0,.253.253.253.253,0,0,0-.253-.253h0Zm.922.922a.253.253,0,1,0,.253.253.253.253,0,0,0-.253-.253h0Zm.922.922a.253.253,0,1,0,.253.253h0a.253.253,0,0,0-.253-.254h0Zm.922.922a.253.253,0,1,0,.253.254h0a.253.253,0,0,0-.253-.253h0Zm.922.922a.253.253,0,1,0,.253.254h0a.253.253,0,0,0-.253-.253ZM4.832,31.814a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253Zm.921.921a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253Zm.922.922a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253Zm.922.922a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253Zm.922.922a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253Zm.922.922a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253ZM6.676,31.813a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253Zm.922.922a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253Zm.922.922a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253Zm.922.922a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253Zm-.92-2.765a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253Zm.922.922a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253ZM2.99,21.675a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253Zm.922.922a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253h0Zm.922.415a.253.253,0,1,0,.253.253.253.253,0,0,0-.253-.253h0Zm.922.922a.253.253,0,1,0,.253.253.253.253,0,0,0-.253-.253h0Zm.922.922a.253.253,0,1,0,.253.253.253.253,0,0,0-.253-.253h0Zm.922.922a.253.253,0,1,0,.253.254h0a.253.253,0,0,0-.253-.253Zm.922.922a.253.253,0,1,0,.253.253h0A.253.253,0,0,0,8.52,26.7h0Zm.922.922a.253.253,0,1,0,.253.253.253.253,0,0,0-.253-.253h0Zm-4.61-5.945a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253Zm.922.922a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253Zm.922.922a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253Zm.922.922a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253Zm.922.922a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253Zm.922.922a.253.253,0,1,0-.254-.254.253.253,0,0,0,.254.254h0ZM6.676,21.675a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253ZM7.6,22.6a.253.253,0,1,0-.254-.253A.253.253,0,0,0,7.6,22.6Zm.922.922a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253Zm.922.922a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253Zm-.92-2.765a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253Zm.922.922a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253Zm0-9.723a.253.253,0,1,0,.253.254.253.253,0,0,0-.253-.254h0Zm-.922.922a.253.253,0,1,0,.253.254.253.253,0,0,0-.253-.254Zm-.922.922a.253.253,0,1,0,.253.254.253.253,0,0,0-.253-.254h0Zm-.922.922a.253.253,0,1,0,.253.254h0a.253.253,0,0,0-.253-.254h0Zm-.922.921a.253.253,0,1,0,.253.254h0a.253.253,0,0,0-.253-.254Zm-.922.922a.253.253,0,1,0,.253.254h0a.253.253,0,0,0-.253-.254ZM3.91,18.4a.253.253,0,1,0,.253.254h0a.253.253,0,0,0-.253-.254Zm-.922.922a.253.253,0,1,0,.253.254h0a.253.253,0,0,0-.253-.254h0ZM9.44,14.716a.253.253,0,1,0,.253.254h0a.253.253,0,0,0-.253-.254h0Zm-.922.922a.253.253,0,1,0,.253.254.253.253,0,0,0-.253-.254Zm-.922.922a.253.253,0,1,0,.253.254.253.253,0,0,0-.253-.254Zm-.922.922a.253.253,0,1,0,.253.254h0a.253.253,0,0,0-.253-.254h0Zm-.922.921a.253.253,0,1,0,.253.254h0a.253.253,0,0,0-.253-.254Zm-.922.922a.253.253,0,1,0,.253.254h0a.253.253,0,0,0-.253-.254ZM9.44,16.56a.253.253,0,1,0,.253.254h0a.253.253,0,0,0-.253-.254Zm-.922.922a.253.253,0,1,0,.253.254.253.253,0,0,0-.253-.254h0ZM7.6,18.4a.253.253,0,1,0,.253.254A.253.253,0,0,0,7.6,18.4h0Zm-.922.921a.253.253,0,1,0,.253.254h0a.253.253,0,0,0-.253-.254ZM9.44,18.4a.253.253,0,1,0,.253.254h0A.253.253,0,0,0,9.44,18.4Zm-.922.922a.253.253,0,1,0,.253.254.253.253,0,0,0-.253-.254h0Zm9.216.505a.253.253,0,1,0-.253-.253.253.253,0,0,0,.253.253Zm-.922-.922a.253.253,0,1,0-.253-.254h0a.253.253,0,0,0,.253.253Zm-.922-.922a.253.253,0,1,0-.253-.253.253.253,0,0,0,.253.253Zm-.922-.922a.253.253,0,1,0-.253-.254h0a.253.253,0,0,0,.253.254h0Zm-.922-.922a.253.253,0,1,0-.253-.253.253.253,0,0,0,.253.253h0Zm-.922-.922a.253.253,0,1,0-.253-.253.253.253,0,0,0,.253.253h0ZM12.2,14.3a.253.253,0,1,0-.253-.254.253.253,0,0,0,.253.254h0Zm-.922-.922a.253.253,0,1,0-.253-.253.253.253,0,0,0,.253.253Zm4.609,5.945a.253.253,0,1,0,.254.253.253.253,0,0,0-.254-.253ZM14.97,18.4a.253.253,0,1,0,.254.253.253.253,0,0,0-.254-.253h0Zm-.922-.922a.253.253,0,1,0,.254.253.253.253,0,0,0-.254-.253Zm-.922-.922a.253.253,0,1,0,.254.253.253.253,0,0,0-.254-.253h0Zm-.922-.922a.253.253,0,1,0,.254.253.253.253,0,0,0-.254-.253Zm-.922-.922a.253.253,0,1,0,.254.253.253.253,0,0,0-.254-.253Zm2.764,4.608a.253.253,0,1,0,.254.253.253.253,0,0,0-.254-.253Zm-.922-.922a.253.253,0,1,0,.254.253.253.253,0,0,0-.254-.253Zm-.922-.922a.253.253,0,1,0,.254.253.253.253,0,0,0-.254-.253Zm-.922-.922a.253.253,0,1,0,.254.253.253.253,0,0,0-.254-.253h0Zm.92,3.272a.253.253,0,1,0-.253-.253.253.253,0,0,0,.253.253h0Zm-.922-.922a.253.253,0,1,0-.253-.253.253.253,0,0,0,.253.253h0Zm6.452,11.06a.253.253,0,1,0-.253-.254h0a.253.253,0,0,0,.253.253Zm-.922-.922a.253.253,0,1,0-.253-.254h0a.253.253,0,0,0,.253.253Zm-.922-.922a.253.253,0,1,0-.253-.254h0a.253.253,0,0,0,.253.253Zm-.922-.922a.253.253,0,1,0-.253-.253.253.253,0,0,0,.253.253h0Zm-.922-.922a.253.253,0,1,0-.253-.254.253.253,0,0,0,.253.254h0Zm-.922-.922a.253.253,0,1,0-.253-.253.253.253,0,0,0,.253.253h0ZM12.2,24.44a.253.253,0,1,0-.253-.253.253.253,0,0,0,.253.253h0Zm-.922-.922a.253.253,0,1,0-.253-.253.253.253,0,0,0,.253.253h0Zm4.61,5.945a.253.253,0,1,0,.254.253.253.253,0,0,0-.254-.253Zm-.922-.922a.253.253,0,1,0,.254.253.253.253,0,0,0-.254-.253Zm-.922-.922a.253.253,0,1,0,.254.253.253.253,0,0,0-.254-.253Zm-.922-.922a.253.253,0,1,0,.254.253.253.253,0,0,0-.254-.253h0Zm-.922-.922a.253.253,0,1,0,.254.253h0a.253.253,0,0,0-.254-.253Zm-.922-.922a.253.253,0,1,0,.254.253.253.253,0,0,0-.254-.253Zm2.764,4.608a.253.253,0,1,0,.254.253.253.253,0,0,0-.254-.253Zm-.922-.922a.253.253,0,1,0,.254.253.253.253,0,0,0-.254-.253Zm-.922-.922a.253.253,0,1,0,.254.253.253.253,0,0,0-.254-.253Zm-.922-.922a.253.253,0,1,0,.254.253.253.253,0,0,0-.254-.253Zm.92,3.272a.253.253,0,1,0-.253-.254h0a.253.253,0,0,0,.253.254h0Zm-.922-.922a.253.253,0,1,0-.253-.254h0a.253.253,0,0,0,.253.254h0ZM30.8,10.519l-9.98,9.98,9.98,9.98,0,0a.224.224,0,0,1,.035.047l0,.007.007.015.005.02a.216.216,0,0,1,.008.033.31.31,0,0,1,0,.064.213.213,0,0,1-.008.033l-.005.02-.007.015,0,.007a.224.224,0,0,1-.035.047l0,0L20.659,40.934a.225.225,0,0,1-.035.029l-.005,0a.216.216,0,0,1-.034.018l-.008,0-.033.01H20.53L20.5,41H10.362a.227.227,0,0,1-.041,0h-.006a.22.22,0,0,1-.035-.011h-.006l-.024-.012-.006,0-.022-.016,0,0-.013-.012,0,0L.066,30.8a.225.225,0,0,1-.036-.048l-.006-.012A.22.22,0,0,1,0,30.682v0a.224.224,0,0,1,0-.041V10.361a.223.223,0,0,1,0-.034l0-.014a.222.222,0,0,1,.017-.048l.009-.016a.224.224,0,0,1,.03-.04l0-.005L10.2.065l0,0,0,0,.006-.006L10.234.04l.006,0,.015-.009.005,0h0l.008,0,.008,0,.006,0,.03-.009.009,0,.013,0H20.5a.226.226,0,0,1,.039,0h.007A.22.22,0,0,1,20.6.023l.016.008a.223.223,0,0,1,.04.03l.006,0L30.8,10.2l0,0a.222.222,0,0,1,.035.047l0,.008.007.015c0,.007,0,.014.005.02a.2.2,0,0,1,0,.13.2.2,0,0,1-.005.02l-.007.015,0,.008a.222.222,0,0,1-.035.047ZM20.277,31.178,15.59,35.865,10.9,40.553h9.375Zm-4.037,3.4,3.721-3.721H10.586v9.375ZM.764,20.276h9.375V10.9Zm9.375.447H.763L10.138,30.1Zm9.822,9.691-9.375-9.375v9.375ZM9.822,10.585H.447V19.96ZM20.277,20.723H10.9L20.277,30.1Zm-.317-.447L10.585,10.9v9.375ZM10.585,10.137H19.96L10.585.762ZM.447,30.414H9.822L.447,21.04ZM20.277,19.96V10.584H10.9Zm.447-9.823H30.1L20.724.762ZM20.277.446H10.9l9.375,9.375ZM.763,10.137h9.375V.762Zm9.375,20.724H.763l9.375,9.375Zm19.961,0H20.724v9.375Zm0-.447-9.375-9.375v9.375Zm0-19.83H20.724V19.96Z"></path>
+</svg>
+                CODE SYNC
+            </a>
+</div>
+<nav class="nav color--main">
+<ul class="main-links">
+<li>
+<div>
+<a href="https://codesync.global/conferences/">All Conferences</a>
+<svg aria-hidden="true" class="svg-inline--fa fa-caret-down fa-w-10" data-icon="caret-down" data-prefix="fas" viewbox="0 0 320 512" xmlns="http://www.w3.org/2000/svg"><path d="M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z" fill="currentColor"></path></svg>
+</div>
+<ul class="submenu">
+</ul>
+</li>
+<li><a href="https://codesync.global/media/">MEDIA</a></li>
+<li><a href="https://codesync.global/opportunity-scheme/">DIVERSITY</a></li>
+<li><a href="https://codesync.global/sponsorship/">SPONSORSHIP</a></li>
+<li><a href="https://codesync.global/about-us/">About Us</a></li>
+
+</ul>
+</nav>
+<div class="hamburger">
+<span></span>
+<span></span>
+<span></span>
+</div>
+</div>
+</header>
+<ul class="social-sidebar color--main">
+<li>
+<a href="https://twitter.com/CodeSyncGlobal" rel="noindex nofollow noopener noreferrer" target="_blank" title="Twitter Social Link">
+<svg aria-hidden="true" class="svg-inline--fa fa-twitter fa-w-16" data-icon="twitter" data-prefix="fab" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+<path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" fill="currentColor"></path>
+</svg>
+</a>
+</li>
+<li>
+<a href="https://www.youtube.com/c/code-sync" rel="noindex nofollow noopener noreferrer" target="_blank" title="YouTube Social Link">
+<svg aria-hidden="true" class="svg-inline--fa fa-youtube fa-w-18" data-icon="youtube" data-prefix="fab" viewbox="0 0 576 512" xmlns="http://www.w3.org/2000/svg">
+<path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z" fill="currentColor"></path>
+</svg>
+</a>
+</li>
+<li>
+<a href="https://www.facebook.com/groups/CodeSyncIO/" rel="noindex nofollow noopener noreferrer" target="_blank" title="Facebook Social Link">
+<svg aria-hidden="true" class="svg-inline--fa fa-facebook-f fa-w-9" data-icon="facebook-f" data-prefix="fab" viewbox="0 0 264 512" xmlns="http://www.w3.org/2000/svg">
+<path d="M76.7 512V283H0v-91h76.7v-71.7C76.7 42.4 124.3 0 193.8 0c33.3 0 61.9 2.5 70.2 3.6V85h-48.2c-37.8 0-45.1 18-45.1 44.3V192H256l-11.7 91h-73.6v229" fill="currentColor"></path>
+</svg>
+</a>
+</li>
+<li>
+<a href="https://www.linkedin.com/company/code-sync/" rel="noindex nofollow noopener noreferrer" target="_blank" title="Linkedin Social Link">
+<svg aria-hidden="true" class="svg-inline--fa fa-linkedin-in fa-w-14" data-icon="linkedin-in" data-prefix="fab" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+<path d="M100.3 448H7.4V148.9h92.9V448zM53.8 108.1C24.1 108.1 0 83.5 0 53.8S24.1 0 53.8 0s53.8 24.1 53.8 53.8-24.1 54.3-53.8 54.3zM448 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448h-.1z" fill="currentColor"></path>
+</svg>
+</a>
+</li>
+<li>
+<a href="https://www.instagram.com/codesyncglobal/" rel="noindex nofollow noopener noreferrer" target="_blank" title="Instagram Social Link">
+<svg aria-hidden="true" class="svg-inline--fa fa-instagram fa-w-12" data-icon="instagram" data-prefix="fab" focusable="false" role="img" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+<path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" fill="currentColor"></path>
+</svg>
+</a>
+</li>
+</ul>
+<main>
+<style>
+    .speaker-img::before {
+        background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 0, 95, 0.75)), to(rgba(62, 0, 216, 0.75)));
+        background-image: -webkit-linear-gradient(left, rgba(255, 0, 95, 0.75), rgba(62, 0, 216, 0.75));
+        background-image: -o-linear-gradient(left, rgba(255, 0, 95, 0.75), rgba(62, 0, 216, 0.75));
+        background-image: linear-gradient(to right, rgba(255, 0, 95, 0.75), rgba(62, 0, 216, 0.75));
+    }
+</style> <section class="bio vp--100 t-vp-50 m-vp-30 section-container" id="Speaker">
+<div class="container--small">
+<div class="grid-gap-100">
+<div class="row mt--70 t-mt-00 t-mb-50 m-mb-00">
+<div class="col-5 m-col-12 t-mt-40">
+<div class="speaker-img">
+<picture>
+<img alt="John Hughes" class="" src="../../assets/uploads/media/speakers/0001/02/f6338781e6f17935a68d48dcc0ca41de61696cc6.jpeg"/>
+</picture>
+</div>
+<div class="social-buttons">
+<ul>
+<li>
+<a href="https://twitter.com/@rjmh" rel="noopener noreferrer" target="_blank">
+<svg aria-hidden="true" class="svg-inline--fa fa-twitter fa-w-16" data-icon="twitter" data-prefix="fab" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+<path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" fill="currentColor"></path>
+</svg>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="col-7 m-col-12 t-mt-40">
+<h1 class="heading heading--large color--main activity-name dont-break-out">John Hughes</h1>
+<h2 class="heading heading--normal">Co-Designer Of Haskell And QuickCheck</h2>
+<div class="paragraph paragraph--robotomono bold mt--20 speaker-description"><p>John Hughes has been a functional programming enthusiast for more than thirty years, at the Universities of Oxford, Glasgow, and since 1992 Chalmers University in Gothenburg, Sweden. He served on the Haskell design committee, co-chairing the committee for Haskell 98, and is the author of more than 100 papers, including "Why Functional Programming Matters", one of the classics of the area. With Koen Claessen, he created QuickCheck, the most popular testing tool among Haskell programmers, and in 2006 he founded Quviq to commercialise the technology using Erlang. In 2018 he became an ACM Fellow.</p></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="m-vp-30 m-pb-00 mb--50 section-container speaker-activity">
+<div class="container--small pt--50 t-pt-25" style="border-top: 4px solid white">
+<div class="accordion">
+<h2 class="heading heading--large activity-name">
+                            Past Activities
+                            <span class="arrow arrow--down--white"></span>
+</h2>
+</div>
+<div class="grid panel">
+<div class="row mt--50 t-mt-00">
+<div class="col-5 t-col-12 conference--box pt--50">
+<div class="heading heading--medium light" style="color:#15e6ff">
+                                    John Hughes<br/>
+            Code Mesh V
+        </div>
+<div class="heading heading--small light" style="color:#15e6ff">
+<span class="mt--20 block">Tutorial/</span>
+<span class="mt--20 block">
+                        04 Nov 2020<br/>
+                        08.00 - 11.30
+                    </span>
+</div>
+</div>
+<div class="col-7 t-col-12 pt--50" id="729haskell-from-zero-to-hero">
+<h3 class="heading heading--normal">Haskell from Zero to Hero</h3>
+<div class="desc">
+<div>
+<p>Haskell is your gateway to functional programming. Learning it will make you a better programmer regardless of what language you use, and using it will guarantee you ship much less code. From one of the co-creators of Haskell, this tutorial will act as a soft introduction to the language, flattening out the learning curve and speeding up the process. </p>
+<p> </p>
+<h3><strong>EXPERTISE </strong></h3>
+<p>Intermediate</p>
+<p> </p>
+<h3><strong>COURSE DURATION</strong></h3>
+<p>3 hours 30 minutes</p>
+<p> </p>
+<h3><strong>TARGET AUDIENCE</strong></h3>
+<p>Software developers</p>
+</div>
+<div>
+<h3><strong>PREREQUISITES</strong></h3>
+<ul>
+<li>Good programming skills in at least another programming language</li>
+<li>Familiarity with imperative or OO paradigms<br/>
+	 </li>
+</ul>
+<h3><strong>OBJECTIVES </strong></h3>
+<ul>
+<li>Reduce the barrier to entry to Haskell through the basics</li>
+<li>Appreciate the abstractions of Functional Programming</li>
+<li>Get a solid understanding of the type system and other language construcs</li>
+</ul>
+<p> </p>
+<h3><strong>COVERS THE FOLLOWING TOPICS</strong></h3>
+<ul>
+<li>Functions, Lists and Lists Comprehensions</li>
+<li>Types and Typeclasses</li>
+<li>Pattern Matching and its uses</li>
+<li>Recursion, Higher Order Functions and Lazy Evaluations</li>
+<li>I/O &amp; Modules</li>
+</ul>
+<p> </p>
+<p>Haskell is not a hard language to learn. What is hard is unlearning the bad habits you have picked up. This tutorial aims at giving you a birds-eye view of the foundations, explaining the rationale behind the design decisions. In doing so, it will make it easier for you to use the concepts and ideas in your daily work, even if it is not with a functional language.<strong> </strong></p>
+</div>
+</div>
+<div class="hashtags mt--20">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div class="row mt--50 btn__row col-7 t-col-12">
+<a class="btn btn--pink btn-arrow" href="http://codesync.global/conferences/code-mesh-ldn/" style="background-color: #15e6ff">Back to
+        Conference</a>
+</div>
+<div class="row mt--50 t-mt-00 pt--50 t-pt-00" style="border-top: 4px solid #e32dfd">
+<div class="col-5 t-col-12 conference--box pt--50">
+<div class="heading heading--medium light" style="color:#e32dfd">
+                                    John Hughes /                         Fred Hebert<br/>
+            Code BEAM V America
+        </div>
+<div class="heading heading--small light" style="color:#e32dfd">
+<span class="mt--20 block">
+                        11 Mar 2021<br/>
+                        09.55 - 10.35
+                    </span>
+</div>
+</div>
+<div class="col-7 t-col-12 pt--50" id="799fireside-chat-on-property-based-testing-with-john-hughes-and-fred-hebert">
+<h3 class="heading heading--normal">Fireside chat on Property Based Testing with John Hughes and Fred Hebert</h3>
+<div class="desc">
+<p>Property-Based Testing is one of the most powerful testing methods out there, and the Erlang ecosystem has some of the best frameworks available across all languages. Property-based testing has the potential to drastically increase the quality of software we ship by testing for issues we couldn’t even imagine.<br/>
+Despite great tooling and promises, adoption is still somewhat limited. Simple examples are easy to write, but more complex ones can often feel like black magic. <br/>
+<br/>
+In this Q&amp;A session, Fred Hebert invites John Hughes, one of the inventors of Quickcheck, to discuss adoption strategies, how to gauge the accuracy and effectiveness of property tests, potential ideas for the future, and any questions the people in the audience might have.</p>
+</div>
+<div class="hashtags mt--20">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div class="row mt--50 btn__row col-7 t-col-12">
+<a class="btn btn--pink btn-arrow" href="http://codesync.global/conferences/code-beam-v-america-2021/" style="background-color: #e32dfd">Back to
+        Conference</a>
+</div>
+<div class="row mt--50 t-mt-00 pt--50 t-pt-00" style="border-top: 4px solid #15e6ff">
+<div class="col-5 t-col-12 conference--box pt--50">
+<div class="heading heading--medium light" style="color:#15e6ff">
+                                    John Hughes<br/>
+            Code Mesh LDN
+        </div>
+<div class="heading heading--small light" style="color:#15e6ff">
+<span class="mt--20 block">
+                        08 Nov 2019<br/>
+                        10.35 - 11.20
+                    </span>
+</div>
+</div>
+<div class="col-7 t-col-12 pt--50" id="472how-to-specify-it-a-guide-to-writing-properties-of-pure-functions">
+<h3 class="heading heading--normal">How to specify it! A guide to writing properties of pure functions</h3>
+<div class="desc">
+<p>Property-based testing is an appealing approach to testing, but requires developers to identify suitable properties to test--and many find this difficult, and find the simple properties in tutorials difficult to generalize.</p>
+<p>In this talk, John will present five different strategies for coming up with properties of pure functions, and he'll compare their effectiveness as tests; he'll also warn of the biggest pitfall to be avoided.</p>
+<p>You'll leave this talk with new ideas for writing properties of your own functions. John will be using the Haskell version of QuickCheck for his examples, but the ideas are usable with any property-based testing tool.</p>
+</div>
+<div class="hashtags mt--20">
+<ul>
+<li>
+<a class="paragraph normal" href="https://codesync.global/tags/?search=concurrency-parallelism">#Concurrency &amp; parallelism</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="row mt--50 btn__row col-7 t-col-12">
+<a class="btn btn--pink btn-arrow" href="http://codesync.global/conferences/code-mesh-ldn-2019/" style="background-color: #15e6ff">Back to
+        Conference</a>
+<a class="btn btn--white btn-arrow" href="http://codesync.global/media/how-to-specify-it-a-guide-to-writing-properties-of-pure-functions-cmldn19/">
+                                        Video &amp; Slides
+                                    </a>
+</div>
+<div class="row mt--50 t-mt-00 pt--50 t-pt-00" style="border-top: 4px solid #15e6ff">
+<div class="col-5 t-col-12 conference--box pt--50">
+<div class="heading heading--medium light" style="color:#15e6ff">
+                                    John Hughes<br/>
+            Code Mesh V
+        </div>
+<div class="heading heading--small light" style="color:#15e6ff">
+<span class="mt--20 block">
+                        06 Nov 2020<br/>
+                        18.10 - 18.40
+                    </span>
+</div>
+</div>
+<div class="col-7 t-col-12 pt--50" id="792ask-me-anything-about-haskell">
+<h3 class="heading heading--normal">Ask Me anything about Haskell</h3>
+<div class="desc">
+</div>
+<div class="hashtags mt--20">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div class="row mt--50 btn__row col-7 t-col-12">
+<a class="btn btn--pink btn-arrow" href="http://codesync.global/conferences/code-mesh-ldn/" style="background-color: #15e6ff">Back to
+        Conference</a>
+</div>
+<div class="row mt--50 t-mt-00 pt--50 t-pt-00" style="border-top: 4px solid #4eb913">
+<div class="col-5 t-col-12 conference--box pt--50">
+<div class="heading heading--medium light" style="color:#4eb913">
+                                    John Hughes /                         Melinda Tóth /                         Natalia Chechina<br/>
+            Code BEAM Lite Budapest
+        </div>
+<div class="heading heading--small light" style="color:#4eb913">
+<span class="mt--20 block">
+                        20 Sep 2019<br/>
+                        17.10 - 17.50
+                    </span>
+</div>
+</div>
+<div class="col-7 t-col-12 pt--50" id="441research-industry-inspiration">
+<h3 class="heading heading--normal">Research + Industry = Inspiration</h3>
+<div class="desc">
+<p>Erlang has been inspiring research and industry from its first days – and is itself a result of successful application of research and industrial practices. In this talk we will explore what makes Erlang an exciting topic for collaboration between industry and academia, Erlang’s attractiveness to researchers and talk about transformation of research ideas into companies. We’ll also discuss ways of getting involved in research.</p>
+</div>
+<div class="hashtags mt--20">
+<ul>
+</ul>
+</div>
+</div>
+</div>
+<div class="row mt--50 btn__row col-7 t-col-12">
+<a class="btn btn--pink btn-arrow" href="http://codesync.global/conferences/code-beam-lite-budapest/" style="background-color: #4eb913">Back to
+        Conference</a>
+</div>
+</div>
+</div>
+</section>
+<section class="media section-container section--spaced" id="Media">
+<div class="container--small">
+<div class="media__title">
+<h2 class="heading heading--large">Media</h2>
+</div>
+<div class="media__title">
+<h3 class="heading heading--big">Videos: <span class="color--main">1</span></h3>
+</div>
+<div id="macy-container2">
+<div class="video__container col-4 t-col-6 m-col-12" data-type="video">
+<a class="video__stream" href="http://codesync.global/media/how-to-specify-it-a-guide-to-writing-properties-of-pure-functions-cmldn19/" style="background-image:url('https://i.ytimg.com/vi/zvRAyq5wj38/hqdefault.jpg')">
+<div class="plyr__play-large">
+<svg height="100%" viewbox="0 0 18 18" width="100%">
+<path d="M15.562 8.1L3.87.225C3.052-.337 2 .225 2 1.125v15.75c0 .9 1.052 1.462 1.87.9L15.563 9.9c.584-.45.584-1.35 0-1.8z"></path>
+</svg>
+</div>
+</a>
+<div class="video__desc">
+<h3 class="heading heading--normal heading--roboto video__title">
+<a href="http://codesync.global/media/how-to-specify-it-a-guide-to-writing-properties-of-pure-functions-cmldn19/"> How to specify it! A guide to writing properties of pure functions</a>
+<span>///</span>
+<a class="underline" href="../../speaker/john-hughes/index.html">John Hughes</a>
+</h3>
+<div class="hashtags">
+<ul>
+<li>
+<a href="https://codesync.global/tags/?search=concurrency-parallelism">#Concurrency &amp; parallelism</a>
+</li>
+<li>
+<a href="https://codesync.global/tags/?search=code-mesh-ldn-19">#Code Mesh LDN 2019</a>
+</li>
+</ul>
+</div>
+<div class="share">
+<p class="paragraph paragraph--robotomono">SHARE</p>
+<div class="social-buttons">
+<ul>
+<li>
+<a href="http://www.facebook.com/sharer.php?u=https://www.youtube.com/watch?v=zvRAyq5wj38" rel="noopener noreferrer" target="_blank">
+<svg aria-hidden="true" class="svg-inline--fa fa-facebook-f fa-w-9" data-icon="facebook-f" data-prefix="fab" viewbox="0 0 264 512" xmlns="http://www.w3.org/2000/svg">
+<path d="M76.7 512V283H0v-91h76.7v-71.7C76.7 42.4 124.3 0 193.8 0c33.3 0 61.9 2.5 70.2 3.6V85h-48.2c-37.8 0-45.1 18-45.1 44.3V192H256l-11.7 91h-73.6v229" fill="currentColor"></path>
+</svg>
+</a>
+</li>
+<li>
+<a href="https://twitter.com/intent/tweet?text=John Hughes - How to specify it! A guide to writing properties of pure functions | Code Mesh LDN 19 https://www.youtube.com/watch?v=zvRAyq5wj38" rel="noopener noreferrer" target="_blank">
+<svg aria-hidden="true" class="svg-inline--fa fa-twitter fa-w-16" data-icon="twitter" data-prefix="fab" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+<path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" fill="currentColor"></path>
+</svg>
+</a>
+</li>
+<li>
+<a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.youtube.com/watch?v=zvRAyq5wj38" rel="noopener noreferrer" target="_blank">
+<svg aria-hidden="true" class="svg-inline--fa fa-linkedin-in fa-w-14" data-icon="linkedin-in" data-prefix="fab" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+<path d="M100.3 448H7.4V148.9h92.9V448zM53.8 108.1C24.1 108.1 0 83.5 0 53.8S24.1 0 53.8 0s53.8 24.1 53.8 53.8-24.1 54.3-53.8 54.3zM448 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448h-.1z" fill="currentColor"></path>
+</svg>
+</a>
+</li>
+<li>
+<a href="mailto:?subject=John Hughes - How to specify it! A guide to writing properties of pure functions | Code Mesh LDN 19&amp;body=Take a look at this: https://www.youtube.com/watch?v=zvRAyq5wj38" rel="noopener noreferrer" target="_blank">
+<svg aria-hidden="true" class="svg-inline--fa fa-envelope fa-w-16" data-icon="envelope" data-prefix="fas" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+<path d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z" fill="currentColor"></path>
+</svg>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div> </div>
+</div>
+</section>
+</main>
+<footer class="footer" id="Footer">
+<div class="section-container">
+<div class="container--small">
+<div class="logo">
+<a href="#">
+<svg height="41" viewbox="0 0 30.861 41" width="30.861" xmlns="http://www.w3.org/2000/svg">
+<defs><style>.svg-a{fill:#fff;}</style></defs>
+<path class="svg-a" d="M11.537,38.01a.253.253,0,1,1-.253-.253h0a.253.253,0,0,1,.253.253Zm.668-1.175a.253.253,0,1,0,.253.253h0a.253.253,0,0,0-.253-.253Zm.922-.922a.253.253,0,1,0,.253.254h0A.253.253,0,0,0,13.128,35.913Zm.921-.922a.253.253,0,1,0,.253.254h0A.253.253,0,0,0,14.049,34.992Zm.922-.922a.253.253,0,1,0,.253.254h0a.253.253,0,0,0-.253-.253Zm.922-.922a.253.253,0,1,0,.253.254h0a.253.253,0,0,0-.253-.253Zm.922-.922a.253.253,0,1,0,.253.254h0a.254.254,0,0,0-.253-.253Zm.922-.922a.253.253,0,1,0,.253.254h0A.253.253,0,0,0,17.736,31.3Zm-6.452,4.61a.253.253,0,1,0,.253.254h0A.253.253,0,0,0,11.284,35.915Zm.922-.922a.253.253,0,1,0,.253.254h0a.253.253,0,0,0-.253-.253Zm.922-.922a.253.253,0,1,0,.253.254h0A.253.253,0,0,0,13.128,34.071Zm.921-.922a.253.253,0,1,0,.253.254h0A.253.253,0,0,0,14.049,33.15Zm.922-.922a.253.253,0,1,0,.253.254h0a.253.253,0,0,0-.253-.253Zm.922-.922a.253.253,0,1,0,.253.254h0a.254.254,0,0,0-.253-.253ZM11.284,34.07a.253.253,0,1,0,.253.254h0A.253.253,0,0,0,11.284,34.07Zm.922-.922a.253.253,0,1,0,.253.254h0a.253.253,0,0,0-.253-.253Zm.922-.922a.253.253,0,1,0,.253.254h0A.253.253,0,0,0,13.128,32.227Zm.921-.922a.253.253,0,1,0,.253.254h0A.253.253,0,0,0,14.049,31.306Zm-2.765.92a.253.253,0,1,0,.253.254h0a.253.253,0,0,0-.253-.253Zm.922-.921a.253.253,0,1,0,.253.254h0A.253.253,0,0,0,12.205,31.3Zm-9.216.509a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253Zm.922.922a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253Zm.922.415a.253.253,0,1,0,.253.253.253.253,0,0,0-.253-.253h0Zm.922.922a.253.253,0,1,0,.253.253.253.253,0,0,0-.253-.253h0Zm.922.922a.253.253,0,1,0,.253.253.253.253,0,0,0-.253-.253h0Zm.922.922a.253.253,0,1,0,.253.253h0a.253.253,0,0,0-.253-.254h0Zm.922.922a.253.253,0,1,0,.253.254h0a.253.253,0,0,0-.253-.253h0Zm.922.922a.253.253,0,1,0,.253.254h0a.253.253,0,0,0-.253-.253ZM4.832,31.814a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253Zm.921.921a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253Zm.922.922a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253Zm.922.922a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253Zm.922.922a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253Zm.922.922a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253ZM6.676,31.813a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253Zm.922.922a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253Zm.922.922a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253Zm.922.922a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253Zm-.92-2.765a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253Zm.922.922a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253ZM2.99,21.675a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253Zm.922.922a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253h0Zm.922.415a.253.253,0,1,0,.253.253.253.253,0,0,0-.253-.253h0Zm.922.922a.253.253,0,1,0,.253.253.253.253,0,0,0-.253-.253h0Zm.922.922a.253.253,0,1,0,.253.253.253.253,0,0,0-.253-.253h0Zm.922.922a.253.253,0,1,0,.253.254h0a.253.253,0,0,0-.253-.253Zm.922.922a.253.253,0,1,0,.253.253h0A.253.253,0,0,0,8.52,26.7h0Zm.922.922a.253.253,0,1,0,.253.253.253.253,0,0,0-.253-.253h0Zm-4.61-5.945a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253Zm.922.922a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253Zm.922.922a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253Zm.922.922a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253Zm.922.922a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253Zm.922.922a.253.253,0,1,0-.254-.254.253.253,0,0,0,.254.254h0ZM6.676,21.675a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253ZM7.6,22.6a.253.253,0,1,0-.254-.253A.253.253,0,0,0,7.6,22.6Zm.922.922a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253Zm.922.922a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253Zm-.92-2.765a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253Zm.922.922a.253.253,0,1,0-.254-.253.253.253,0,0,0,.254.253Zm0-9.723a.253.253,0,1,0,.253.254.253.253,0,0,0-.253-.254h0Zm-.922.922a.253.253,0,1,0,.253.254.253.253,0,0,0-.253-.254Zm-.922.922a.253.253,0,1,0,.253.254.253.253,0,0,0-.253-.254h0Zm-.922.922a.253.253,0,1,0,.253.254h0a.253.253,0,0,0-.253-.254h0Zm-.922.921a.253.253,0,1,0,.253.254h0a.253.253,0,0,0-.253-.254Zm-.922.922a.253.253,0,1,0,.253.254h0a.253.253,0,0,0-.253-.254ZM3.91,18.4a.253.253,0,1,0,.253.254h0a.253.253,0,0,0-.253-.254Zm-.922.922a.253.253,0,1,0,.253.254h0a.253.253,0,0,0-.253-.254h0ZM9.44,14.716a.253.253,0,1,0,.253.254h0a.253.253,0,0,0-.253-.254h0Zm-.922.922a.253.253,0,1,0,.253.254.253.253,0,0,0-.253-.254Zm-.922.922a.253.253,0,1,0,.253.254.253.253,0,0,0-.253-.254Zm-.922.922a.253.253,0,1,0,.253.254h0a.253.253,0,0,0-.253-.254h0Zm-.922.921a.253.253,0,1,0,.253.254h0a.253.253,0,0,0-.253-.254Zm-.922.922a.253.253,0,1,0,.253.254h0a.253.253,0,0,0-.253-.254ZM9.44,16.56a.253.253,0,1,0,.253.254h0a.253.253,0,0,0-.253-.254Zm-.922.922a.253.253,0,1,0,.253.254.253.253,0,0,0-.253-.254h0ZM7.6,18.4a.253.253,0,1,0,.253.254A.253.253,0,0,0,7.6,18.4h0Zm-.922.921a.253.253,0,1,0,.253.254h0a.253.253,0,0,0-.253-.254ZM9.44,18.4a.253.253,0,1,0,.253.254h0A.253.253,0,0,0,9.44,18.4Zm-.922.922a.253.253,0,1,0,.253.254.253.253,0,0,0-.253-.254h0Zm9.216.505a.253.253,0,1,0-.253-.253.253.253,0,0,0,.253.253Zm-.922-.922a.253.253,0,1,0-.253-.254h0a.253.253,0,0,0,.253.253Zm-.922-.922a.253.253,0,1,0-.253-.253.253.253,0,0,0,.253.253Zm-.922-.922a.253.253,0,1,0-.253-.254h0a.253.253,0,0,0,.253.254h0Zm-.922-.922a.253.253,0,1,0-.253-.253.253.253,0,0,0,.253.253h0Zm-.922-.922a.253.253,0,1,0-.253-.253.253.253,0,0,0,.253.253h0ZM12.2,14.3a.253.253,0,1,0-.253-.254.253.253,0,0,0,.253.254h0Zm-.922-.922a.253.253,0,1,0-.253-.253.253.253,0,0,0,.253.253Zm4.609,5.945a.253.253,0,1,0,.254.253.253.253,0,0,0-.254-.253ZM14.97,18.4a.253.253,0,1,0,.254.253.253.253,0,0,0-.254-.253h0Zm-.922-.922a.253.253,0,1,0,.254.253.253.253,0,0,0-.254-.253Zm-.922-.922a.253.253,0,1,0,.254.253.253.253,0,0,0-.254-.253h0Zm-.922-.922a.253.253,0,1,0,.254.253.253.253,0,0,0-.254-.253Zm-.922-.922a.253.253,0,1,0,.254.253.253.253,0,0,0-.254-.253Zm2.764,4.608a.253.253,0,1,0,.254.253.253.253,0,0,0-.254-.253Zm-.922-.922a.253.253,0,1,0,.254.253.253.253,0,0,0-.254-.253Zm-.922-.922a.253.253,0,1,0,.254.253.253.253,0,0,0-.254-.253Zm-.922-.922a.253.253,0,1,0,.254.253.253.253,0,0,0-.254-.253h0Zm.92,3.272a.253.253,0,1,0-.253-.253.253.253,0,0,0,.253.253h0Zm-.922-.922a.253.253,0,1,0-.253-.253.253.253,0,0,0,.253.253h0Zm6.452,11.06a.253.253,0,1,0-.253-.254h0a.253.253,0,0,0,.253.253Zm-.922-.922a.253.253,0,1,0-.253-.254h0a.253.253,0,0,0,.253.253Zm-.922-.922a.253.253,0,1,0-.253-.254h0a.253.253,0,0,0,.253.253Zm-.922-.922a.253.253,0,1,0-.253-.253.253.253,0,0,0,.253.253h0Zm-.922-.922a.253.253,0,1,0-.253-.254.253.253,0,0,0,.253.254h0Zm-.922-.922a.253.253,0,1,0-.253-.253.253.253,0,0,0,.253.253h0ZM12.2,24.44a.253.253,0,1,0-.253-.253.253.253,0,0,0,.253.253h0Zm-.922-.922a.253.253,0,1,0-.253-.253.253.253,0,0,0,.253.253h0Zm4.61,5.945a.253.253,0,1,0,.254.253.253.253,0,0,0-.254-.253Zm-.922-.922a.253.253,0,1,0,.254.253.253.253,0,0,0-.254-.253Zm-.922-.922a.253.253,0,1,0,.254.253.253.253,0,0,0-.254-.253Zm-.922-.922a.253.253,0,1,0,.254.253.253.253,0,0,0-.254-.253h0Zm-.922-.922a.253.253,0,1,0,.254.253h0a.253.253,0,0,0-.254-.253Zm-.922-.922a.253.253,0,1,0,.254.253.253.253,0,0,0-.254-.253Zm2.764,4.608a.253.253,0,1,0,.254.253.253.253,0,0,0-.254-.253Zm-.922-.922a.253.253,0,1,0,.254.253.253.253,0,0,0-.254-.253Zm-.922-.922a.253.253,0,1,0,.254.253.253.253,0,0,0-.254-.253Zm-.922-.922a.253.253,0,1,0,.254.253.253.253,0,0,0-.254-.253Zm.92,3.272a.253.253,0,1,0-.253-.254h0a.253.253,0,0,0,.253.254h0Zm-.922-.922a.253.253,0,1,0-.253-.254h0a.253.253,0,0,0,.253.254h0ZM30.8,10.519l-9.98,9.98,9.98,9.98,0,0a.224.224,0,0,1,.035.047l0,.007.007.015.005.02a.216.216,0,0,1,.008.033.31.31,0,0,1,0,.064.213.213,0,0,1-.008.033l-.005.02-.007.015,0,.007a.224.224,0,0,1-.035.047l0,0L20.659,40.934a.225.225,0,0,1-.035.029l-.005,0a.216.216,0,0,1-.034.018l-.008,0-.033.01H20.53L20.5,41H10.362a.227.227,0,0,1-.041,0h-.006a.22.22,0,0,1-.035-.011h-.006l-.024-.012-.006,0-.022-.016,0,0-.013-.012,0,0L.066,30.8a.225.225,0,0,1-.036-.048l-.006-.012A.22.22,0,0,1,0,30.682v0a.224.224,0,0,1,0-.041V10.361a.223.223,0,0,1,0-.034l0-.014a.222.222,0,0,1,.017-.048l.009-.016a.224.224,0,0,1,.03-.04l0-.005L10.2.065l0,0,0,0,.006-.006L10.234.04l.006,0,.015-.009.005,0h0l.008,0,.008,0,.006,0,.03-.009.009,0,.013,0H20.5a.226.226,0,0,1,.039,0h.007A.22.22,0,0,1,20.6.023l.016.008a.223.223,0,0,1,.04.03l.006,0L30.8,10.2l0,0a.222.222,0,0,1,.035.047l0,.008.007.015c0,.007,0,.014.005.02a.2.2,0,0,1,0,.13.2.2,0,0,1-.005.02l-.007.015,0,.008a.222.222,0,0,1-.035.047ZM20.277,31.178,15.59,35.865,10.9,40.553h9.375Zm-4.037,3.4,3.721-3.721H10.586v9.375ZM.764,20.276h9.375V10.9Zm9.375.447H.763L10.138,30.1Zm9.822,9.691-9.375-9.375v9.375ZM9.822,10.585H.447V19.96ZM20.277,20.723H10.9L20.277,30.1Zm-.317-.447L10.585,10.9v9.375ZM10.585,10.137H19.96L10.585.762ZM.447,30.414H9.822L.447,21.04ZM20.277,19.96V10.584H10.9Zm.447-9.823H30.1L20.724.762ZM20.277.446H10.9l9.375,9.375ZM.763,10.137h9.375V.762Zm9.375,20.724H.763l9.375,9.375Zm19.961,0H20.724v9.375Zm0-.447-9.375-9.375v9.375Zm0-19.83H20.724V19.96Z"></path>
+</svg>					CODE SYNC
+				</a>
+</div>
+<div class="top">
+<div class="contact">
+<p class="highlight">
+<a class="lower" href="mailto:info@codesync.global">info@codesync.global</a><br/>
+<a class="lower" href="tel:+44 7984 619 403">+44 7984 619 403</a>
+</p>
+<br/>
+<p>
+						THE LOOM
+						<br/>
+						14 GOWER'S WALK
+						<br/>
+						E1 8PY LONDON
+						<br/>
+						UNITED KINGDOM
+					</p>
+</div>
+<div class="menu">
+<ul>
+<li>
+<a href="https://codesync.global/conferences/">ALL CONFERENCES</a>
+</li>
+</ul>
+</div>
+<div class="menu bold color--main">
+<ul>
+<li>
+<a href="https://codesync.global/media/">MEDIA</a>
+</li>
+<li>
+<a href="https://codesync.global/opportunity-scheme/">DIVERSITY</a>
+</li>
+<li>
+<a href="https://codesync.global/sponsorship/">SPONSORSHIP</a>
+</li>
+<li>
+<a href="https://codesync.global/about-us/">ABOUT US</a>
+</li>
+<li>
+<a href="https://codesync.global/about-us/#Conduct">CODE OF CONDUCT</a>
+</li>
+</ul>
+</div>
+<div class="social">
+<!--	<p class="bold">SIGN UP AND LEARN</p>
+
+					<form name="footer_newsletter" method="post" action="/footer_newsletter_action/" class="newsletter">
+
+<div class="color--main heading error">
+    
+    
+    </div>
+<div class="form__flexbox">
+    <label class="field-placeholder required" for="footer_newsletter_email">Email</label>
+    <input type="email" id="footer_newsletter_email" name="footer_newsletter[email]" required="required" class="form-element" placeholder="Type your email to subscribe" />
+    <button type="submit" class="btn triangle-left-full-pink" aria-label="Submit Newsletter"></button>
+</div>
+
+<div class="input--checkbox">
+    <div class="color--main heading error"></div>
+    <input type="checkbox" id="footer_newsletter_optIn" name="footer_newsletter[optIn]" required="required" value="1" />
+    <label class="newsletter-footer required" for="footer_newsletter_optIn">Yes, I would like to receive email communications from Code Sync</label>
+</div>
+
+</form>
+					<div class="paragraph paragraph--tiny mt--20">
+						Code Sync and Erlang Solutions care about your data and privacy. By submitting this form you agree that your data will be processed according to our <a class="link" href="https://codesync.global/privacy_policy/">Privacy Policy</a>. Update your email preferences
+						<a class="link" href="codesync.global" title="Disclaimer Link" target="_blank" rel="noindex nofollow noopener noreferrer">Update your email preferences</a>
+					</div> -->
+<ul class="social__list">
+<li>
+<a href="https://twitter.com/CodeSyncGlobal" rel="noindex nofollow noopener noreferrer" target="_blank" title="Twitter Social Link">
+<svg aria-hidden="true" class="svg-inline--fa fa-twitter fa-w-16" data-icon="twitter" data-prefix="fab" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" fill="#FF005F"></path></svg>
+</a>
+</li>
+<li>
+<a href="https://twitter.com/CodeBEAMio" rel="noindex nofollow noopener noreferrer" target="_blank" title="Twitter Social Link">
+<svg aria-hidden="true" class="svg-inline--fa fa-twitter fa-w-16" data-icon="twitter" data-prefix="fab" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" fill="#c30000"></path></svg>
+</a>
+</li>
+<li>
+<a href="https://twitter.com/CodeMeshio" rel="noindex nofollow noopener noreferrer" target="_blank" title="Twitter Social Link">
+<svg aria-hidden="true" class="svg-inline--fa fa-twitter fa-w-16" data-icon="twitter" data-prefix="fab" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" fill="#1099d9"></path></svg>
+</a>
+</li>
+<li>
+<a href="https://twitter.com/CodeElixirIO" rel="noindex nofollow noopener noreferrer" target="_blank" title="Twitter Social Link">
+<svg aria-hidden="true" class="svg-inline--fa fa-twitter fa-w-16" data-icon="twitter" data-prefix="fab" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" fill="#9337f6"></path></svg>
+</a>
+</li>
+<li class="divider"></li>
+<li>
+<a href="https://www.youtube.com/c/codesync" rel="noindex nofollow noopener noreferrer" target="_blank" title="YouTube Social Link">
+<svg aria-hidden="true" class="svg-inline--fa fa-youtube fa-w-18" data-icon="youtube" data-prefix="fab" viewbox="0 0 576 512" xmlns="http://www.w3.org/2000/svg"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z" fill="currentColor"></path></svg>
+</a>
+</li>
+<li>
+<a href="https://www.facebook.com/groups/CodeSyncIO/" rel="noindex nofollow noopener noreferrer" target="_blank" title="Facebook Social Link">
+<svg aria-hidden="true" class="svg-inline--fa fa-facebook-f fa-w-9" data-icon="facebook-f" data-prefix="fab" viewbox="0 0 264 512" xmlns="http://www.w3.org/2000/svg"><path d="M76.7 512V283H0v-91h76.7v-71.7C76.7 42.4 124.3 0 193.8 0c33.3 0 61.9 2.5 70.2 3.6V85h-48.2c-37.8 0-45.1 18-45.1 44.3V192H256l-11.7 91h-73.6v229" fill="currentColor"></path></svg>
+</a>
+</li>
+<li>
+<a href="https://www.linkedin.com/company/code-sync/" rel="noindex nofollow noopener noreferrer" target="_blank" title="Linkedin Social Link">
+<svg aria-hidden="true" class="svg-inline--fa fa-linkedin-in fa-w-14" data-icon="linkedin-in" data-prefix="fab" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M100.3 448H7.4V148.9h92.9V448zM53.8 108.1C24.1 108.1 0 83.5 0 53.8S24.1 0 53.8 0s53.8 24.1 53.8 53.8-24.1 54.3-53.8 54.3zM448 448h-92.7V302.4c0-34.7-.7-79.2-48.3-79.2-48.3 0-55.7 37.7-55.7 76.7V448h-92.8V148.9h89.1v40.8h1.3c12.4-23.5 42.7-48.3 87.9-48.3 94 0 111.3 61.9 111.3 142.3V448h-.1z" fill="currentColor"></path></svg>
+</a>
+</li>
+<li>
+<a href="https://www.instagram.com/codesyncglobal/" rel="noindex nofollow noopener noreferrer" target="_blank" title="Instagram Social Link">
+<svg aria-hidden="true" class="svg-inline--fa fa-instagram fa-w-14" data-icon="instagram" data-prefix="fab" focusable="false" role="img" viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
+<path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" fill="currentColor"></path>
+</svg>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="container--small footer-copy">
+<div class="bottom">
+<div class="container">
+<p class="copy paragraph">Code Sync powered by
+						<a href="https://www.erlang-solutions.com" rel="noindex nofollow noopener noreferrer" target="_blank">Erlang Solutions</a><br/>
+						© All rights reserved
+						2026
+						|
+						<a class="terms" href="https://codesync.global/terms_and_conditions/">Terms of Use</a>
+						|
+						<a class="terms" href="https://codesync.global/cookie_policy/">Cookie Policy</a>
+						|
+						<a class="terms" href="https://codesync.global/privacy_policy/">Privacy Policy</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+<script src="../../assets/assets/runtime.b508c316.js"></script><script src="../../assets/assets/main.edcd81d6.js"></script>
+</body>
+</html>
